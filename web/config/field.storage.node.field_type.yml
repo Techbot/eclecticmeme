@@ -1,0 +1,75 @@
+uuid: f547bb89-a754-468b-8c07-905092fd67bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_type
+field_name: field_type
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Zombie
+    -
+      value: 2
+      label: Zyborg
+    -
+      value: 3
+      label: Vampire
+    -
+      value: 4
+      label: Wolf
+    -
+      value: 5
+      label: Rabbit
+    -
+      value: 6
+      label: Skeleton
+    -
+      value: 7
+      label: Alien
+    -
+      value: 8
+      label: Goblin
+    -
+      value: 9
+      label: Orc
+    -
+      value: 10
+      label: Lizard
+    -
+      value: 11
+      label: Troll
+    -
+      value: 12
+      label: Frankenstein
+    -
+      value: 13
+      label: Mouse
+    -
+      value: 14
+      label: Rat
+    -
+      value: 15
+      label: Rabbit
+    -
+      value: 16
+      label: PumkinHead
+    -
+      value: 17
+      label: Sheep
+    -
+      value: 18
+      label: Boarman
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

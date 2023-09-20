@@ -1,0 +1,21 @@
+uuid: ab50c099-2a01-4e50-9562-23c0c9b23d45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.mob
+  module:
+    - options
+id: node.mob.field_type
+field_name: field_type
+entity_type: node
+bundle: mob
+label: Type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

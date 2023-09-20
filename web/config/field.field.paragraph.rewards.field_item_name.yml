@@ -1,0 +1,71 @@
+uuid: bc9d1699-4de4-4b4b-8041-b7fa281a2980
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_name
+    - paragraphs.paragraphs_type.ammunition
+    - paragraphs.paragraphs_type.components
+    - paragraphs.paragraphs_type.elements
+    - paragraphs.paragraphs_type.ingredients
+    - paragraphs.paragraphs_type.items
+    - paragraphs.paragraphs_type.potions
+    - paragraphs.paragraphs_type.rewards
+  module:
+    - entity_reference_revisions
+id: paragraph.rewards.field_item_name
+field_name: field_item_name
+entity_type: paragraph
+bundle: rewards
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ammunition: ammunition
+      items: items
+      components: components
+      elements: elements
+      ingredients: ingredients
+      potions: potions
+    negate: 0
+    target_bundles_drag_drop:
+      ammunition:
+        weight: 10
+        enabled: true
+      buildings:
+        weight: 11
+        enabled: false
+      components:
+        weight: 14
+        enabled: true
+      elements:
+        weight: 15
+        enabled: true
+      ingredients:
+        weight: 16
+        enabled: true
+      items:
+        weight: 12
+        enabled: true
+      modifier:
+        weight: 14
+        enabled: false
+      npc:
+        weight: 15
+        enabled: false
+      portal:
+        weight: 16
+        enabled: false
+      potions:
+        weight: 17
+        enabled: true
+      rewards:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

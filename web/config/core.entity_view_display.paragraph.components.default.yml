@@ -1,0 +1,31 @@
+uuid: ca24d06a-0e8f-4910-8a82-e9f7c7f41b61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.components.field_amount
+    - field.field.paragraph.components.field_components
+    - paragraphs.paragraphs_type.components
+id: paragraph.components.default
+targetEntityType: paragraph
+bundle: components
+mode: default
+content:
+  field_amount:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_components:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

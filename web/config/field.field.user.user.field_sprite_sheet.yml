@@ -1,0 +1,23 @@
+uuid: 632c7d8a-032d-47c1-94eb-dd75b7384ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_sprite_sheet
+  module:
+    - options
+    - user
+id: user.user.field_sprite_sheet
+field_name: field_sprite_sheet
+entity_type: user
+bundle: user
+label: 'Sprite Sheet'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: FixerM
+default_value_callback: ''
+settings: {  }
+field_type: list_string

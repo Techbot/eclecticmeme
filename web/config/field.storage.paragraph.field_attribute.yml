@@ -1,0 +1,33 @@
+uuid: a98eef86-5ea1-4fd0-b404-00e22c58b309
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_attribute
+field_name: field_attribute
+entity_type: paragraph
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Health
+    -
+      value: 2
+      label: Stamina
+    -
+      value: 3
+      label: Strength
+    -
+      value: 4
+      label: Speed
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

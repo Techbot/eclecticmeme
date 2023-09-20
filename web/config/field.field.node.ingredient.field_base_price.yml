@@ -1,0 +1,23 @@
+uuid: ad848f33-98ee-4674-8945-c0b3c80a2d47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_base_price
+    - node.type.ingredient
+id: node.ingredient.field_base_price
+field_name: field_base_price
+entity_type: node
+bundle: ingredient
+label: 'Base Price'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

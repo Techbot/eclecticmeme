@@ -1,0 +1,24 @@
+uuid: 2d47c751-f1bc-49db-9065-0455646353d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_psi
+  module:
+    - user
+id: user.user.field_psi
+field_name: field_psi
+entity_type: user
+bundle: user
+label: PSI
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

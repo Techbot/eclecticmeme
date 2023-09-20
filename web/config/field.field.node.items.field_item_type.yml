@@ -1,0 +1,21 @@
+uuid: a0b9a7c0-63d2-4f35-9e61-64af178d58ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_type
+    - node.type.items
+  module:
+    - options
+id: node.items.field_item_type
+field_name: field_item_type
+entity_type: node
+bundle: items
+label: 'Item Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

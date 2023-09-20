@@ -1,0 +1,24 @@
+uuid: a3e0e5ee-2e11-45b5-8eb1-420b6e74f4f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_energy
+  module:
+    - user
+id: user.user.field_energy
+field_name: field_energy
+entity_type: user
+bundle: user
+label: Energy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

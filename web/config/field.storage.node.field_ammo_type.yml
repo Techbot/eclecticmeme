@@ -1,0 +1,30 @@
+uuid: dab55431-19dc-4d10-a491-7dcd919b8544
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ammo_type
+field_name: field_ammo_type
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Regular
+    -
+      value: 2
+      label: Advanced
+    -
+      value: 3
+      label: Sniper
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

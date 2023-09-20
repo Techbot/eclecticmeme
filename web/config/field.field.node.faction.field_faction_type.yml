@@ -1,0 +1,23 @@
+uuid: c16294a7-5d0b-40b3-a63a-781ef7f50f37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faction_type
+    - node.type.faction
+  module:
+    - options
+id: node.faction.field_faction_type
+field_name: field_faction_type
+entity_type: node
+bundle: faction
+label: 'Faction Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

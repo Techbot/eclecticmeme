@@ -1,0 +1,21 @@
+uuid: 64469b3c-c7f3-4232-ab97-dcf13d00793a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_building_type
+    - paragraphs.paragraphs_type.buildings
+  module:
+    - options
+id: paragraph.buildings.field_building_type
+field_name: field_building_type
+entity_type: paragraph
+bundle: buildings
+label: 'Building Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

@@ -1,0 +1,30 @@
+uuid: 52f431fe-091f-4bad-8400-4cb9224e5d83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_missions
+    - node.type.mission
+  module:
+    - user
+id: user.user.field_missions
+field_name: field_missions
+entity_type: user
+bundle: user
+label: Missions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      mission: mission
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

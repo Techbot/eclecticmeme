@@ -1,0 +1,21 @@
+uuid: 6163922e-58f9-4517-a307-b3e5156d0078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ammo_type
+    - node.type.weapon
+  module:
+    - options
+id: node.weapon.field_ammo_type
+field_name: field_ammo_type
+entity_type: node
+bundle: weapon
+label: 'Ammo type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

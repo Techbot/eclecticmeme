@@ -1,0 +1,67 @@
+uuid: 157e6fc2-3137-47c1-8eda-eaa7113880f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stage
+    - node.type.mission
+    - paragraphs.paragraphs_type.mission_stage
+  module:
+    - entity_reference_revisions
+id: node.mission.field_stage
+field_name: field_stage
+entity_type: node
+bundle: mission
+label: Stage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      mission_stage: mission_stage
+    negate: 0
+    target_bundles_drag_drop:
+      ammunition:
+        weight: 14
+        enabled: false
+      buildings:
+        weight: 15
+        enabled: false
+      components:
+        weight: 16
+        enabled: false
+      elements:
+        weight: 17
+        enabled: false
+      ingredients:
+        weight: 18
+        enabled: false
+      items:
+        weight: 19
+        enabled: false
+      mission_stage:
+        weight: 20
+        enabled: true
+      mobs:
+        weight: 21
+        enabled: false
+      modifier:
+        weight: 22
+        enabled: false
+      npc:
+        weight: 23
+        enabled: false
+      portal:
+        weight: 24
+        enabled: false
+      potions:
+        weight: 25
+        enabled: false
+      rewards:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

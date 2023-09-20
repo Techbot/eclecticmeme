@@ -1,0 +1,33 @@
+uuid: 3cdf3da1-ca8a-4e14-b772-ce44440c1775
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.potions.field_amount
+    - field.field.paragraph.potions.field_potions
+    - paragraphs.paragraphs_type.potions
+id: paragraph.potions.default
+targetEntityType: paragraph
+bundle: potions
+mode: default
+content:
+  field_amount:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_potions:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

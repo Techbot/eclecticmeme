@@ -1,0 +1,39 @@
+uuid: 04913b1b-5604-42fe-847f-b8371587fb52
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_item_type
+field_name: field_item_type
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Food
+    -
+      value: 2
+      label: Ammunition
+    -
+      value: 3
+      label: Potion
+    -
+      value: 4
+      label: Material
+    -
+      value: 5
+      label: Armour
+    -
+      value: 6
+      label: Drone
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

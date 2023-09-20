@@ -1,0 +1,81 @@
+uuid: 72de658c-665a-4f49-8f9e-33a2aa97dac7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_occupation
+field_name: field_occupation
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Judge
+    -
+      value: 2
+      label: Politician
+    -
+      value: 3
+      label: Gladiator
+    -
+      value: 4
+      label: Slumlord
+    -
+      value: 5
+      label: Merchant
+    -
+      value: 6
+      label: Actor
+    -
+      value: 7
+      label: Writer
+    -
+      value: 8
+      label: Criminal
+    -
+      value: 9
+      label: 'Crime Boss'
+    -
+      value: 10
+      label: Spy
+    -
+      value: 11
+      label: Assassin
+    -
+      value: 12
+      label: Fixer
+    -
+      value: 13
+      label: Hacker
+    -
+      value: 14
+      label: Diety
+    -
+      value: 15
+      label: SuperHero
+    -
+      value: 16
+      label: Detective
+    -
+      value: 17
+      label: Warrior
+    -
+      value: 18
+      label: Magician
+    -
+      value: 19
+      label: 'Level Boss'
+    -
+      value: 20
+      label: Revolutionary
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

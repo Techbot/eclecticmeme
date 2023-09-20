@@ -1,0 +1,15 @@
+cacheexclude_list: ''
+cacheexclude_node_types:
+  city: city
+  component: component
+  element: element
+  game: game
+  ingredient: ingredient
+  items: items
+  map_grid: map_grid
+  mob: mob
+  npc: npc
+  potion: potion
+  weapon: weapon
+  article: '0'
+  page: '0'

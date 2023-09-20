@@ -1,0 +1,20 @@
+uuid: d28015fe-be83-44d9-bacd-76759d9b01ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_dexterity
+field_name: field_dexterity
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

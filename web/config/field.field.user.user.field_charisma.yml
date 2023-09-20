@@ -1,0 +1,24 @@
+uuid: 5ccbb2ce-1344-4010-b093-319f9ec90cdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_charisma
+  module:
+    - user
+id: user.user.field_charisma
+field_name: field_charisma
+entity_type: user
+bundle: user
+label: Charisma
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

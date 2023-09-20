@@ -1,0 +1,18 @@
+uuid: b9ce2943-9b5e-4c5f-845e-980bf8cda8d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Ingredient
+type: ingredient
+description: 'Used to create potions'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

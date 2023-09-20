@@ -1,0 +1,23 @@
+uuid: e2e7d49c-be40-4747-9abc-8f5b0f39901c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_attribute
+    - paragraphs.paragraphs_type.modifier
+  module:
+    - options
+id: paragraph.modifier.field_attribute
+field_name: field_attribute
+entity_type: paragraph
+bundle: modifier
+label: Attribute
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

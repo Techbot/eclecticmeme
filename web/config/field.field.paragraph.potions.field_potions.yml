@@ -1,0 +1,29 @@
+uuid: 6d6ae144-9c02-4209-add3-cc3984eebcd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_potions
+    - node.type.potion
+    - paragraphs.paragraphs_type.potions
+id: paragraph.potions.field_potions
+field_name: field_potions
+entity_type: paragraph
+bundle: potions
+label: Potions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      potion: potion
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

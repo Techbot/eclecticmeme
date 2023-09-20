@@ -1,0 +1,20 @@
+uuid: 88de0c46-464f-4587-bfce-e8bdc842125a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_charisma
+field_name: field_charisma
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

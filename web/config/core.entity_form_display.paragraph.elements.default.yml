@@ -1,0 +1,33 @@
+uuid: 9c97f3ce-3037-44ca-8f65-f09a36b9d7c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.elements.field_amount
+    - field.field.paragraph.elements.field_elements
+    - paragraphs.paragraphs_type.elements
+id: paragraph.elements.default
+targetEntityType: paragraph
+bundle: elements
+mode: default
+content:
+  field_amount:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_elements:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
