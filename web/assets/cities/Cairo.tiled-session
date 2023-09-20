@@ -1,0 +1,1393 @@
+{
+    "activeFile": "Cairo/tmx/020 Desert.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/0903b851-a2ef-429b-bf5b-4c78028267b2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/1410a12e-d964-4cfa-b83a-a3ebe25fc4ca.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/25924818-f701-4505-bb56-c8d56e0b9aec.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/3ca3ff0a-8fa9-46f6-8fb7-ced9dc94c8ce.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/619c8327-408c-4876-8382-d1b87962f5af.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/9049464e-b21a-486e-9fd6-2e5ed5b0b06a.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/be589bb1-e47d-4935-a7d8-13e4a836bbfe.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/e41081cc-8694-45ae-bdf8-54440d8cca3e.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/001.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/002.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/003.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/004.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/005.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/006.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/007.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen Mixed Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen additional tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen postapocalypse tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A2-32-RED.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-b.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-c.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-d.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/BBPA_Outside_A-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/BBPA_Outside_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Cyberpunk_C.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A3-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A5-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Mad_Scientists_Lab_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Mad_Scientists_Lab_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A2-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A3-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A4-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_B_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_B_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_C_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_C_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_D_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_D_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_E_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_E_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_B.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_C.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_B.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A3-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA3.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA5.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA6.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileD.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileE.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileE2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Tileset005.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_B.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_C.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Urban doors-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/billboards.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA2.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA5.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileB.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileD.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A1-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors skyscrapers-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors1.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/neonsigns.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/new_buildings_TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk01A.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02A.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02B.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02D.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/space_tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/terminals.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/warZone.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/windows.tsx": {
+            "scaleInDock": 1
+        },
+        "Cairo/tmx/001 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 957,
+                "y": 956
+            }
+        },
+        "Cairo/tmx/001 City_120.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 817.5,
+                "y": 917
+            }
+        },
+        "Cairo/tmx/002 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/003 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/004 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/005 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/006 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 959.5,
+                "y": 960
+            }
+        },
+        "Cairo/tmx/006 City.tmx#celianna_TileA5": {
+            "scaleInDock": 1
+        },
+        "Cairo/tmx/006 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/007 City.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958.9354260854732,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/007 Outpost.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1333.5,
+                "y": 684
+            }
+        },
+        "Cairo/tmx/007 Suburb.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 958.1756589275385,
+                "y": 957.1180699000248
+            }
+        },
+        "Cairo/tmx/008 City.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958.9354260854732,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/008 Outpost.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 959.3333333333333,
+                "y": 960
+            }
+        },
+        "Cairo/tmx/008 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/009 City.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958.9354260854732,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/009 Outpost.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 959.5,
+                "y": 960
+            }
+        },
+        "Cairo/tmx/009 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/010 City.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958.9354260854732,
+                "y": 959.7543290966479
+            }
+        },
+        "Cairo/tmx/010 Desert.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1462,
+                "y": 1126
+            }
+        },
+        "Cairo/tmx/010 Outpost.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/010 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 959.5,
+                "y": 960
+            }
+        },
+        "Cairo/tmx/011 Caves.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1551.5151515151515,
+                "y": 1181.8181818181818
+            }
+        },
+        "Cairo/tmx/011 City.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 917,
+                "y": 984
+            }
+        },
+        "Cairo/tmx/011 City.tmx#celianna_TileA5": {
+            "scaleInDock": 1
+        },
+        "Cairo/tmx/011 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 959,
+                "y": 959
+            }
+        },
+        "Cairo/tmx/012 Caves.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1474,
+                "y": 1354
+            }
+        },
+        "Cairo/tmx/012 Outpost.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 836,
+                "y": 904
+            }
+        },
+        "Cairo/tmx/012 Sewer.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 959.5,
+                "y": 960
+            }
+        },
+        "Cairo/tmx/012.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/013 Caves.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 906.6666666666665,
+                "y": 858.6666666666666
+            }
+        },
+        "Cairo/tmx/013 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 847,
+                "y": 843
+            }
+        },
+        "Cairo/tmx/013.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/014 Caves.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1073,
+                "y": 962
+            }
+        },
+        "Cairo/tmx/014.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/015 Caves.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/015.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/016 Caves.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 958,
+                "y": 958
+            }
+        },
+        "Cairo/tmx/016.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/017 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1086,
+                "y": 950
+            }
+        },
+        "Cairo/tmx/017 Desert_120.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 959.7620424688092,
+                "y": 958.1756589275387
+            }
+        },
+        "Cairo/tmx/017.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/018 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 917,
+                "y": 1080
+            }
+        },
+        "Cairo/tmx/018.Caves.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/019 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1009,
+                "y": 950
+            }
+        },
+        "Cairo/tmx/019 Wasteland.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/020 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 987,
+                "y": 961
+            }
+        },
+        "Cairo/tmx/020 Wasteland.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 957.297620063124,
+                "y": 958.1165230742986
+            }
+        },
+        "Cairo/tmx/021 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1009,
+                "y": 977
+            }
+        },
+        "Cairo/tmx/021 Wasteland.tmx": {
+            "scale": 0.6105729166666666,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 960.5732321078226,
+                "y": 961.3921351189971
+            }
+        },
+        "Cairo/tmx/022 Desert.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 890,
+                "y": 1009
+            }
+        },
+        "Cairo/tmx/022 Wasteland.tmx": {
+            "scale": 0.61453125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.8949911009406,
+                "y": 960.0813628273582
+            }
+        },
+        "Dublin/tmx/001 City_120.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.8196314963233,
+                "y": 660.9931421961496
+            }
+        },
+        "Dublin/tmx/001 City_120.tmx#celianna_TileA5": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/002 City_120.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.8196314963233,
+                "y": 363.81062546476073
+            }
+        },
+        "Dublin/tmx/003 City_120.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.8196314963233,
+                "y": 65.57051970585803
+            }
+        },
+        "Dublin/tmx/003 City_120.tmx#TileA1": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/003 City_120.tmx#TileA4": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/003 City_120.tmx#celianna_TileA2": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/004 City_120.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 571,
+                "y": 814
+            }
+        },
+        "Dublin/tmx/004 City_120.tmx#celianna_TileA5": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/005 City_120.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1136.6666666666665,
+                "y": 884
+            }
+        },
+        "Dublin/tmx/005 City_120.tmx#celianna_TileA5": {
+            "scaleInDock": 1
+        },
+        "Dublin/tmx/006 City_120.tmx": {
+            "scale": 0.7832552083333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 959.4573926920905,
+                "y": 804.3355387837883
+            }
+        },
+        "Dublin/tmx/016 Outskirts.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.8196314963233,
+                "y": 960.2908369825662
+            }
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/0903b851-a2ef-429b-bf5b-4c78028267b2.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/1410a12e-d964-4cfa-b83a-a3ebe25fc4ca.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/25924818-f701-4505-bb56-c8d56e0b9aec.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/3ca3ff0a-8fa9-46f6-8fb7-ced9dc94c8ce.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/619c8327-408c-4876-8382-d1b87962f5af.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/9049464e-b21a-486e-9fd6-2e5ed5b0b06a.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/be589bb1-e47d-4935-a7d8-13e4a836bbfe.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/ts_xtra/e41081cc-8694-45ae-bdf8-54440d8cca3e.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/001.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/002.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/003.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/004.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/005.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/006.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/007.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen Mixed Tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen additional tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/2Gen postapocalypse tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A2-32-RED.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-b.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-c.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32-d.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Alien_Landscape_B_Crystals-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/BBPA_Outside_A-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/BBPA_Outside_B-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Cyberpunk_C.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A2-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A3-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A4-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_A5-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_C-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Egyptian_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_A3.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_A5.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_C.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_D.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_E.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_E2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Fairytale_bonus.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_C.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Graveyard_D.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Mad_Scientists_Lab_B-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Mad_Scientists_Lab_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A2-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A2-urban decay.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A3-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_A4-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_B_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_B_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_C_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_C_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_C_decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_D_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_D_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_D_decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_E_Sheet-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Modern_Outside_E_Sheet-urban decay.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A1.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A2.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_A4.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_B.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Refinery_C.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sapphire_crystalcave_C.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A1.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A2.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_A4.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Sewer_B.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A3-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Skyscraper_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_A3.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_A5.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_C.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_D.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Swamp_E.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA3.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA4.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA5.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileA6.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileD.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileE.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/TileE2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Tileset005.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A1.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A2.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_A4.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_B.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Topaz_crystalcave_C.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A1_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A2_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_A4_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_B_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_D.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_D_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_E.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Town_E_ruin.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/Urban doors-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/billboards.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/cars2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA2.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/celianna_TileA5.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileB.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileC.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/city_buildings_TileD.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A1-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-A4-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/desert-D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors skyscrapers-32.tsx": {
+            "scaleInDock": 1.5
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/doors_Fairytale.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/mermaid_A1.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/mermaid_A2.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/mermaid_A4.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/mermaid_A5.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/mermaid_B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/neonsigns.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/new_buildings_TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/new_buildings_TileD.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/non-rm-a1-square.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/non-rm-a2-square.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/old_buildings_TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk01A.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02A.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02B.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/pk02D.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/space_tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/suburbs_TileB.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/suburbs_TileC.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/terminals.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_A2-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_subway_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_A4-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_B-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_C-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/ts_truckstop_D-32.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/warZone.tsx": {
+            "scaleInDock": 1
+        },
+        "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx/windows.tsx": {
+            "scaleInDock": 1
+        },
+        "Templates/019 Desert.tmx": {
+            "scale": 0.4579296875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1280.7643094770963,
+                "y": 1280.7643094770963
+            }
+        },
+        "Yara/tmx/002 City.tmx": {
+            "scale": 0.945546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 960.2908369825664,
+                "y": 960.2908369825662
+            }
+        }
+    },
+    "last.exportedFilePath": "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/cities/Cairo/json",
+    "last.externalTilesetPath": "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/tsx",
+    "last.imagePath": "E:/Dropbox/EMCstudio/Development/Frodo/www.eclecticmeme.com/web/assets/images/KR Crystalcaves/topaz",
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "Cairo/tmx/001 City.tmx",
+        "Cairo/tmx/002 City.tmx",
+        "Cairo/tmx/003 City.tmx",
+        "Cairo/tmx/004 City.tmx",
+        "Cairo/tmx/005 City.tmx",
+        "Cairo/tmx/006 Sewer.tmx",
+        "Cairo/tmx/007 Suburb.tmx",
+        "Cairo/tmx/008 Sewer.tmx",
+        "Cairo/tmx/009 Sewer.tmx",
+        "Cairo/tmx/010 Outpost.tmx",
+        "Cairo/tmx/011 City.tmx",
+        "Cairo/tmx/012 Outpost.tmx",
+        "Cairo/tmx/013 Desert.tmx",
+        "Cairo/tmx/014 Caves.tmx",
+        "Cairo/tmx/015 Caves.tmx",
+        "Cairo/tmx/016 Caves.tmx",
+        "Cairo/tmx/017 Desert.tmx",
+        "Cairo/tmx/018 Desert.tmx",
+        "Cairo/tmx/019 Desert.tmx",
+        "Cairo/tmx/020 Desert.tmx",
+        "Cairo/tmx/021 Desert.tmx",
+        "Cairo/tmx/022 Desert.tmx"
+    ],
+    "project": "Cairo.tiled-project",
+    "recentFiles": [
+        "Cairo/tmx/001 City.tmx",
+        "Cairo/tmx/002 City.tmx",
+        "Cairo/tmx/003 City.tmx",
+        "Cairo/tmx/004 City.tmx",
+        "Cairo/tmx/005 City.tmx",
+        "Cairo/tmx/006 Sewer.tmx",
+        "Cairo/tmx/007 Suburb.tmx",
+        "Cairo/tmx/008 Sewer.tmx",
+        "Cairo/tmx/009 Sewer.tmx",
+        "Cairo/tmx/010 Outpost.tmx",
+        "Cairo/tmx/011 City.tmx",
+        "Cairo/tmx/012 Outpost.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
