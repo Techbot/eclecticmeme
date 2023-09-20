@@ -1,0 +1,12 @@
+global-css:
+  css:
+    theme:
+      css/layout.css: {}
+      css/styles.css: {}
+      css/images.css: {}
+
+global-js:
+  js:
+    js/emctempus.js: {}
+  dependencies:
+    - core/jquery

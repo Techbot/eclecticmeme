@@ -1,0 +1,77 @@
+/* styles */
+body {
+  background: pink;
+}
+@media screen and (min-width: 575px) {
+  .paragraphs-subform {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .paragraphs-subform > div {
+    flex: 1 0 auto;
+  }
+
+  .paragraphs-subform .field--name-field-materials {
+    flex: 1 0 100%;
+  }
+}
+
+.field--name-field-layer-1 .form-checkboxes,
+.field--name-field-layer-2 .form-checkboxes,
+.field--name-field-layer-3 .form-checkboxes,
+.field--name-field-layer-4 .form-checkboxes,
+.field--name-field-layer-5 .form-checkboxes {
+	column-count: 4;
+}
+
+.field--name-field-inventory {
+  font-size: var(--font-size-xs)
+}
+.form-item--field-inventory-0-subform-field-ammo-type .form-item__label,
+.field--name-field-components .form-item__label,
+.field--name-field-elements .form-item__label,
+.field--name-field-items .form-item__label,
+.field--name-field-ingredients .form-item__label,
+.field--name-field-potions .form-item__label {
+  display: none;
+}
+
+.field--name-field-inventory .form-element {
+  font-size: var(--font-size-xs);
+  padding: var(--input--extrasmall-padding-vertical) var(--input--extrasmall-padding-horizontal);
+  min-height: calc(((var(--input--extrasmall-padding-vertical) + var(--input-border-size)) * 2) + var(--input-line-height));
+}
+
+.field--name-field-inventory tr .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.field--name-field-inventory .form-item__label {
+  font-size: var(--font-size-xs);
+}
+
+.field--name-field-inventory .form-element--type-select.form-element {
+  padding-right: calc(2rem - var(--input-border-size));
+}
+
+.form-item[class*='--field-inventory'] {
+  display: flex;
+}
+
+.paragraphs-subform.form-wrapper > .paragraphs-content:first-child {
+  flex: 0 1 50%;
+  padding-inline-end: 1rem;
+}
+.paragraphs-subform.form-wrapper > .paragraphs-content:last-child {
+  flex: 0 1 20%;
+}
+.form-item[class*='--field-inventory'] .form-item__label {
+  margin-inline-end: 0.5rem;
+}
+
+.no-touchevents .field--name-field-inventory .button--extrasmall {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-xxs);
+}

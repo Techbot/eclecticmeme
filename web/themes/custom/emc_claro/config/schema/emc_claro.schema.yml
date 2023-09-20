@@ -1,0 +1,5 @@
+# Schema for the configuration files of the emc_claro theme.
+
+emc_claro.settings:
+  type: theme_settings
+  label: 'emc_claro settings'

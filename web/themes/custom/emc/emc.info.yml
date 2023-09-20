@@ -1,0 +1,20 @@
+name: emc
+description: emc theme for Drupal
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: stable
+libraries:
+  - emc/global-css
+  - emc/global-js
+regions:
+  header: "Header"
+  content: "Content"
+  primary_menu: "Primary menu"
+  sidebar_first: "Left sidebar"
+  sidebar_second: "Right sidebar"
+  secondary_menu: "Secondary menu"
+  footer: "Footer"
+  highlighted: "Highlighted"
+  help: "Help"
+  breadcrumb: "Breadcrumb"
+  top_menu: "Top menu"
