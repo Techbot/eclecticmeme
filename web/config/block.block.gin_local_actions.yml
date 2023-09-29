@@ -1,15 +1,15 @@
-uuid: e08b6909-3950-415a-8812-00387832883d
+uuid: e9e00c9f-fa72-461c-bff3-69497fd6263b
 langcode: en
 status: true
 dependencies:
   theme:
-    - olivero
+    - gin
 _core:
-  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
-id: olivero_primary_admin_actions
-theme: olivero
-region: highlighted
-weight: -5
+  default_config_hash: OQ9aJ-4qVwK1x00o9EOYK4eFDjQr_HLpbPiJaPSVZiQ
+id: gin_local_actions
+theme: gin
+region: content
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:
