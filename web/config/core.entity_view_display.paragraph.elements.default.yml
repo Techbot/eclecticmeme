@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.elements.field_amount
     - field.field.paragraph.elements.field_elements
     - paragraphs.paragraphs_type.elements
 id: paragraph.elements.default
@@ -11,15 +10,6 @@ targetEntityType: paragraph
 bundle: elements
 mode: default
 content:
-  field_amount:
-    type: number_integer
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_elements:
     type: entity_reference_label
     label: above

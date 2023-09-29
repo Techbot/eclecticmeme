@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Skill
 type: skill
-description: ''
+description: 'Level Up'
 help: ''
 new_revision: true
 preview_mode: 1

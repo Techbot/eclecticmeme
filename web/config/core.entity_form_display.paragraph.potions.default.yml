@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.potions.field_amount
     - field.field.paragraph.potions.field_potions
     - paragraphs.paragraphs_type.potions
 id: paragraph.potions.default
@@ -11,13 +10,6 @@ targetEntityType: paragraph
 bundle: potions
 mode: default
 content:
-  field_amount:
-    type: number
-    weight: 1
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
   field_potions:
     type: entity_reference_autocomplete
     weight: 0

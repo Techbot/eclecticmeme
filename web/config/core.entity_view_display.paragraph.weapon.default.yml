@@ -1,21 +1,21 @@
-uuid: 95b48af7-58bc-4990-94f9-bd21a6675a99
+uuid: 3af04fcb-bf3b-41cf-b094-ca1d7136864b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.items.field_items
-    - paragraphs.paragraphs_type.items
-id: paragraph.items.default
+    - field.field.paragraph.weapon.field_weapon
+    - paragraphs.paragraphs_type.weapon
+id: paragraph.weapon.default
 targetEntityType: paragraph
-bundle: items
+bundle: weapon
 mode: default
 content:
-  field_items:
+  field_weapon:
     type: entity_reference_label
     label: above
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
 hidden: {  }

@@ -24,6 +24,7 @@ dependencies:
     - field.field.user.user.field_psi
     - field.field.user.user.field_skill
     - field.field.user.user.field_sprite_sheet
+    - field.field.user.user.field_storage
     - field.field.user.user.field_strength
     - field.field.user.user.field_weaponleft
     - field.field.user.user.field_weaponright
@@ -74,6 +75,7 @@ hidden:
   field_psi: true
   field_skill: true
   field_sprite_sheet: true
+  field_storage: true
   field_strength: true
   field_weaponleft: true
   field_weaponright: true

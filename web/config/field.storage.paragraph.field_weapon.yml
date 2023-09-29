@@ -1,12 +1,12 @@
-uuid: fd58f608-e1ce-41e0-8489-e6c7bb163c34
+uuid: 189e1172-a303-4a8e-a81f-201272932223
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - paragraphs
-id: paragraph.field_skill
-field_name: field_skill
+id: paragraph.field_weapon
+field_name: field_weapon
 entity_type: paragraph
 type: entity_reference
 settings:

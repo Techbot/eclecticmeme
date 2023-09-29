@@ -1,16 +1,16 @@
-uuid: fd58f608-e1ce-41e0-8489-e6c7bb163c34
+uuid: 2b3260bc-f99a-43fe-b5ac-c281875821d3
 langcode: en
 status: true
 dependencies:
   module:
-    - node
     - paragraphs
-id: paragraph.field_skill
-field_name: field_skill
+id: paragraph.field_skill_level
+field_name: field_skill_level
 entity_type: paragraph
-type: entity_reference
+type: integer
 settings:
-  target_type: node
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1
