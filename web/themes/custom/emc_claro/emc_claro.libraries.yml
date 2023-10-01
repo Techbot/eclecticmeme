@@ -2,14 +2,21 @@ global-styling:
   version: VERSION
   css:
     base:
-      emc-styles.css: {}
+      css/emc-styles.css: {}
 
 tables:
   css:
     theme:
-      tables.css: {}
+      css/tables.css: {}
 
 para:
   css:
     theme:
-      paragraphs.widget.css: {}
+      css/paragraphs.widget.css: {}
+
+tabs:
+  css:
+    theme:
+      css/tabs.css: {}
+  js:
+    js/tabs.js: { minified: false }
