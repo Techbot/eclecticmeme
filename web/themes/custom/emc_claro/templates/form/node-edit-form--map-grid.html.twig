@@ -1,0 +1,77 @@
+{#
+/**
+ * @file
+ * Theme override for a node edit form.
+ *
+ * Two column template for the node add/edit form.
+ *
+ * This template will be used when a node edit form specifies 'node_edit_form'
+ * as its #theme callback.  Otherwise, by default, node add/edit forms will be
+ * themed by form.html.twig.
+ *
+ * Available variables:
+ * - form: The node add/edit form.
+ *
+ * @see claro_form_node_form_alter()
+ */
+#}
+{{ attach_library('emc_claro/tabs') }}
+<div class="layout-node-form clearfix">
+  <div class="layout-region layout-region--node-main">
+    <div class="layout-region__content">
+      {{ form|without('advanced', 'footer', 'actions', 'field_layer_1', 'field_layer_2', 'field_layer_3', 'field_layer_4', 'field_layer_5') }}
+      {# {{ dpm() }} #}
+      <div class="tabbed">
+        <ul>
+          <li>
+            <a href="#section1">Layer 1</a>
+          </li>
+          <li>
+            <a href="#section2">Layer 2</a>
+          </li>
+          <li>
+            <a href="#section3">Layer 3</a>
+          </li>
+          <li>
+            <a href="#section4">Layer 4</a>
+          </li>
+          <li>
+            <a href="#section5">Layer 5</a>
+          </li>
+        </ul>
+        <section id="section1">
+          <h2>Layer 1</h2>
+          {{ form.field_layer_1 }}
+        </section>
+        <section id="section2">
+          <h2>Layer 2</h2>
+          {{ form.field_layer_2 }}
+        </section>
+        <section id="section3">
+          <h2>Layer 3</h2>
+          {{ form.field_layer_3 }}
+        </section>
+        <section id="section4">
+          <h2>Layer 4</h2>
+          {{ form.field_layer_4 }}
+        </section>
+        <section id="section5">
+          <h2>Layer 5</h2>
+          {{ form.field_layer_5 }}
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="layout-region layout-region--node-secondary">
+    <div class="layout-region__content">
+      {{ form.advanced }}
+    </div>
+  </div>
+  <div class="layout-region layout-region--node-footer">
+    <div class="layout-region__content">
+      <div class="divider"></div>
+      {{ form.footer }}
+      {{ form.actions }}
+    </div>
+  </div>
+</div>
