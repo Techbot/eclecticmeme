@@ -23,7 +23,7 @@ content:
     region: content
   field_base_price:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true

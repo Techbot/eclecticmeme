@@ -28,14 +28,14 @@ content:
     region: content
   field_ammo_type:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 103
     region: content
   field_magazine:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -44,7 +44,7 @@ content:
     region: content
   field_materials:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -53,7 +53,7 @@ content:
     region: content
   field_modifiers:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''

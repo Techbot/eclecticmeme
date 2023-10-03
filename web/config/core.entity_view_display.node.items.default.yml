@@ -43,7 +43,7 @@ content:
     region: content
   field_modifiers:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''

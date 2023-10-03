@@ -21,7 +21,7 @@ mode: default
 content:
   field_handler:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -29,14 +29,14 @@ content:
     region: content
   field_handler_dialogue:
     type: basic_string
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
   field_mark:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -44,14 +44,14 @@ content:
     region: content
   field_mark_dialog:
     type: basic_string
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 9
     region: content
   field_mark_grid_map:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -59,7 +59,7 @@ content:
     region: content
   field_prerequisite:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -67,7 +67,7 @@ content:
     region: content
   field_reward:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -75,7 +75,7 @@ content:
     region: content
   field_stage:
     type: string
-    label: above
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
@@ -83,7 +83,7 @@ content:
     region: content
   field_x:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -92,7 +92,7 @@ content:
     region: content
   field_y:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true

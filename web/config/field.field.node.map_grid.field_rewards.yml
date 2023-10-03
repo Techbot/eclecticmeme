@@ -12,7 +12,7 @@ id: node.map_grid.field_rewards
 field_name: field_rewards
 entity_type: node
 bundle: map_grid
-label: rewards
+label: Rewards
 description: ''
 required: false
 translatable: false
@@ -31,11 +31,23 @@ settings:
       buildings:
         weight: 11
         enabled: false
+      components:
+        weight: 18
+        enabled: false
+      elements:
+        weight: 19
+        enabled: false
+      ingredients:
+        weight: 20
+        enabled: false
       items:
         weight: 12
         enabled: false
-      materials:
-        weight: 13
+      mission_stage:
+        weight: 22
+        enabled: false
+      mobs:
+        weight: 23
         enabled: false
       modifier:
         weight: 14
@@ -52,4 +64,10 @@ settings:
       rewards:
         weight: 18
         enabled: true
+      skill:
+        weight: 29
+        enabled: false
+      weapon:
+        weight: 30
+        enabled: false
 field_type: entity_reference_revisions

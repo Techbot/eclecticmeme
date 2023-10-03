@@ -36,7 +36,7 @@ content:
     region: content
   field_city:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -44,7 +44,7 @@ content:
     region: content
   field_layer_1:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -52,7 +52,7 @@ content:
     region: content
   field_layer_2:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -60,7 +60,7 @@ content:
     region: content
   field_layer_3:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -68,7 +68,7 @@ content:
     region: content
   field_layer_4:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -76,7 +76,7 @@ content:
     region: content
   field_layer_5:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -84,7 +84,7 @@ content:
     region: content
   field_mobs:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -93,7 +93,7 @@ content:
     region: content
   field_npc:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -102,7 +102,7 @@ content:
     region: content
   field_portals:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -111,7 +111,7 @@ content:
     region: content
   field_rewards:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -120,7 +120,7 @@ content:
     region: content
   field_tiled:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true

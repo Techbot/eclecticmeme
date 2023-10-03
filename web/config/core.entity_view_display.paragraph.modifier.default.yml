@@ -16,14 +16,14 @@ mode: default
 content:
   field_attribute:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
   field_duration:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -32,7 +32,7 @@ content:
     region: content
   field_value:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
