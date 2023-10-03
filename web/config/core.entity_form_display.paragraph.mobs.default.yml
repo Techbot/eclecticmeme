@@ -16,14 +16,14 @@ mode: default
 content:
   field_level:
     type: number
-    weight: 1
+    weight: 4
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_mob_name:
     type: string_textfield
-    weight: 4
+    weight: 3
     region: content
     settings:
       size: 60
@@ -41,14 +41,14 @@ content:
     third_party_settings: {  }
   field_x:
     type: number
-    weight: 2
+    weight: 1
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_y:
     type: number
-    weight: 3
+    weight: 2
     region: content
     settings:
       placeholder: ''

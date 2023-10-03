@@ -15,14 +15,14 @@ mode: default
 content:
   field_ammo_type:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content
   field_amount:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true

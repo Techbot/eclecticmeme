@@ -14,7 +14,7 @@ mode: default
 content:
   field_name:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 0
     region: content
     settings:
       match_operator: CONTAINS
@@ -24,14 +24,14 @@ content:
     third_party_settings: {  }
   field_x:
     type: number
-    weight: 0
+    weight: 1
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_y:
     type: number
-    weight: 1
+    weight: 2
     region: content
     settings:
       placeholder: ''

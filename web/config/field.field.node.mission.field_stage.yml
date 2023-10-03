@@ -12,7 +12,7 @@ id: node.mission.field_stage
 field_name: field_stage
 entity_type: node
 bundle: mission
-label: Stage
+label: Stages
 description: ''
 required: false
 translatable: false
@@ -63,5 +63,11 @@ settings:
         enabled: false
       rewards:
         weight: 26
+        enabled: false
+      skill:
+        weight: 29
+        enabled: false
+      weapon:
+        weight: 30
         enabled: false
 field_type: entity_reference_revisions

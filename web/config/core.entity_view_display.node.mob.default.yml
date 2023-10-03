@@ -25,7 +25,7 @@ content:
     region: content
   field_mob_sprite_sheet:
     type: number_integer
-    label: above
+    label: hidden
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -34,7 +34,7 @@ content:
     region: content
   field_type:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 103

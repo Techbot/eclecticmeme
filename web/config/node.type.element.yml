@@ -15,4 +15,4 @@ description: 'Basic Building blocks of  component and item crafting'
 help: ''
 new_revision: true
 preview_mode: 1
-display_submitted: true
+display_submitted: false
