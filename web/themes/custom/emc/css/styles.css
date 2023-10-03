@@ -1,9 +1,14 @@
+/* Override coreui */
+:root {
+  --cui-body-color: #eee !important;
+}
+
 body {
-    background-color: #000000;
-    color: #eee;
-    font-family: verdana,arial,helvetica,sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+  background-color: #000000 !important;
+  color: #eee;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .path-frontpage .wrapper-main {
