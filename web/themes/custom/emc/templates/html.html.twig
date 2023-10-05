@@ -43,27 +43,15 @@
   <body{{ attributes.addClass(body_classes) }}>
   <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
   <script src="https://labs.phaser.io/js/datgui.js"></script>
-
-   <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@4.3.0/dist/css/coreui.min.css"
-   rel="stylesheet" integrity="sha384-2E9/b2fZ+VJoP6eRIpzzMFkuqbh0qDkIFVLzJJwkESsdKPEwzb0n6E55enZ+Ee8V"
-   crossorigin="anonymous">
-
-
-
-
   {#
       Keyboard navigation/accessibility link to main content section in
       page.html.twig.
     #}
-
-
-
     <a href="#main-content" class="visually-hidden focusable skip-link">
       {{ 'Skip to main content'|t }}
     </a>
     {{ page_top }}
     {{ page }}
-
 
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">

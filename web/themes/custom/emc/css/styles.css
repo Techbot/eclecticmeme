@@ -1,6 +1,13 @@
 /* Override coreui */
 :root {
-  --cui-body-color: #eee !important;
+  --cui-body-color: #eee;
+  --cui-body-bg: #000000;
+  --cui-nav-tabs-link-active-color: #fff;
+  --cui-emphasis-color: #fff;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--cui-nav-tabs-link-active-color);
 }
 
 body {
@@ -12,16 +19,16 @@ body {
 }
 
 .path-frontpage .wrapper-main {
-background: url('../images/intro-Dublin.jpg') center center no-repeat;
-width: 640px;
-height: 480px;
-margin: 2rem auto 0;
+  background: url('../images/intro-Dublin.jpg') center center no-repeat;
+  width: 640px;
+  height: 480px;
+  margin: 2rem auto 0;
 }
-
 
 a:link {
     color: #9c77d1;
     text-decoration:none;
+
 }
 
 a:visited {
