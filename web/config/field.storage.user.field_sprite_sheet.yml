@@ -1,4 +1,4 @@
-uuid: c87f3ed9-68cf-487a-ad61-fa33feb8b27e
+uuid: fddf04b6-21f0-42d3-9a49-7a708b82e16f
 langcode: en
 status: true
 dependencies:
@@ -12,29 +12,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: FixerF
-      label: FixerF
+      value: PsibotF
+      label: PsibotF
     -
-      value: FixerM
-      label: FixerM
-    -
-      value: CenobyteF
-      label: CenobyteF
-    -
-      value: CenobyteM
-      label: CenobyteM
-    -
-      value: AssassinF
-      label: AssassinF
-    -
-      value: AssassinM
-      label: AssassinM
-    -
-      value: XeonF
-      label: XeonF
-    -
-      value: XeonM
-      label: XeonM
+      value: PsibotM
+      label: PsibotM
   allowed_values_function: ''
 module: options
 locked: false

@@ -1,4 +1,4 @@
-uuid: 632c7d8a-032d-47c1-94eb-dd75b7384ceb
+uuid: 647affca-20c3-4971-8042-24b856e7e1fe
 langcode: en
 status: true
 dependencies:
@@ -13,11 +13,9 @@ entity_type: user
 bundle: user
 label: 'Sprite Sheet'
 description: ''
-required: false
+required: true
 translatable: false
-default_value:
-  -
-    value: FixerM
+default_value: {  }
 default_value_callback: ''
 settings: {  }
 field_type: list_string

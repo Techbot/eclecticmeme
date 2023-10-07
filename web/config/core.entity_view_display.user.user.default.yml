@@ -145,7 +145,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 15
     region: content
   field_storage:
     type: entity_reference_revisions_entity_view
