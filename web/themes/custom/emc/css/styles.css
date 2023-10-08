@@ -6,6 +6,10 @@
   --cui-emphasis-color: #fff;
 }
 
+.user-logged-in .p-3 {
+  padding: 39px 1rem 1rem !important;
+}
+
 .nav-tabs .nav-link.active {
   color: var(--cui-nav-tabs-link-active-color);
 }

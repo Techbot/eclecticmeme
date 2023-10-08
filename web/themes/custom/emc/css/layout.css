@@ -56,7 +56,29 @@ html {
     margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 800px) {
+#header,
+header[role=banner],
+.main-menu,
+#main,
+.region-top,
+.region-primary-menu,
+.region-highlighted,
+main,
+.region-footer,
+.region-breadcrumb {
+  max-width: 960px;
+  margin: 0 0 0 2rem;
+}
+
+main {
+  max-width: 100%;
+}
+
+.client {
+  background-color: #101010;
+}
+
+@media only screen and (min-width: 1366px) {
     #header,
     header[role=banner],
     .main-menu,
@@ -67,8 +89,8 @@ html {
     main,
     .region-footer,
     .region-breadcrumb {
-        max-width: 960px;
-        margin: 0 auto;
+      max-width: 960px;
+      margin: 0 0 0 2rem;
     }
     main[role=main] {
         max-width: 960px;
@@ -211,6 +233,42 @@ html {
         float: left;
         margin: 0 1em 1em 0;
     }
+}
+
+@media only screen and (min-width: 1920px) {
+  .client .layout-container {
+    display: flex;
+  }
+
+  .client .layout-container .main {
+    flex: 1 0 960px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .client .layout-container .sidebar-2 {
+    flex: 0 1 auto;
+  }
+}
+
+/* Increase width of sidebar on small screens */
+@media only screen and (min-width: 1600px) {
+  .client .layout-container .sidebar-2 {
+    flex: 1 0 280px;
+  }
+
+  #header,
+  header[role=banner],
+  .main-menu,
+  #main,
+  .region-top,
+  .region-primary-menu,
+  .region-highlighted,
+  main,
+  .region-footer,
+  .region-breadcrumb {
+    margin: 0 auto;
+  }
 }
 
 /* Full page layout */
