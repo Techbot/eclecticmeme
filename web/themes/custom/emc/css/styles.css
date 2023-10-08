@@ -6,7 +6,7 @@
   --cui-emphasis-color: #fff;
 }
 
-.user-logged-in .p-3 {
+.user-logged-in.p-3 {
   padding: 39px 1rem 1rem !important;
 }
 
