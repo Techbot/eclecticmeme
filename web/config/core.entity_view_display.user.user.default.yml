@@ -46,7 +46,7 @@ mode: default
 content:
   field_charisma:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -55,7 +55,7 @@ content:
     region: content
   field_dexterity:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -64,7 +64,7 @@ content:
     region: content
   field_endurance:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -73,7 +73,7 @@ content:
     region: content
   field_energy:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -82,14 +82,14 @@ content:
     region: content
   field_game_state:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 8
     region: content
   field_intelligence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -98,7 +98,7 @@ content:
     region: content
   field_inventory:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: compact_table
       link: ''
@@ -107,7 +107,7 @@ content:
     region: content
   field_missions:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -115,7 +115,7 @@ content:
     region: content
   field_nanites:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -124,7 +124,7 @@ content:
     region: content
   field_psi:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -133,7 +133,7 @@ content:
     region: content
   field_skill:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
@@ -142,14 +142,14 @@ content:
     region: content
   field_sprite_sheet:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 15
     region: content
   field_storage:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: inline
     settings:
       view_mode: default
       link: ''
