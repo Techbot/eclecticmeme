@@ -1,6 +1,6 @@
 uuid: ec370b1b-70d1-436e-b65e-2108289ada3c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
