@@ -23,9 +23,9 @@ body {
 }
 
 .path-frontpage .wrapper-main {
-  background: url('../images/intro-Dublin.jpg') center center no-repeat;
-  width: 640px;
-  height: 480px;
+  background: url('../images/intro-Dublin.jpg') center 8rem no-repeat;
+  width: 960px;
+  min-height: 85vh;
   margin: 2rem auto 0;
 }
 
@@ -391,7 +391,7 @@ article > header > .node__meta span {
 
 #block-emc-page-title {
     padding: 0;
-    margin: 0;
+    margin: 0 0 2rem;
 }
 
 #block-emc-page-title h1 {
