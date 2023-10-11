@@ -6,10 +6,7 @@ dependencies:
     - field.storage.user.field_inventory
     - paragraphs.paragraphs_type.ammunition
     - paragraphs.paragraphs_type.components
-    - paragraphs.paragraphs_type.elements
-    - paragraphs.paragraphs_type.ingredients
     - paragraphs.paragraphs_type.items
-    - paragraphs.paragraphs_type.potions
     - paragraphs.paragraphs_type.weapon
   module:
     - entity_reference_revisions
@@ -31,10 +28,7 @@ settings:
       ammunition: ammunition
       components: components
       weapon: weapon
-      elements: elements
-      ingredients: ingredients
       items: items
-      potions: potions
     negate: 0
     target_bundles_drag_drop:
       ammunition:

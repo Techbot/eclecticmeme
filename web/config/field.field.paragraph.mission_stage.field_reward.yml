@@ -5,10 +5,7 @@ dependencies:
   config:
     - field.storage.paragraph.field_reward
     - node.type.component
-    - node.type.element
-    - node.type.ingredient
     - node.type.items
-    - node.type.potion
     - node.type.weapon
     - paragraphs.paragraphs_type.mission_stage
 id: paragraph.mission_stage.field_reward
@@ -26,10 +23,7 @@ settings:
   handler_settings:
     target_bundles:
       component: component
-      element: element
-      ingredient: ingredient
       items: items
-      potion: potion
       weapon: weapon
     sort:
       field: _none

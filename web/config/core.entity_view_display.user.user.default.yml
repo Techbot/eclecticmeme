@@ -23,7 +23,6 @@ dependencies:
     - field.field.user.user.field_psi
     - field.field.user.user.field_skill
     - field.field.user.user.field_sprite_sheet
-    - field.field.user.user.field_storage
     - field.field.user.user.field_strength
     - field.field.user.user.field_weaponleft
     - field.field.user.user.field_weaponright
@@ -146,15 +145,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 15
-    region: content
-  field_storage:
-    type: entity_reference_revisions_entity_view
-    label: inline
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 14
     region: content
   member_for:
     settings: {  }

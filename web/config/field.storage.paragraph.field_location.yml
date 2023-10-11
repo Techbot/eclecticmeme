@@ -1,22 +1,22 @@
-uuid: 668674e0-31d6-46da-97ab-222de78a6c85
+uuid: 7ca0e312-863a-4dd9-9454-264c43dcf4ea
 langcode: en
 status: true
 dependencies:
   module:
     - options
-    - user
-id: user.field_game_state
-field_name: field_game_state
-entity_type: user
+    - paragraphs
+id: paragraph.field_location
+field_name: field_location
+entity_type: paragraph
 type: list_string
 settings:
   allowed_values:
     -
-      value: Character
-      label: Character
+      value: Backpack
+      label: Backpack
     -
-      value: GamePhaser
-      label: GamePhaser
+      value: Storage
+      label: Storage
   allowed_values_function: ''
 module: options
 locked: false

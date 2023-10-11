@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.items.field_items
+    - field.field.paragraph.items.field_location
     - paragraphs.paragraphs_type.items
+  module:
+    - options
 id: paragraph.items.default
 targetEntityType: paragraph
 bundle: items
@@ -17,5 +20,12 @@ content:
       link: true
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_location:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden: {  }

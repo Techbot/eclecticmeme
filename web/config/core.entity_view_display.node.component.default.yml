@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.component.body
-    - field.field.node.component.field_elements
     - node.type.component
   module:
-    - entity_reference_revisions
     - text
     - user
 id: node.component.default
@@ -21,15 +19,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
-    region: content
-  field_elements:
-    type: entity_reference_revisions_entity_view
-    label: inline
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 102
     region: content
   links:
     settings: {  }
