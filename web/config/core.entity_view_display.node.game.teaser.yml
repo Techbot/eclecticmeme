@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.game.body
+    - field.field.node.game.field_debug
     - node.type.game
   module:
     - text
@@ -27,4 +28,5 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_debug: true

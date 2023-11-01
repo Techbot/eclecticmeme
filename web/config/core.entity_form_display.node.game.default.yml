@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.game.body
+    - field.field.node.game.field_debug
     - node.type.game
   module:
     - path
@@ -27,6 +28,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_debug:
+    type: boolean_checkbox
+    weight: 121
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   links:
     weight: 100
