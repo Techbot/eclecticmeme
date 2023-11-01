@@ -11,10 +11,13 @@ dependencies:
     - field.field.node.map_grid.field_layer_3
     - field.field.node.map_grid.field_layer_4
     - field.field.node.map_grid.field_layer_5
+    - field.field.node.map_grid.field_map_height
+    - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mobs
     - field.field.node.map_grid.field_npc
     - field.field.node.map_grid.field_portals
     - field.field.node.map_grid.field_rewards
+    - field.field.node.map_grid.field_sound_track
     - field.field.node.map_grid.field_tiled
     - node.type.map_grid
   module:
@@ -34,9 +37,12 @@ hidden:
   field_layer_3: true
   field_layer_4: true
   field_layer_5: true
+  field_map_height: true
+  field_map_width: true
   field_mobs: true
   field_npc: true
   field_portals: true
   field_rewards: true
+  field_sound_track: true
   field_tiled: true
   links: true

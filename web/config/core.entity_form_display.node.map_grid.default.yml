@@ -10,10 +10,13 @@ dependencies:
     - field.field.node.map_grid.field_layer_3
     - field.field.node.map_grid.field_layer_4
     - field.field.node.map_grid.field_layer_5
+    - field.field.node.map_grid.field_map_height
+    - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mobs
     - field.field.node.map_grid.field_npc
     - field.field.node.map_grid.field_portals
     - field.field.node.map_grid.field_rewards
+    - field.field.node.map_grid.field_sound_track
     - field.field.node.map_grid.field_tiled
     - node.type.map_grid
   module:
@@ -46,7 +49,7 @@ content:
     third_party_settings: {  }
   field_city:
     type: entity_reference_autocomplete
-    weight: 109
+    weight: 11
     region: content
     settings:
       match_operator: CONTAINS
@@ -56,37 +59,51 @@ content:
     third_party_settings: {  }
   field_layer_1:
     type: options_buttons
-    weight: 111
+    weight: 13
     region: content
     settings: {  }
     third_party_settings: {  }
   field_layer_2:
     type: options_buttons
-    weight: 112
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
   field_layer_3:
     type: options_buttons
-    weight: 113
+    weight: 15
     region: content
     settings: {  }
     third_party_settings: {  }
   field_layer_4:
     type: options_buttons
-    weight: 114
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   field_layer_5:
     type: options_buttons
-    weight: 115
+    weight: 17
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_map_height:
+    type: number
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_map_width:
+    type: number
+    weight: 10
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
   field_mobs:
     type: paragraphs
-    weight: 118
+    weight: 20
     region: content
     settings:
       title: Paragraph
@@ -105,7 +122,7 @@ content:
     third_party_settings: {  }
   field_npc:
     type: paragraphs
-    weight: 116
+    weight: 18
     region: content
     settings:
       title: Paragraph
@@ -124,7 +141,7 @@ content:
     third_party_settings: {  }
   field_portals:
     type: paragraphs
-    weight: 110
+    weight: 12
     region: content
     settings:
       title: Paragraph
@@ -142,7 +159,7 @@ content:
     third_party_settings: {  }
   field_rewards:
     type: paragraphs
-    weight: 117
+    weight: 19
     region: content
     settings:
       title: Paragraph
@@ -158,9 +175,16 @@ content:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
+  field_sound_track:
+    type: number
+    weight: 21
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
   field_tiled:
     type: number
-    weight: 107
+    weight: 8
     region: content
     settings:
       placeholder: ''
