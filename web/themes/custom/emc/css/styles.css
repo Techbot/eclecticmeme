@@ -525,3 +525,6 @@ float: left;
   margin-inline-end: 1rem;
 }
 
+.placeholder {
+  background-color: transparent;
+}
