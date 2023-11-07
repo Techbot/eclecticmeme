@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.faction.body
+    - field.field.node.faction.field_faction_term
     - field.field.node.faction.field_faction_type
     - node.type.faction
   module:
@@ -22,9 +23,17 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_faction_term:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
   field_faction_type:
     type: list_default
-    label: above
+    label: inline
     settings: {  }
     third_party_settings: {  }
     weight: 102
