@@ -30,11 +30,7 @@ dependencies:
     - field.field.user.user.field_x
     - field.field.user.user.field_y
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - entity_reference_revisions
-    - image
-    - paragraphs
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -48,236 +44,44 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_charisma:
-    type: number
-    weight: 26
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_credits:
-    type: number
-    weight: 6
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_dexterity:
-    type: number
-    weight: 27
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_endurance:
-    type: number
-    weight: 23
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_energy:
-    type: number
-    weight: 24
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_experience:
-    type: number
-    weight: 9
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_faction:
-    type: number
-    weight: 10
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_game_state:
-    type: options_select
-    weight: 25
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_health:
-    type: number
-    weight: 11
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_intelligence:
-    type: number
-    weight: 20
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_inventory:
-    type: paragraphs
-    weight: 28
-    region: content
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      closed_mode: summary
-      autocollapse: none
-      closed_mode_threshold: 0
-      add_mode: button
-      form_display_mode: compact_table
-      default_paragraph_type: _none
-      features:
-        add_above: '0'
-        collapse_edit_all: collapse_edit_all
-        duplicate: duplicate
-    third_party_settings: {  }
-  field_level:
-    type: number
-    weight: 12
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_losses:
-    type: number
-    weight: 13
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_map:
-    type: number
-    weight: 14
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_map_grid:
-    type: entity_reference_revisions_autocomplete
-    weight: 19
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_missions:
-    type: entity_reference_autocomplete
-    weight: 29
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_nanites:
-    type: number
-    weight: 21
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_psi:
-    type: number
-    weight: 22
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_skill:
-    type: paragraphs
-    weight: 30
-    region: content
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      closed_mode: summary
-      autocollapse: none
-      closed_mode_threshold: 0
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-      features:
-        collapse_edit_all: collapse_edit_all
-        duplicate: duplicate
-    third_party_settings: {  }
-  field_sprite_sheet:
-    type: options_select
-    weight: 32
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_strength:
-    type: number
-    weight: 15
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_weaponleft:
-    type: number
-    weight: 16
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_weaponright:
-    type: number
-    weight: 17
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_wins:
-    type: number
-    weight: 18
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_x:
-    type: number
-    weight: 7
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-  field_y:
-    type: number
-    weight: 8
-    region: content
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
   language:
-    weight: 3
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
-    weight: 5
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
-  user_picture:
-    type: image_image
-    weight: 2
-    region: content
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  contact: true
+  field_charisma: true
+  field_credits: true
+  field_dexterity: true
+  field_endurance: true
+  field_energy: true
+  field_experience: true
+  field_faction: true
+  field_game_state: true
+  field_health: true
+  field_intelligence: true
+  field_inventory: true
+  field_level: true
+  field_losses: true
+  field_map: true
+  field_map_grid: true
+  field_missions: true
+  field_nanites: true
+  field_psi: true
+  field_skill: true
+  field_sprite_sheet: true
+  field_strength: true
+  field_weaponleft: true
+  field_weaponright: true
+  field_wins: true
+  field_x: true
+  field_y: true
+  path: true
+  player_profiles: true
+  user_picture: true

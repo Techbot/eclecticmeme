@@ -1,9 +1,9 @@
-uuid: 076a5a62-f086-418e-be2b-b24a239666c0
+uuid: 2b4f2ef5-8849-49b1-babd-2d85e1395001
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.user.compact
+    - core.entity_view_mode.user.full
     - field.field.user.user.field_charisma
     - field.field.user.user.field_credits
     - field.field.user.user.field_dexterity
@@ -34,12 +34,26 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
-id: user.user.compact
+  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+id: user.user.full
 targetEntityType: user
 bundle: user
-mode: compact
+mode: full
 content:
+  faction_profiles:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  member_for:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
   player_profiles:
     type: entity_reference_entity_view
     label: hidden
@@ -47,10 +61,9 @@ content:
       view_mode: player
       link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
 hidden:
-  faction_profiles: true
   field_charisma: true
   field_credits: true
   field_dexterity: true
@@ -77,5 +90,4 @@ hidden:
   field_wins: true
   field_x: true
   field_y: true
-  member_for: true
   user_picture: true
