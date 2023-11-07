@@ -31,9 +31,7 @@ dependencies:
     - field.field.user.user.field_x
     - field.field.user.user.field_y
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - user
 _core:
   default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
@@ -42,18 +40,17 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
-  user_picture:
-    type: image
+  player_profiles:
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: content
-      image_style: thumbnail
-      image_loading:
-        attribute: lazy
+      view_mode: player
+      link: false
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
+  faction_profiles: true
   field_charisma: true
   field_credits: true
   field_dexterity: true
@@ -81,3 +78,4 @@ hidden:
   field_x: true
   field_y: true
   member_for: true
+  user_picture: true

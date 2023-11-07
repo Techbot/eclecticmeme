@@ -30,11 +30,7 @@ dependencies:
     - field.field.user.user.field_x
     - field.field.user.user.field_y
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - entity_reference_revisions
-    - image
-    - options
     - user
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
@@ -43,137 +39,54 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  field_charisma:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 9
-    region: content
-  field_dexterity:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  field_endurance:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 6
-    region: content
-  field_energy:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 7
-    region: content
-  field_game_state:
-    type: list_default
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    weight: 8
-    region: content
-  field_intelligence:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_inventory:
-    type: entity_reference_revisions_entity_view
-    label: inline
-    settings:
-      view_mode: compact_table
-      link: ''
-    third_party_settings: {  }
-    weight: 11
-    region: content
-  field_missions:
-    type: entity_reference_label
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 12
-    region: content
-  field_nanites:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_psi:
-    type: number_integer
-    label: inline
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 5
-    region: content
-  field_skill:
-    type: entity_reference_revisions_entity_view
-    label: inline
+  faction_profiles:
+    type: entity_reference_entity_view
+    label: hidden
     settings:
       view_mode: default
-      link: ''
+      link: true
     third_party_settings: {  }
-    weight: 13
-    region: content
-  field_sprite_sheet:
-    type: list_default
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    weight: 15
+    weight: 2
     region: content
   member_for:
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
-  user_picture:
-    type: image
+  player_profiles:
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: content
-      image_style: thumbnail
-      image_loading:
-        attribute: lazy
+      view_mode: player
+      link: false
     third_party_settings: {  }
     weight: 1
     region: content
 hidden:
+  field_charisma: true
   field_credits: true
+  field_dexterity: true
+  field_endurance: true
+  field_energy: true
   field_experience: true
   field_faction: true
+  field_game_state: true
   field_health: true
+  field_intelligence: true
+  field_inventory: true
   field_level: true
   field_losses: true
   field_map: true
   field_map_grid: true
+  field_missions: true
+  field_nanites: true
+  field_psi: true
+  field_skill: true
+  field_sprite_sheet: true
   field_strength: true
   field_weaponleft: true
   field_weaponright: true
   field_wins: true
   field_x: true
   field_y: true
+  user_picture: true
