@@ -22,7 +22,7 @@ body {
   line-height: 1.5;
 }
 
-.path-frontpage .wrapper-main {
+.path-frontpage:not(.user-logged-in) .wrapper-main {
   background: url('../images/intro-Dublin.jpg') center 8rem no-repeat;
   width: 960px;
   min-height: 85vh;

@@ -81,7 +81,9 @@
   ]
 %}
 {{ attach_library('classy/node') }}
-<div id="module-name-game" class="game__wrapper"></div>
+  {% if logged_in %}
+    <div id="module-name-game" class="game__wrapper"></div>
+  {% endif %}
 <article{{ attributes.addClass(classes) }}>
 
   {{ title_prefix }}
