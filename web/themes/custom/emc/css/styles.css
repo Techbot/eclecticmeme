@@ -548,9 +548,12 @@ vertical-align: top;
   margin-top: 1rem;
 }
 
-.user-form .form-wrapper .form-item:not(.form-item--multi),
 .profile-form .form-wrapper .form-item:not(.form-item--multi) {
   display: flex;
+}
+
+.user-form .form-item {
+  margin-bottom: 1.5rem;
 }
 
 .user-form .form-wrapper .form-item label,
@@ -585,11 +588,6 @@ vertical-align: top;
   border-bottom: 1px solid #000;
 }
 
-.user-form .form-wrapper .form-item:not(.form-item--multi),
-.profile-form .form-wrapper .form-item:not(.form-item--multi) {
-  display: flex;
-}
-
 .paragraphs-dropbutton-wrapper,
 .field-add-more-submit,
 .tabledrag-toggle-weight {
@@ -600,6 +598,17 @@ vertical-align: top;
   display: flex;
 }
 
+.paragraph-type-icon,
+.paragraph-type-label {}
+
 .field__items .field_item {
   margin-bottom: 1rem;
+}
+
+form .description {
+  margin-top: 0.5rem;
+}
+
+.password-strength__meter {
+  max-width: 50%;
 }
