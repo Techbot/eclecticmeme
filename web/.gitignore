@@ -60,3 +60,4 @@ sites/*/files/
 assets/images/
 modules/custom/___jigtemp
 modules/custom/jigs
+/example.gitignore
