@@ -31,6 +31,7 @@ dependencies:
     - field.field.user.user.field_y
     - field.field.user.user.user_picture
   module:
+    - entity_reference_revisions
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -44,18 +45,50 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  language:
+  field_map:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_map_grid:
+    type: entity_reference_revisions_autocomplete
     weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_x:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_y:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  language:
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
-    weight: 2
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   contact: true
+  faction_profiles: true
   field_charisma: true
   field_credits: true
   field_dexterity: true
@@ -69,8 +102,6 @@ hidden:
   field_inventory: true
   field_level: true
   field_losses: true
-  field_map: true
-  field_map_grid: true
   field_missions: true
   field_nanites: true
   field_psi: true
@@ -80,8 +111,6 @@ hidden:
   field_weaponleft: true
   field_weaponright: true
   field_wins: true
-  field_x: true
-  field_y: true
   path: true
   player_profiles: true
   user_picture: true

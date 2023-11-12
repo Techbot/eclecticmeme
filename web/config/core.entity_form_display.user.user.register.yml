@@ -57,6 +57,7 @@ content:
     third_party_settings: {  }
 hidden:
   contact: true
+  faction_profiles: true
   field_charisma: true
   field_credits: true
   field_dexterity: true
