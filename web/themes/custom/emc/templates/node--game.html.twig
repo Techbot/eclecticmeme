@@ -77,15 +77,15 @@
     node.isPromoted() ? 'node--promoted',
     node.isSticky() ? 'node--sticky',
     not node.isPublished() ? 'node--unpublished',
-    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class
   ]
 %}
 {{ attach_library('classy/node') }}
   {% if logged_in %}
     <div id="module-name-game" class="game__wrapper"></div>
   {% endif %}
-<article{{ attributes.addClass(classes) }}>
 
+<article{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
@@ -94,19 +94,9 @@
   {% endif %}
   {{ title_suffix }}
 
-
-  {% if display_submitted %}
-    <footer class="node__meta">
-      {{ author_picture }}
-      <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}By {{ author_name }} | {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
+  {% if not logged_in %}
+    <div{{ content_attributes.addClass('node__content') }}>
+      {{ content }}
+    </div>
   {% endif %}
-
-  <div{{ content_attributes.addClass('node__content') }}>
-    {{ content }}
-  </div>
-
 </article>

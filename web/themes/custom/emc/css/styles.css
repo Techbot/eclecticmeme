@@ -632,3 +632,17 @@ form .description {
   padding: 0.5rem 1rem;
   background-color: #111;
 }
+
+.path-frontpage:not(.user-logged-in) .block-system-main-block {
+  margin-bottom: 4rem;
+  font-family: 'Neutron Demo';
+  font-size: 2rem;
+}
+
+.path-frontpage:not(.user-logged-in) .region-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
