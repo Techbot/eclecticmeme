@@ -486,21 +486,6 @@ padding-bottom: 1rem;
 vertical-align: top;
 }
 
-.field--label-inline {
-    display: flex;
-    margin-top: 1rem;
-}
-.field--label-inline .field__label {
-    margin-inline-end: 1rem;
-}
-.field--label-inline .field__label::after {
-    content: ":"
-}
-
-#edit-field-map-grid-population-0-value{
-float: left;
-
-}
 
 .client .layout-container {
     display: flex;
@@ -527,4 +512,94 @@ float: left;
 
 .placeholder {
   background-color: transparent;
+}
+
+/* Forms */
+
+.field--label-inline {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.field--label-inline .field__label {
+  margin-inline-end: 1rem;
+}
+
+.field--label-inline .field__label::after {
+  content: ":"
+}
+
+
+.form-actions {
+  margin-top: 2rem;
+}
+
+.form-actions .button {
+  margin-inline-end: 1rem;
+}
+
+#edit-field-map-grid-population-0-value{
+  float: left;
+}
+
+/* Profile */
+.user-form .form-wrapper,
+.profile-form .form-wrapper {
+  margin-top: 1rem;
+}
+
+.user-form .form-wrapper .form-item:not(.form-item--multi),
+.profile-form .form-wrapper .form-item:not(.form-item--multi) {
+  display: flex;
+}
+
+.user-form .form-wrapper .form-item label,
+.profile-form .form-wrapper .form-item label {
+  margin-inline-end: 1rem;
+}
+
+.user-form .form-wrapper .form-item .form-select,
+.profile-form .form-wrapper .form-item .form-select {
+  width: auto;
+}
+
+.user-form .form-wrapper .form-item input.form-autocomplete,
+.profile-form .form-wrapper .form-item input.form-autocomplete {
+  width: 300px;
+}
+
+.field-multiple-table {
+  width: 96%;
+  margin: 0 auto 1rem;
+}
+.form-wrapper .form-item--multi {
+  background: #111111;
+  margin-bottom: 2rem
+}
+
+.field-multiple-table thead {
+  background: #222;
+}
+
+.field-multiple-table tbody td {
+  border-bottom: 1px solid #000;
+}
+
+.user-form .form-wrapper .form-item:not(.form-item--multi),
+.profile-form .form-wrapper .form-item:not(.form-item--multi) {
+  display: flex;
+}
+
+.paragraphs-dropbutton-wrapper,
+.field-add-more-submit,
+.tabledrag-toggle-weight {
+  margin: 1rem;
+}
+
+.paragraph-type.form-wrapper {
+  display: flex;
+}
+
+.field__items .field_item {
+  margin-bottom: 1rem;
 }
