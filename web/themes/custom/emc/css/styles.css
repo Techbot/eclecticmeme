@@ -17,7 +17,7 @@
 body {
   background-color: #000000 !important;
   color: #eee;
-  font-family: verdana,arial,helvetica,sans-serif;
+  font-family: "Roboto", verdana, arial, helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -45,6 +45,10 @@ a:hover {
 
 h1, h2, h3 {
    text-shadow: 2px 2px 2px #000;
+}
+
+h2, h3 {
+  font-family: Neutron Demo;
 }
 
 .block-page-title-block h1 {
@@ -498,6 +502,7 @@ vertical-align: top;
 .tabs {
   flex: 0 1 auto;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .client .layout-container {
@@ -506,8 +511,36 @@ vertical-align: top;
   width: 1280px;
 }
 
+.tabs .tab-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
 .tabs .tab-buttons button {
-  margin-inline-end: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  text-transform: uppercase;
+  color: white;
+  background-color: #333;
+  font-family: 'Neutron Demo';
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 0 none;
+  height: 3rem;
+  border-radius: 0 !important;
+  box-shadow: inset 0px 12px 25px 5px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.5s ease, width 4s 1s;
+}
+
+.tabs .tab-buttons button:hover,
+.tabs .tab-buttons button:focus {
+  color: white;
+  background-color: #009999;
+  border: 0 none;
+  box-shadow: inset -5px -5px 10px 0px rgba(12, 7, 7, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  width: 300px;
 }
 
 .placeholder {
@@ -515,7 +548,6 @@ vertical-align: top;
 }
 
 /* Forms */
-
 .field--label-inline {
   display: flex;
   margin-top: 1rem;
@@ -645,4 +677,234 @@ form .description {
   align-items: center;
   justify-content: space-around;
   height: 70vh;
+}
+
+
+/* Skills tree */
+
+.grtv-wrapper.grtv-default-skin > .grtv {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #111;
+  padding: 1rem;
+}
+
+/* Everything's in a .grtv-wrapper (embedded CSS is the 'grtv-default-skin' skin) */
+.grtv-wrapper.grtv-default-skin {
+  --baseHeight: 1.2rem;
+  --itemSpacing: 1.2rem;
+}
+
+/* The node, including its content and children list */
+.grtv-wrapper.grtv-default-skin .grtvn {
+  padding-left: 0;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn:first-child {
+  margin-top: 0;
+}
+
+/* ARIA styles */
+.grtv-wrapper.grtv-default-skin .grtvn[role="treeitem"]:focus {
+  outline: 0;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn[role="treeitem"]:focus >.grtvn-self {
+  outline: black dotted 1px;
+}
+
+/* The node's content, excluding the list of child nodes */
+.grtv-wrapper.grtv-default-skin .grtvn-self {
+  display: flex;
+  align-items: flex-start;
+  line-height: var(--baseHeight);
+}
+
+/* Drag and Drop styles */
+.grtv-wrapper.grtv-default-skin .grtvn-dragging .grtvn-self {
+  opacity: 0.5;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-drop-target {
+  flex-wrap: wrap;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-drop-target.grtvn-self-child-drop-target {
+  opacity: .5;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-drop-target .grtvn-self-sibling-drop-target {
+  width: 100%;
+  height: 7px;
+  background-color: #dddddd;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-drop-target .grtvn-self-sibling-drop-target.grtvn-self-sibling-drop-target-hover {
+  background-color: #bbbbbb;
+}
+
+/* The expander button and indicator content */
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander {
+  padding: 0;
+  background: none;
+  border: none;
+  height: var(--baseHeight);
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander i.grtvn-self-expanded-indicator {
+  font-style: normal;
+  color: white;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander i.grtvn-self-expanded-indicator::before {
+  content: '+';
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander.grtvn-self-expanded i.grtvn-self-expanded-indicator::before {
+  content: '-';
+}
+
+/* The styling for when the node is selected */
+.grtv-wrapper.grtv-default-skin .grtvn-self-selected {
+  background-color: #f0f0f8;
+}
+
+/* Spacing */
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander,
+.grtv-wrapper.grtv-default-skin .grtvn-self-checkbox,
+.grtv-wrapper.grtv-default-skin .grtvn-self-radio,
+.grtv-wrapper.grtv-default-skin .grtvn-self-spacer,
+.grtv-wrapper.grtv-default-skin .grtvn-self-action {
+  min-width: 1rem;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-expander,
+.grtv-wrapper.grtv-default-skin .grtvn-self-spacer {
+  margin: 0;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-checkbox,
+.grtv-wrapper.grtv-default-skin .grtvn-self-radio {
+  margin: 0 0 0 calc(-1 * var(--itemSpacing));
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-self-text,
+.grtv-wrapper.grtv-default-skin .grtvn-self-label {
+  margin-left: var(--itemSpacing);
+  padding-bottom: 1rem;
+}
+
+/* Action buttons section */
+.grtv-wrapper.grtv-default-skin .grtvn-self-action {
+  padding: 0;
+  background: none;
+  border: none;
+  height: var(--baseHeight);
+}
+
+/* Action buttons (add, delete, etc) */
+.grtv-wrapper.grtv-default-skin i.grtvn-self-add-child-icon {
+  font-style: normal;
+}
+
+.grtv-wrapper.grtv-default-skin i.grtvn-self-add-child-icon::before {
+  content: '+';
+}
+
+.grtv-wrapper.grtv-default-skin i.grtvn-self-delete-icon {
+  font-style: normal;
+}
+
+.grtv-wrapper.grtv-default-skin i.grtvn-self-delete-icon::before {
+  content: 'x';
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn-children-wrapper {
+  margin: 0 0 0 calc(1rem + var(--itemSpacing));
+}
+
+/* The node's child list */
+.grtv-wrapper.grtv-default-skin .grtvn-children {
+  padding: 0;
+  list-style: none;
+}
+
+.grtv-wrapper.grtv-default-skin .grtvn.grtvn-hidden {
+  display: none;
+}
+
+
+/* Inventory */
+.inventory h3 {
+  margin-top: 1rem;
+}
+
+.inventory img {
+  margin-bottom: 1rem;
+}
+
+.list-group {
+  display: flex;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  height: 100%;
+  min-height: 184px; /* Two rows */
+  background-color: #111;
+}
+
+.list-group-item {
+  max-width: 20%;
+  min-height: 80px;
+  flex: 1 0 20%;
+  border: 0 none;
+  border-radius: 0;
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+
+.list-group-item:hover,
+.list-group-item.sortable-chosen {
+  border: 2px solid red;
+  background: #222;
+}
+.list-group-item.sortable-chosen {
+  box-shadow: 0px 0px 0px 5px #111111, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+  border-radius: 0;
+}
+
+.tab-panels {
+  height: 100%;
+}
+.character--stats {
+  background: #111;
+  padding: 1rem;
+}
+
+.vue-simple-progress,
+.vue-simple-progress-bar {
+  height: 1rem !important;
+}
+
+.character--stats h3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  text-transform: uppercase;
+  color: white;
+  background-color: #333;
+  font-family: 'Neutron Demo';
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 2rem;
+  box-shadow: inset 0px 12px 25px 5px rgba(0, 0, 0, 0.4);
 }
