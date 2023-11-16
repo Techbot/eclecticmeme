@@ -1,14 +1,14 @@
-uuid: 4bc50a14-9d99-48aa-8d58-e1deb621a201
+uuid: dd9c23f0-b649-4493-ade1-870273682eb6
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
-    - node
     - paragraphs
-id: node.field_stage
-field_name: field_stage
-entity_type: node
+    - profile
+id: profile.field_missions_completed
+field_name: field_missions_completed
+entity_type: profile
 type: entity_reference_revisions
 settings:
   target_type: paragraph

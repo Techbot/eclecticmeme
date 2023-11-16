@@ -5,7 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.mission.body
-    - field.field.node.mission.field_stage
+    - field.field.node.mission.field_quest_item
+    - field.field.node.mission.field_reward_item
     - node.type.mission
   module:
     - text
@@ -29,4 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_stage: true
+  field_quest_item: true
+  field_reward_item: true

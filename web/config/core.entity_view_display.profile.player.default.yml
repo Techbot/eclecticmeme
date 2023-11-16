@@ -18,6 +18,7 @@ dependencies:
     - field.field.profile.player.field_map
     - field.field.profile.player.field_map_grid
     - field.field.profile.player.field_missions
+    - field.field.profile.player.field_missions_completed
     - field.field.profile.player.field_nanites
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
@@ -161,12 +162,22 @@ content:
     weight: 1
     region: content
   field_missions:
-    type: entity_reference_label
-    label: inline
+    type: entity_reference_revisions_entity_view
+    label: above
     settings:
-      link: true
+      view_mode: default
+      link: ''
     third_party_settings: {  }
-    weight: 23
+    weight: 26
+    region: content
+  field_missions_completed:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 27
     region: content
   field_nanites:
     type: number_integer

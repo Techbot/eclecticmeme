@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.mission.body
-    - field.field.node.mission.field_stage
+    - field.field.node.mission.field_quest_item
+    - field.field.node.mission.field_reward_item
     - node.type.mission
   module:
-    - entity_reference_revisions
     - text
     - user
 id: node.mission.default
@@ -22,14 +22,21 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  field_stage:
-    type: entity_reference_revisions_entity_view
+  field_quest_item:
+    type: entity_reference_label
     label: above
     settings:
-      view_mode: default
-      link: ''
+      link: true
     third_party_settings: {  }
-    weight: 102
+    weight: 104
+    region: content
+  field_reward_item:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }

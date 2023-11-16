@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.npc.field_bark
     - field.field.node.npc.field_concerns
     - field.field.node.npc.field_faction
+    - field.field.node.npc.field_is_handler
     - field.field.node.npc.field_missions
     - field.field.node.npc.field_occupation
     - field.field.node.npc.field_race
@@ -49,6 +50,16 @@ content:
       link: true
     third_party_settings: {  }
     weight: 109
+    region: content
+  field_is_handler:
+    type: boolean
+    label: inline
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 113
     region: content
   field_missions:
     type: entity_reference_label

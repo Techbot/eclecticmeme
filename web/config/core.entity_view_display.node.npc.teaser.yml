@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.npc.field_bark
     - field.field.node.npc.field_concerns
     - field.field.node.npc.field_faction
+    - field.field.node.npc.field_is_handler
     - field.field.node.npc.field_missions
     - field.field.node.npc.field_occupation
     - field.field.node.npc.field_race
@@ -38,6 +39,7 @@ hidden:
   field_bark: true
   field_concerns: true
   field_faction: true
+  field_is_handler: true
   field_missions: true
   field_occupation: true
   field_race: true
