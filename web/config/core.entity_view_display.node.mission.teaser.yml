@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.mission.body
+    - field.field.node.mission.field_choice_a
+    - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_quest_item
     - field.field.node.mission.field_reward_item
     - node.type.mission
@@ -30,5 +32,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_choice_a: true
+  field_handler_dialog: true
   field_quest_item: true
   field_reward_item: true

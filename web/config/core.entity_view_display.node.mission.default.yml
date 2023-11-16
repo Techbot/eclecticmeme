@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.mission.body
+    - field.field.node.mission.field_choice_a
+    - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_quest_item
     - field.field.node.mission.field_reward_item
     - node.type.mission
@@ -21,6 +23,21 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_choice_a:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_handler_dialog:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_quest_item:
     type: entity_reference_label
