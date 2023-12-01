@@ -25,6 +25,7 @@
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.12",
         "drupal/profile": "^1.7",
+        "drupal/registration_role": "^2.0",
         "drupal/services": "^5.0@beta",
         "drupal/simple_oauth": "^6.0@beta",
         "drupal/stable": "^2.0",
