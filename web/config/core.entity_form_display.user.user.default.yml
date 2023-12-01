@@ -47,7 +47,7 @@ content:
     third_party_settings: {  }
   field_game_state:
     type: options_select
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -67,6 +67,12 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_sprite_sheet:
+    type: options_select
+    weight: 7
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_x:
     type: number
@@ -111,7 +117,6 @@ hidden:
   field_nanites: true
   field_psi: true
   field_skill: true
-  field_sprite_sheet: true
   field_strength: true
   field_weaponleft: true
   field_weaponright: true
