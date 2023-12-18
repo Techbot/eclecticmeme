@@ -536,7 +536,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/..\/..\/images\/System\/celianna_TileA5.png",
+         "image":"..\/..\/images\/System\/celianna_TileA5.png",
          "imageheight":512,
          "imagewidth":256,
          "margin":0,
@@ -549,7 +549,7 @@
         {
          "columns":32,
          "firstgid":513,
-         "image":"..\/..\/..\/images\/KR Spirit Of Egypt\/Egyptian_D-32.png",
+         "image":"..\/..\/images\/KR Spirit Of Egypt\/Egyptian_D-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -562,7 +562,7 @@
         {
          "columns":32,
          "firstgid":1537,
-         "image":"..\/..\/..\/images\/System\/celianna_TileA2.png",
+         "image":"..\/..\/images\/System\/celianna_TileA2.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -575,7 +575,7 @@
         {
          "columns":32,
          "firstgid":2305,
-         "image":"..\/..\/..\/images\/System\/006.png",
+         "image":"..\/..\/images\/System\/006.png",
          "imageheight":480,
          "imagewidth":512,
          "margin":0,
@@ -588,7 +588,7 @@
         {
          "columns":32,
          "firstgid":3265,
-         "image":"..\/..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A2-32.png",
+         "image":"..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A2-32.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -601,7 +601,7 @@
         {
          "columns":32,
          "firstgid":4033,
-         "image":"..\/..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A3-32.png",
+         "image":"..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A3-32.png",
          "imageheight":256,
          "imagewidth":512,
          "margin":0,
@@ -614,7 +614,7 @@
         {
          "columns":32,
          "firstgid":4545,
-         "image":"..\/..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A4-32.png",
+         "image":"..\/..\/images\/KR Spirit Of Egypt\/Egyptian_A4-32.png",
          "imageheight":480,
          "imagewidth":512,
          "margin":0,
@@ -627,7 +627,7 @@
         {
          "columns":32,
          "firstgid":5505,
-         "image":"..\/..\/..\/images\/KR Untamed Desert\/desert-A2-32.png",
+         "image":"..\/..\/images\/KR Untamed Desert\/desert-A2-32.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -640,7 +640,7 @@
         {
          "columns":32,
          "firstgid":6273,
-         "image":"..\/..\/..\/images\/KR Untamed Desert\/desert-A4-32.png",
+         "image":"..\/..\/images\/KR Untamed Desert\/desert-A4-32.png",
          "imageheight":480,
          "imagewidth":512,
          "margin":0,
@@ -653,7 +653,7 @@
         {
          "columns":32,
          "firstgid":7233,
-         "image":"..\/..\/..\/images\/KR Untamed Desert\/desert-C-32.png",
+         "image":"..\/..\/images\/KR Untamed Desert\/desert-C-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -666,7 +666,7 @@
         {
          "columns":32,
          "firstgid":8257,
-         "image":"..\/..\/..\/images\/KR Untamed Desert\/desert-B-32.png",
+         "image":"..\/..\/images\/KR Untamed Desert\/desert-B-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -679,7 +679,7 @@
         {
          "columns":32,
          "firstgid":9281,
-         "image":"..\/..\/..\/images\/KR Spirit Of Egypt\/Egyptian_C-32.png",
+         "image":"..\/..\/images\/KR Spirit Of Egypt\/Egyptian_C-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -692,7 +692,7 @@
         {
          "columns":32,
          "firstgid":10305,
-         "image":"..\/..\/..\/images\/KR Mad Science Lab\/Mad_Scientists_Lab_C-32.png",
+         "image":"..\/..\/images\/KR Mad Science Lab\/Mad_Scientists_Lab_C-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -705,7 +705,7 @@
         {
          "columns":32,
          "firstgid":11329,
-         "image":"..\/..\/..\/images\/KR Mad Science Lab\/Mad_Scientists_Lab_B-32.png",
+         "image":"..\/..\/images\/KR Mad Science Lab\/Mad_Scientists_Lab_B-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -718,7 +718,7 @@
         {
          "columns":32,
          "firstgid":12353,
-         "image":"..\/..\/..\/images\/KR Alien Worlds\/Alien_Landscape_A2-32.png",
+         "image":"..\/..\/images\/KR Alien Worlds\/Alien_Landscape_A2-32.png",
          "imageheight":384,
          "imagewidth":512,
          "margin":0,
@@ -731,7 +731,7 @@
         {
          "columns":32,
          "firstgid":13121,
-         "image":"..\/..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-c.png",
+         "image":"..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-c.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -744,7 +744,7 @@
         {
          "columns":32,
          "firstgid":14145,
-         "image":"..\/..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-d.png",
+         "image":"..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-d.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -757,7 +757,7 @@
         {
          "columns":32,
          "firstgid":15169,
-         "image":"..\/..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-b.png",
+         "image":"..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32-b.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -770,7 +770,7 @@
         {
          "columns":32,
          "firstgid":16193,
-         "image":"..\/..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32.png",
+         "image":"..\/..\/images\/KR Alien Worlds\/Alien_Landscape_B_Crystals-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -783,7 +783,7 @@
         {
          "columns":16,
          "firstgid":17217,
-         "image":"..\/..\/..\/images\/System\/TileD.png",
+         "image":"..\/..\/images\/System\/TileD.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -796,7 +796,7 @@
         {
          "columns":32,
          "firstgid":17473,
-         "image":"..\/..\/..\/images\/System\/001.png",
+         "image":"..\/..\/images\/System\/001.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -809,7 +809,7 @@
         {
          "columns":32,
          "firstgid":18497,
-         "image":"..\/..\/..\/images\/KR Urban Modern\/Modern_Outside_B_Sheet-32.png",
+         "image":"..\/..\/images\/KR Urban Modern\/Modern_Outside_B_Sheet-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -822,7 +822,7 @@
         {
          "columns":32,
          "firstgid":19521,
-         "image":"..\/..\/..\/images\/KR Urban Modern\/Modern_Outside_D_Sheet-32.png",
+         "image":"..\/..\/images\/KR Urban Modern\/Modern_Outside_D_Sheet-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -835,7 +835,7 @@
         {
          "columns":24,
          "firstgid":20545,
-         "image":"..\/..\/..\/images\/Misc\/terminals.png",
+         "image":"..\/..\/images\/Misc\/terminals.png",
          "imageheight":226,
          "imagewidth":384,
          "margin":0,
@@ -848,7 +848,7 @@
         {
          "columns":32,
          "firstgid":20881,
-         "image":"..\/..\/..\/images\/KR Skyscraper\/Skyscraper_C-32.png",
+         "image":"..\/..\/images\/KR Skyscraper\/Skyscraper_C-32.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -861,7 +861,7 @@
         {
          "columns":16,
          "firstgid":21905,
-         "image":"..\/..\/..\/images\/System\/TileA5.png",
+         "image":"..\/..\/images\/System\/TileA5.png",
          "imageheight":512,
          "imagewidth":256,
          "margin":0,
