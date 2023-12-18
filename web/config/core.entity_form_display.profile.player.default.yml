@@ -39,62 +39,62 @@ mode: default
 content:
   field_charisma:
     type: number
-    weight: 26
+    weight: 0
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_credits:
     type: number
-    weight: 27
+    weight: 1
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_dexterity:
     type: number
-    weight: 28
+    weight: 2
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_endurance:
     type: number
-    weight: 29
+    weight: 3
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_energy:
     type: number
-    weight: 30
+    weight: 4
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_game_state:
     type: options_select
-    weight: 32
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_health:
     type: number
-    weight: 33
+    weight: 6
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_intelligence:
     type: number
-    weight: 34
+    weight: 7
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_inventory:
     type: paragraphs
-    weight: 35
+    weight: 8
     region: content
     settings:
       title: Paragraph
@@ -112,35 +112,35 @@ content:
     third_party_settings: {  }
   field_left_weapon:
     type: number
-    weight: 36
+    weight: 9
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_level:
     type: number
-    weight: 38
+    weight: 10
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_losses:
     type: number
-    weight: 39
+    weight: 11
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_map:
     type: number
-    weight: 40
+    weight: 12
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_map_grid:
     type: entity_reference_autocomplete
-    weight: 41
+    weight: 13
     region: content
     settings:
       match_operator: CONTAINS
@@ -150,116 +150,119 @@ content:
     third_party_settings: {  }
   field_missions:
     type: paragraphs
-    weight: 53
+    weight: 24
     region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: missions
       features:
+        add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
   field_missions_completed:
     type: paragraphs
-    weight: 54
+    weight: 25
     region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: missions
       features:
+        add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
   field_nanites:
     type: number
-    weight: 43
+    weight: 16
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_psi:
     type: number
-    weight: 44
+    weight: 17
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_right_weapon:
     type: number
-    weight: 45
+    weight: 18
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_skill:
     type: paragraphs
-    weight: 46
+    weight: 19
     region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: skill
       features:
+        add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
     third_party_settings: {  }
   field_sprite_sheet:
     type: options_select
-    weight: 47
+    weight: 20
     region: content
     settings: {  }
     third_party_settings: {  }
   field_strength:
     type: number
-    weight: 48
+    weight: 21
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_wins:
     type: number
-    weight: 49
+    weight: 22
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_x:
     type: number
-    weight: 50
+    weight: 14
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_xp:
     type: number
-    weight: 52
+    weight: 23
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_y:
     type: number
-    weight: 51
+    weight: 15
     region: content
     settings:
       placeholder: ''
