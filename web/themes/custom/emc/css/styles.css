@@ -598,15 +598,24 @@ vertical-align: top;
   margin-bottom: 1.5rem;
 }
 
+.user-pass .form-item,
+.user-register-form .form-item,
 .user-login-form .form-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-end;
   gap: 1rem;
 }
-
+.user-pass .form-item > input,
+.user-register-form .form-item > input,
 .user-login-form .form-item > input {
   flex-grow: 1;
+}
+.user-pass .description,
+.user-register-form .description,
+.user-login-form .description {
+  flex-grow: 1 0 100%;
 }
 
 form .description {
@@ -632,7 +641,10 @@ form .description {
   width: 300px;
 }
 
-.button {
+.user-pass .button,
+.user-register-form .button,
+.user-login-form .button,
+.button.button--primary {
   padding: 0.5rem 1rem;
   color: #111;
   background-color: #009999;
@@ -641,16 +653,26 @@ form .description {
   font-size: 1.5rem;
   border: 0;
 }
-.button:hover {
+.user-pass .button:hover,
+.user-login-form .button:hover,
+.user-register-form .button:hover,
+.button.button--primary:hover {
   color: #9c77d1;
   background-color: #111;
 }
-.button:focus {
+.button.button--primary:focus
+.user-pass .button:focus,
+.user-login-form .button:focus,
+.user-register-form .button:focus {
   outline: 2px solid #FFDD07;
 }
 
-.form-text,
-.form-email {
+.user-pass .form-text,
+.user-pass .form-email,
+.user-register-form .form-text,
+.user-register-form .form-email,
+.user-login-form .form-text,
+.user-login-form .form-email {
   padding: 0.5rem;
   border: 0;
   color: white;
@@ -1026,4 +1048,11 @@ form .description {
 
 .accordion-button::after {
   color: white !important;
+}
+
+
+div[data-drupal-messages] {
+  border: 2px solid #FFDD07;
+  padding: 1rem;
+  margin: 2rem 0 4rem;
 }
