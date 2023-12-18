@@ -121,7 +121,9 @@ h1 {
 .block-system-branding-block > a {
   padding-inline-end: 1rem
 }
-
+.block-system-branding-block > a:focus {
+  outline: 2px solid #FFDD07;
+}
 
 .region-primary-menu nav ul > li > a,
 .region .main-menu ul > li > a {
@@ -563,7 +565,6 @@ vertical-align: top;
   content: ":"
 }
 
-
 .form-actions {
   margin-top: 2rem;
 }
@@ -586,11 +587,21 @@ vertical-align: top;
   display: flex;
 }
 
-
 .user-pass .form-item,
 .user-form .form-item,
 .user-login-form .form-item {
   margin-bottom: 1.5rem;
+}
+
+.user-login-form .form-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.user-login-form .form-item > input {
+  flex-grow: 1;
 }
 
 form .description {
@@ -614,6 +625,36 @@ form .description {
 .user-form .form-wrapper .form-item input.form-autocomplete,
 .profile-form .form-wrapper .form-item input.form-autocomplete {
   width: 300px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  color: #111;
+  background-color: #009999;
+  font-family: 'Neutron Demo';
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 0;
+}
+.button:hover {
+  color: #9c77d1;
+  background-color: #111;
+}
+.button:focus {
+  outline: 2px solid #FFDD07;
+}
+
+.form-text,
+.form-email {
+  padding: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.06);
+  border: 0 solid #111;
+  border-bottom: 4px solid #009999;
+}
+.form-text:focus {
+  outline: 2px solid #FFDD07;
 }
 
 .field-multiple-table {
@@ -662,9 +703,13 @@ form .description {
   gap: 1rem;
 }
 
-.block-user-login-block form + ul li {
+.block-user-login-block form + ul li a {
   padding: 0.5rem 1rem;
   background-color: #111;
+}
+
+.block-user-login-block form + ul li a:focus {
+  outline: 2px solid #FFDD07;
 }
 
 .path-frontpage:not(.user-logged-in) .block-system-main-block {
