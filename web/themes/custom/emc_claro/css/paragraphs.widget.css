@@ -212,7 +212,7 @@
 
 .js .field--widget-paragraphs .field-multiple-drag {
   vertical-align: middle;
-  min-width: 40px;
+  min-width: unset;
 }
 
 .js .field--widget-paragraphs .draggable .tabledrag-handle {
@@ -243,8 +243,10 @@
 
 .js .field--widget-paragraphs .tabledrag-handle .handle {
   height: 22px;
+  width: 24px;
   margin-left: 0;
   margin-right: 0;
+  background-color: white;
 }
 
 .js .field--widget-paragraphs .delta-order {

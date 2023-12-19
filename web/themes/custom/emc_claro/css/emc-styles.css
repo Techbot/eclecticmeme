@@ -6,11 +6,13 @@ body {
   .paragraphs-subform {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.25rem;
   }
-  .paragraphs-subform > div {
+  /* .paragraphs-subform > div {
     flex: 1 0 auto;
-  }
+  } */
 
+  .paragraphs-subform .field--name-field-reward-item,
   .paragraphs-subform .field--name-field-materials {
     flex: 1 0 100%;
   }

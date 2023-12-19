@@ -588,6 +588,10 @@ vertical-align: top;
   margin-top: 1rem;
 }
 
+.profile-form .field-multiple-table .form-wrapper {
+  margin-top: 0;
+}
+
 .profile-form .form-wrapper .form-item:not(.form-item--multi) {
   display: flex;
 }
@@ -688,6 +692,21 @@ form .description {
   width: 96%;
   margin: 0 auto 1rem;
 }
+
+
+/* Paragraphs */
+.field-multiple-table th.field-label {
+}
+
+.field-multiple-table th.field-label h4 {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+
+.paragraphs-icon-button {
+  font-size: 12px;
+}
+
 .form-wrapper .form-item--multi {
   background: #111111;
   margin-bottom: 2rem
@@ -705,6 +724,7 @@ form .description {
 .field-add-more-submit,
 .tabledrag-toggle-weight {
   margin: 1rem;
+  font-size: 12px;
 }
 
 .paragraph-type.form-wrapper {

@@ -4,6 +4,8 @@ global-css:
       css/layout.css: {}
       css/styles.css: {}
       css/images.css: {}
+  dependencies:
+    - emc_claro/para
 
 global-js:
   js:

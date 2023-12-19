@@ -46,7 +46,7 @@ libraries-extend:
 #       component:
 #         css/tables.css: emc_claro/tables
 
-#   paragraphs/drupal.paragraphs.widget:
-#     css:
-#       theme:
-#         css/paragraphs.widget.css: emc_claro/para
+  # paragraphs/drupal.paragraphs.widget:
+  #   css:
+  #     theme:
+  #       css/paragraphs.widget.css: emc_claro/para
