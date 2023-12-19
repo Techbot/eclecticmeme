@@ -6,6 +6,32 @@
   --cui-emphasis-color: #fff;
   --cui-accordion-btn-bg: #111111 !important;
   --cui-accordion-border-color: transparent !important;
+  --emc-white: #FFFFFF;
+  --emc-white-off: #F5EFED;
+  --emc-white-grey: #E8F1F2;
+  --emc-grey-bg: #E6E6EA;
+  --emc-grey-light: #E2E2E2;
+  --emc-grey-mid: #605F5E;
+  --emc-grey-dark: #363F3F;
+  --emc-grey-dark-alt: #33312E;
+  --emc-black: #0A0908;
+  --emc-black-rich: #04151F;
+  --emc-dark: #230007;
+  --emc-teal-light: #00F2F2;
+  --emc-teal-light-alt: #00B9AE;
+  --emc-teal: #009999;
+  --emc-teal-alt: #19535F;
+  --emc-teal-dark: #0B3C49;
+  --emc-teal-dark-alt: #022B3A;
+  --emc-teal-dark-rich: #042A2B;
+  --emc-blue: #0A2463;
+  --emc-green: #00CC66;
+  --emc-yellow: #FFC43D;
+  --emc-lime: #CEFF1A;
+  --emc-red: #D00A01;
+  --emc-pink: #EF476F;
+  --emc-orange: #FB5012;
+  --emc-purple: #3C1642;
 }
 
 .user-logged-in.p-3 {
@@ -689,7 +715,7 @@ form .description {
 }
 
 .field-multiple-table {
-  width: 96%;
+  width: 100%;
   margin: 0 auto 1rem;
 }
 
@@ -701,6 +727,8 @@ form .description {
 .field-multiple-table th.field-label h4 {
   display: inline-flex;
   margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .paragraphs-icon-button {
@@ -723,7 +751,7 @@ form .description {
 .paragraphs-dropbutton-wrapper,
 .field-add-more-submit,
 .tabledrag-toggle-weight {
-  margin: 1rem;
+  margin: 0.25rem;
   font-size: 12px;
 }
 
