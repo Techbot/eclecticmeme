@@ -29,6 +29,7 @@
         "drupal/services": "^5.0@beta",
         "drupal/simple_oauth": "^6.0@beta",
         "drupal/stable": "^2.0",
+        "drupal/theme_switcher": "^2.0",
         "drush/drush": "^11.5"
     },
     "conflict": {
