@@ -18,6 +18,7 @@ dependencies:
     - field.field.node.map_grid.field_portals
     - field.field.node.map_grid.field_rewards
     - field.field.node.map_grid.field_sound_track
+    - field.field.node.map_grid.field_switches
     - field.field.node.map_grid.field_tiled
     - field.field.node.map_grid.field_walls
     - node.type.map_grid
@@ -45,6 +46,7 @@ hidden:
   field_portals: true
   field_rewards: true
   field_sound_track: true
+  field_switches: true
   field_tiled: true
   field_walls: true
   links: true

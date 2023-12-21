@@ -1,0 +1,42 @@
+uuid: 798c5790-2009-4b48-84be-e690336371be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.switches.field_switch_type
+    - field.field.paragraph.switches.field_x
+    - field.field.paragraph.switches.field_y
+    - paragraphs.paragraphs_type.switches
+  module:
+    - options
+id: paragraph.switches.default
+targetEntityType: paragraph
+bundle: switches
+mode: default
+content:
+  field_switch_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_x:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_y:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden: {  }

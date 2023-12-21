@@ -24,7 +24,6 @@ dependencies:
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
     - field.field.profile.player.field_skill
-    - field.field.profile.player.field_sprite_sheet
     - field.field.profile.player.field_strength
     - field.field.profile.player.field_wins
     - field.field.profile.player.field_x
@@ -189,12 +188,6 @@ content:
         add_above: '0'
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
-    third_party_settings: {  }
-  field_sprite_sheet:
-    type: options_select
-    weight: 0
-    region: content
-    settings: {  }
     third_party_settings: {  }
   field_strength:
     type: number

@@ -9,7 +9,7 @@ id: profile.player.field_xp
 field_name: field_xp
 entity_type: profile
 bundle: player
-label: Xp
+label: XP
 description: ''
 required: false
 translatable: false

@@ -23,7 +23,6 @@ dependencies:
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
     - field.field.profile.player.field_skill
-    - field.field.profile.player.field_sprite_sheet
     - field.field.profile.player.field_strength
     - field.field.profile.player.field_wins
     - field.field.profile.player.field_x
@@ -110,7 +109,7 @@ content:
     region: content
   field_inventory:
     type: entity_reference_revisions_entity_view
-    label: inline
+    label: above
     settings:
       view_mode: default
       link: ''
@@ -208,19 +207,12 @@ content:
     region: content
   field_skill:
     type: entity_reference_revisions_entity_view
-    label: inline
+    label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
     weight: 20
-    region: content
-  field_sprite_sheet:
-    type: list_default
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
     region: content
   field_strength:
     type: number_integer

@@ -10,7 +10,7 @@ id: paragraph.components.field_components
 field_name: field_components
 entity_type: paragraph
 bundle: components
-label: Components
+label: Component
 description: ''
 required: false
 translatable: false
