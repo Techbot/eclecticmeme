@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.faction.body
-    - field.field.node.faction.field_faction_term
     - field.field.node.faction.field_faction_type
     - node.type.faction
   module:
@@ -30,5 +29,4 @@ content:
     weight: 1
     region: content
 hidden:
-  field_faction_term: true
   field_faction_type: true

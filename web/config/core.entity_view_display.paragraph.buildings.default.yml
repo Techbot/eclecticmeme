@@ -6,8 +6,6 @@ dependencies:
     - field.field.paragraph.buildings.field_building_name
     - field.field.paragraph.buildings.field_building_type
     - paragraphs.paragraphs_type.buildings
-  module:
-    - options
 id: paragraph.buildings.default
 targetEntityType: paragraph
 bundle: buildings
@@ -22,9 +20,10 @@ content:
     weight: 1
     region: content
   field_building_type:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
     weight: 2
     region: content

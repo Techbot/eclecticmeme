@@ -1,12 +1,11 @@
-uuid: a0b9a7c0-63d2-4f35-9e61-64af178d58ce
+uuid: 4110881a-239d-49c8-aba3-2f87ecf57333
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_item_type
     - node.type.items
-  module:
-    - options
+    - taxonomy.vocabulary.item_type
 id: node.items.field_item_type
 field_name: field_item_type
 entity_type: node
@@ -17,5 +16,14 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_integer
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      item_type: item_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,21 +1,29 @@
-uuid: 6163922e-58f9-4517-a307-b3e5156d0078
+uuid: 563fa219-da8b-4a0a-bbab-26f2c55ac8bc
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_ammo_type
     - node.type.weapon
-  module:
-    - options
+    - taxonomy.vocabulary.ammo_type
 id: node.weapon.field_ammo_type
 field_name: field_ammo_type
 entity_type: node
 bundle: weapon
-label: 'Ammo type'
+label: 'Ammo Type'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_integer
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ammo_type: ammo_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -7,17 +7,16 @@ dependencies:
     - field.field.paragraph.modifier.field_duration
     - field.field.paragraph.modifier.field_value
     - paragraphs.paragraphs_type.modifier
-  module:
-    - options
 id: paragraph.modifier.default
 targetEntityType: paragraph
 bundle: modifier
 mode: default
 content:
   field_attribute:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
     weight: 0
     region: content

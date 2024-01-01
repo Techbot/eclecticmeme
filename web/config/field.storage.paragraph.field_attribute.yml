@@ -1,30 +1,17 @@
-uuid: a98eef86-5ea1-4fd0-b404-00e22c58b309
+uuid: e8095f80-dc19-47f3-b423-2ae7ec9319ac
 langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
+    - taxonomy
 id: paragraph.field_attribute
 field_name: field_attribute
 entity_type: paragraph
-type: list_integer
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: 1
-      label: Health
-    -
-      value: 2
-      label: Stamina
-    -
-      value: 3
-      label: Strength
-    -
-      value: 4
-      label: Speed
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

@@ -1,33 +1,17 @@
-uuid: 72837971-0db3-4310-8e64-e08270a64c4a
+uuid: 7f7d9b67-38c5-41fc-99ea-1347aa54ff74
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - options
+    - taxonomy
 id: node.field_race
 field_name: field_race
 entity_type: node
-type: list_integer
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: 1
-      label: Human
-    -
-      value: 2
-      label: Venusian
-    -
-      value: 3
-      label: Martian
-    -
-      value: 4
-      label: Elf
-    -
-      value: 5
-      label: Halfling
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

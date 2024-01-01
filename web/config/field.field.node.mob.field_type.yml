@@ -1,12 +1,11 @@
-uuid: ab50c099-2a01-4e50-9562-23c0c9b23d45
+uuid: e8a5a151-2e1a-4a57-b131-9521b84dd161
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_type
     - node.type.mob
-  module:
-    - options
+    - taxonomy.vocabulary.mob_type
 id: node.mob.field_type
 field_name: field_type
 entity_type: node
@@ -17,5 +16,14 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: list_integer
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mob_type: mob_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

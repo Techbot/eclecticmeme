@@ -1,36 +1,17 @@
-uuid: 04913b1b-5604-42fe-847f-b8371587fb52
+uuid: 803b99d3-28c7-45b7-87bb-6d6c7b8e8da8
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - options
+    - taxonomy
 id: node.field_item_type
 field_name: field_item_type
 entity_type: node
-type: list_integer
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: 1
-      label: Food
-    -
-      value: 2
-      label: Ammunition
-    -
-      value: 3
-      label: Potion
-    -
-      value: 4
-      label: Material
-    -
-      value: 5
-      label: Armour
-    -
-      value: 6
-      label: Drone
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

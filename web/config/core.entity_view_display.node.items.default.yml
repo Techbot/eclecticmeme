@@ -10,7 +10,6 @@ dependencies:
     - node.type.items
   module:
     - entity_reference_revisions
-    - options
     - text
     - user
 id: node.items.default
@@ -23,14 +22,15 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   field_item_type:
-    type: list_key
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
-    weight: 103
+    weight: 2
     region: content
   field_materials:
     type: entity_reference_revisions_entity_view
@@ -39,7 +39,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 104
+    weight: 3
     region: content
   field_modifiers:
     type: entity_reference_revisions_entity_view
@@ -48,11 +48,11 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 105
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden: {  }

@@ -1,39 +1,17 @@
-uuid: 01ce3b2e-c787-447c-81ae-a695f1e48e93
+uuid: 1367d8bf-69f8-415f-a1ff-87655dd79e48
 langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
+    - taxonomy
 id: paragraph.field_building_type
 field_name: field_building_type
 entity_type: paragraph
-type: list_integer
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: 1
-      label: Parliament
-    -
-      value: 2
-      label: Outpost
-    -
-      value: 3
-      label: Bank
-    -
-      value: 4
-      label: Jail
-    -
-      value: 5
-      label: Shop
-    -
-      value: 6
-      label: Stadium
-    -
-      value: 7
-      label: Armoury
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

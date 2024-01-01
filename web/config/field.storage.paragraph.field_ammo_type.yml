@@ -1,27 +1,17 @@
-uuid: da277de7-cb29-4951-9b6f-1e1cfb7c01e9
+uuid: d6558b62-66cb-492d-acf8-2a6c727de973
 langcode: en
 status: true
 dependencies:
   module:
-    - options
     - paragraphs
+    - taxonomy
 id: paragraph.field_ammo_type
 field_name: field_ammo_type
 entity_type: paragraph
-type: list_integer
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: 1
-      label: Regular
-    -
-      value: 2
-      label: Advanced
-    -
-      value: 3
-      label: Sniper
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

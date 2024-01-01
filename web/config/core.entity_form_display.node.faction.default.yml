@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.faction.body
-    - field.field.node.faction.field_faction_term
     - field.field.node.faction.field_faction_type
     - node.type.faction
   module:
@@ -28,12 +27,6 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_faction_term:
-    type: options_select
-    weight: 123
     region: content
     settings: {  }
     third_party_settings: {  }

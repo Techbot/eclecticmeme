@@ -1,36 +1,17 @@
-uuid: c51f8445-d241-4d39-9143-004abbdf775c
+uuid: 7837747d-ad77-40a9-8f59-64535897a640
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - options
+    - taxonomy
 id: node.field_faction_type
 field_name: field_faction_type
 entity_type: node
-type: list_string
+type: entity_reference
 settings:
-  allowed_values:
-    -
-      value: '1'
-      label: Tribe
-    -
-      value: '2'
-      label: 'Secret Society'
-    -
-      value: '3'
-      label: Agency
-    -
-      value: '4'
-      label: Cult
-    -
-      value: '5'
-      label: Corporation
-    -
-      value: '6'
-      label: Syndicate
-  allowed_values_function: ''
-module: options
+  target_type: taxonomy_term
+module: core
 locked: false
 cardinality: 1
 translatable: true

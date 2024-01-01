@@ -6,17 +6,16 @@ dependencies:
     - field.field.paragraph.ammunition.field_ammo_type
     - field.field.paragraph.ammunition.field_amount
     - paragraphs.paragraphs_type.ammunition
-  module:
-    - options
 id: paragraph.ammunition.default
 targetEntityType: paragraph
 bundle: ammunition
 mode: default
 content:
   field_ammo_type:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
     weight: 0
     region: content

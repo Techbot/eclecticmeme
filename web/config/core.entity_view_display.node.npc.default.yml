@@ -14,7 +14,6 @@ dependencies:
     - field.field.node.npc.field_sprite_sheet
     - node.type.npc
   module:
-    - options
     - text
     - user
 id: node.npc.default
@@ -37,11 +36,12 @@ content:
     weight: 110
     region: content
   field_concerns:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
-    weight: 105
+    weight: 115
     region: content
   field_faction:
     type: entity_reference_label
@@ -70,18 +70,20 @@ content:
     weight: 112
     region: content
   field_occupation:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
-    weight: 106
+    weight: 114
     region: content
   field_race:
-    type: list_default
+    type: entity_reference_label
     label: inline
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
-    weight: 107
+    weight: 116
     region: content
   field_sprite_sheet:
     type: number_integer
