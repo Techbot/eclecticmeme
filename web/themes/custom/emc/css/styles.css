@@ -1117,3 +1117,32 @@ div[data-drupal-messages] {
   padding: 1rem;
   margin: 2rem 0 4rem;
 }
+
+
+
+.emc-layout.emc-char {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.emc-layout.emc-char > div {
+  flex: 0 1 33%;
+  width: 33%;
+  padding: 1rem;
+  border: 3px solid var(--emc-black-rich);
+  min-height: 450px;
+  text-align: center;
+}
+
+.emc-layout.emc-char > .emc-char__center {
+  flex: 1 0 50%;
+  width: 50%;
+  background-color: var(--emc-black);
+  min-height: 600px;
+}
+
+.emc-char__item {
+  margin-bottom: 2rem;
+}
