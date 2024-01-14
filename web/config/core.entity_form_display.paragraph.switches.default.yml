@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.switches.field_end_frame
     - field.field.paragraph.switches.field_file
     - field.field.paragraph.switches.field_frameheight
     - field.field.paragraph.switches.field_framewidth
     - field.field.paragraph.switches.field_number_of_frames
     - field.field.paragraph.switches.field_repeatable
-    - field.field.paragraph.switches.field_switch_off
-    - field.field.paragraph.switches.field_switch_on
+    - field.field.paragraph.switches.field_starting_frame
     - field.field.paragraph.switches.field_switch_type
     - field.field.paragraph.switches.field_x
     - field.field.paragraph.switches.field_y
@@ -19,6 +19,13 @@ targetEntityType: paragraph
 bundle: switches
 mode: default
 content:
+  field_end_frame:
+    type: number
+    weight: 17
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
   field_file:
     type: string_textfield
     weight: 10
@@ -55,20 +62,11 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
-  field_switch_off:
-    type: string_textfield
-    weight: 8
+  field_starting_frame:
+    type: number
+    weight: 16
     region: content
     settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_switch_on:
-    type: string_textfield
-    weight: 9
-    region: content
-    settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_switch_type:

@@ -1,17 +1,16 @@
-uuid: f2311014-1813-4b7f-8aeb-5d4fba08fde1
+uuid: 2143319c-5ea2-4b30-9e58-f836bd9ad83d
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paragraph.field_switch_on
-field_name: field_switch_on
+id: paragraph.field_starting_frame
+field_name: field_starting_frame
 entity_type: paragraph
-type: string
+type: integer
 settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1
