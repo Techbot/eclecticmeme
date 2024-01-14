@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.switches.field_frameheight
     - field.field.paragraph.switches.field_framewidth
     - field.field.paragraph.switches.field_number_of_frames
+    - field.field.paragraph.switches.field_repeatable
     - field.field.paragraph.switches.field_switch_off
     - field.field.paragraph.switches.field_switch_on
     - field.field.paragraph.switches.field_switch_type
@@ -52,6 +53,15 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 11
+    region: content
+  field_repeatable:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 13
     region: content
   field_switch_off:
     type: string

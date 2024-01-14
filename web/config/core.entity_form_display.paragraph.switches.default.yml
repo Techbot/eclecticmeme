@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.switches.field_frameheight
     - field.field.paragraph.switches.field_framewidth
     - field.field.paragraph.switches.field_number_of_frames
+    - field.field.paragraph.switches.field_repeatable
     - field.field.paragraph.switches.field_switch_off
     - field.field.paragraph.switches.field_switch_on
     - field.field.paragraph.switches.field_switch_type
@@ -43,6 +44,13 @@ content:
   field_number_of_frames:
     type: number
     weight: 13
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_repeatable:
+    type: number
+    weight: 15
     region: content
     settings:
       placeholder: ''
