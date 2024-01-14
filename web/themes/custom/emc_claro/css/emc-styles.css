@@ -104,4 +104,21 @@ body {
 /* Clear the float of the above fields */
 .field--name-field-city {
   clear: both;
+}s
+
+.field--name-field-portals .paragraphs-subform.form-wrapper .paragraphs-content:last-child {
+  flex: 0 1 50%;
+}
+
+.field--name-field-switches .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-switches .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-switches .paragraphs-subform > div {
+  flex: 0 1 25%;
+}
+
+/* .field--name-field-switches .paragraphs-subform .field--name-field-frameheight,
+.field--name-field-switches .paragraphs-subform .field--name-field-framewidth, */
+.field--name-field-switches .paragraphs-subform .field--name-field-number-of-frames,
+.field--name-field-switches .paragraphs-subform .field--name-field-switch-type {
+  flex: 0 1 50%;
 }
