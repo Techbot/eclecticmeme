@@ -1,6 +1,6 @@
 uuid: ec370b1b-70d1-436e-b65e-2108289ada3c
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - system.menu.main
@@ -13,8 +13,8 @@ _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: emc_main_menu
 theme: emc
-region: primary_menu
-weight: -7
+region: content
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -24,7 +24,7 @@ settings:
   provider: system
   level: 1
   depth: 2
-  expand_all_items: true
+  expand_all_items: false
 visibility:
   user_role:
     id: user_role
@@ -35,3 +35,7 @@ visibility:
       authenticated: authenticated
       content_editor: content_editor
       administrator: administrator
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'
