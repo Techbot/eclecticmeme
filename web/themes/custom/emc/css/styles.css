@@ -548,6 +548,7 @@ vertical-align: top;
   gap: 1rem;
 }
 
+.tabs .tab-buttons a,
 .tabs .tab-buttons button {
   display: inline-flex;
   align-items: center;
@@ -566,6 +567,9 @@ vertical-align: top;
   transition: background-color 0.5s ease, width 4s 4s;
 }
 
+.tabs .tab-buttons a:hover,
+.tabs .tab-buttons a:focus,
+.tabs .tab-buttons a.active,
 .tabs .tab-buttons button:hover,
 .tabs .tab-buttons button:focus,
 .tabs .tab-buttons button.active {
@@ -575,11 +579,13 @@ vertical-align: top;
   box-shadow: inset -5px -5px 10px 0px rgba(12, 7, 7, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
+.tabs .tab-buttons a.active,
 .tabs .tab-buttons button.active {
   background-color: var(--emc-teal-dark);
   width: 300px;
 }
 
+.tabs .tab-buttons a.active:hover,
 .tabs .tab-buttons button.active:hover {
   color: white;
   background-color: var(--emc-teal-alt);
@@ -999,7 +1005,6 @@ form .description {
 .grtvn-children-wrapper > ul > li > .grtvn-children-wrapper > .grtvn-children {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(auto, 1fr);
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   grid-template-areas:s
@@ -1327,4 +1332,67 @@ div[data-drupal-messages] {
 
 .emc-char__body .footwear {
   grid-area: 6 / 2 / 8 / 3;
+}
+
+/* Profile */
+.emc-user > .form-item.form-no-label {
+  margin-bottom: 2rem;
+}
+
+.emc-player .emc-player__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  grid-template-areas:
+    "stats1 stats2 stats3 stats4";
+  margin-bottom: 2rem;
+}
+
+.emc-player .emc-player__wrapper .emc-player__stats:nth-last-child(2) {
+  grid-area: stats3;
+  background-color: var(--emc-teal-dark-rich);
+}
+.emc-player .emc-player__wrapper .emc-player__stats:last-child {
+  grid-area: stats4;
+  background-color: var(--emc-dark);
+}
+
+.emc-player .emc-player__wrapper .emc-player__stats {
+  background: var(--emc-black-rich);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Skills field */
+.field--name-field-faction > .field__items,
+.field--name-field-skill > .field__items {
+  margin-bottom: 4rem;
+}
+
+.field--name-field-faction > .field__label,
+.field--name-field-skill > .field__label {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px #000;
+  font-family: Neutron Demo;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--cui-heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.field--name-field-skill > .field__items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.field--name-field-skill > .field__items > .field__item {
+  background: var(--emc-black);
+  padding: 1rem;
+}
+
+.field--name-field-skill > .field__items .field__item > a {
+  font-size: 1.25rem;
 }
