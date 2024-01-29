@@ -78,25 +78,6 @@ main {
   max-width: 100%;
 }
 
-/* .client {
-  background-color: #101010;
-} */
-
-.client .layout-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.client .layout-container .main {
-  flex: 1 0 960px;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.client .layout-container .sidebar-2 {
-  flex: 1 0 280px;
-}
-
 @media only screen and (min-width: 1366px) {
     #header,
     header[role=banner],
@@ -110,21 +91,6 @@ main {
     .region-breadcrumb {
       max-width: 960px;
       margin: 0 0 0 2rem;
-    }
-
-    .client .layout-container {
-      display: flex;
-      flex-wrap: nowrap;
-    }
-
-    .client .layout-container .main {
-      flex: 1 0 960px;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    .client .layout-container .sidebar-2 {
-      flex: 1 0 280px;
     }
 
     header[role=banner] {
@@ -274,28 +240,8 @@ main {
     }
 }
 
-@media only screen and (min-width: 1600px) {
-  .client .layout-container {
-    display: flex;
-  }
-
-  .client .layout-container .main {
-    flex: 1 0 960px;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-
-  .client .layout-container .sidebar-2 {
-    flex: 0 1 auto;
-  }
-}
-
 /* Increase width of sidebar on small screens */
 @media only screen and (min-width: 1600px) {
-  .client .layout-container .sidebar-2 {
-    flex: 1 0 280px;
-  }
-
   #header,
   header[role=banner],
   .main-menu,
