@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.items.body
     - field.field.node.items.field_item_type
-    - field.field.node.items.field_materials
     - field.field.node.items.field_modifiers
     - node.type.items
   module:
@@ -32,5 +31,4 @@ content:
     region: content
 hidden:
   field_item_type: true
-  field_materials: true
   field_modifiers: true
