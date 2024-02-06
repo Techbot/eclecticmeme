@@ -1,0 +1,15 @@
+uuid: 9662c92b-f140-43b6-b052-d155c297d203
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.paraflag
+  module:
+    - flag
+id: flag_action.paraflag_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:paraflag_flag'
+configuration:
+  flag_id: paraflag
+  flag_action: flag

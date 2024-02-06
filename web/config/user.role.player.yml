@@ -9,7 +9,6 @@ label: Player
 weight: 4
 is_admin: null
 permissions:
-  - 'update own faction profile'
   - 'view any faction profile'
   - 'view any player profile'
   - 'view any profile'
