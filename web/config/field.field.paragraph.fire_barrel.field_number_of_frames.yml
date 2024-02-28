@@ -1,0 +1,23 @@
+uuid: 3d7e660d-c65b-40c5-aac2-c0f5f7e2b547
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number_of_frames
+    - paragraphs.paragraphs_type.fire_barrel
+id: paragraph.fire_barrel.field_number_of_frames
+field_name: field_number_of_frames
+entity_type: paragraph
+bundle: fire_barrel
+label: 'Number of Frames'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

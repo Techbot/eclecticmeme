@@ -1,0 +1,15 @@
+uuid: 9f71c34f-9410-4b81-89ca-7bdc9cc404c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mega_mob
+  module:
+    - flag
+id: flag_action.mega_mob_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:mega_mob_flag'
+configuration:
+  flag_id: mega_mob
+  flag_action: flag

@@ -1,0 +1,15 @@
+uuid: b77f995a-0596-4fbe-8710-87c04306eb0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.boss
+  module:
+    - flag
+id: flag_action.boss_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:boss_flag'
+configuration:
+  flag_id: boss
+  flag_action: flag

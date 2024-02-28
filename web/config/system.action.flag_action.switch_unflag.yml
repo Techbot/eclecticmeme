@@ -1,0 +1,15 @@
+uuid: 0ae62524-cee9-42bf-bd82-24a4d30498d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.switch
+  module:
+    - flag
+id: flag_action.switch_unflag
+label: 'Unflag this item'
+type: paragraph
+plugin: 'flag_action:switch_unflag'
+configuration:
+  flag_id: switch
+  flag_action: unflag

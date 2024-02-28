@@ -1,0 +1,15 @@
+uuid: 21ae4b2c-2e13-440c-8a7a-78c8054fd535
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.switch
+  module:
+    - flag
+id: flag_action.switch_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:switch_flag'
+configuration:
+  flag_id: switch
+  flag_action: flag

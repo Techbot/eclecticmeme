@@ -1,0 +1,15 @@
+uuid: ac7bf732-18a5-452e-b942-c3f360ffebe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.map_grid_unlocked
+  module:
+    - flag
+id: flag_action.map_grid_unlocked_unflag
+label: 'Unflag this item'
+type: node
+plugin: 'flag_action:map_grid_unlocked_unflag'
+configuration:
+  flag_id: map_grid_unlocked
+  flag_action: unflag

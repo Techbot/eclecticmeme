@@ -1,0 +1,23 @@
+uuid: a8be164c-07d1-4bcd-9edf-33c9b9c91740
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_framewidth
+    - paragraphs.paragraphs_type.machine
+id: paragraph.machine.field_framewidth
+field_name: field_framewidth
+entity_type: paragraph
+bundle: machine
+label: 'Frame Width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

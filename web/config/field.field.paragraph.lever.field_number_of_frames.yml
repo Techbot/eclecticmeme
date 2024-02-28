@@ -1,0 +1,23 @@
+uuid: 9a4d0840-a39c-400f-9777-09bbd372d61f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number_of_frames
+    - paragraphs.paragraphs_type.lever
+id: paragraph.lever.field_number_of_frames
+field_name: field_number_of_frames
+entity_type: paragraph
+bundle: lever
+label: 'Number of Frames'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

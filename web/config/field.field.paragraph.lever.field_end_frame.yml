@@ -1,0 +1,23 @@
+uuid: 085b4ce0-7bdf-45ed-9ba4-779490545c61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_end_frame
+    - paragraphs.paragraphs_type.lever
+id: paragraph.lever.field_end_frame
+field_name: field_end_frame
+entity_type: paragraph
+bundle: lever
+label: 'End Frame'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

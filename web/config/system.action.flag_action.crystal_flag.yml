@@ -1,0 +1,15 @@
+uuid: ef336da7-c3ed-4c18-b462-95c2d61dfa19
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.crystal
+  module:
+    - flag
+id: flag_action.crystal_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:crystal_flag'
+configuration:
+  flag_id: crystal
+  flag_action: flag

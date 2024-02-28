@@ -1,0 +1,23 @@
+uuid: 1afe27ba-b25d-45c4-981c-a5ba930f78b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_amethyst
+    - paragraphs.paragraphs_type.crystal
+id: paragraph.crystal.field_amethyst
+field_name: field_amethyst
+entity_type: paragraph
+bundle: crystal
+label: Amethyst
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,15 @@
+uuid: 84e7b1fb-c647-4edc-9eb9-6b0db812120d
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.map_grid_unlocked
+  module:
+    - flag
+id: flag_action.map_grid_unlocked_flag
+label: 'Flag this item'
+type: node
+plugin: 'flag_action:map_grid_unlocked_flag'
+configuration:
+  flag_id: map_grid_unlocked
+  flag_action: flag

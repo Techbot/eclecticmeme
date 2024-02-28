@@ -1,0 +1,19 @@
+uuid: 9859c154-3601-4718-a0ae-7388c0e6c080
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_file
+    - paragraphs.paragraphs_type.fire
+id: paragraph.fire.field_file
+field_name: field_file
+entity_type: paragraph
+bundle: fire
+label: File
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

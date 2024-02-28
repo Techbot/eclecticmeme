@@ -1,0 +1,20 @@
+uuid: 77b6e0d8-cc1a-41e9-bf54-d93acbf471b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_ruby
+field_name: field_ruby
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

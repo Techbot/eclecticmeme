@@ -1,0 +1,25 @@
+uuid: bcf775a2-bf86-4178-828d-571dbd23c270
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_starting_frame
+    - paragraphs.paragraphs_type.fire
+id: paragraph.fire.field_starting_frame
+field_name: field_starting_frame
+entity_type: paragraph
+bundle: fire
+label: 'Starting Frame'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,15 @@
+uuid: cec67a75-4000-44a8-b47c-39ec29debff7
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.crystal
+  module:
+    - flag
+id: flag_action.crystal_unflag
+label: 'Unflag this item'
+type: paragraph
+plugin: 'flag_action:crystal_unflag'
+configuration:
+  flag_id: crystal
+  flag_action: unflag

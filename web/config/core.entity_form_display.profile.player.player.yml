@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.profile.player
+    - field.field.profile.player.field_amethyst
     - field.field.profile.player.field_charisma
     - field.field.profile.player.field_credits
     - field.field.profile.player.field_dexterity
+    - field.field.profile.player.field_emerald
     - field.field.profile.player.field_endurance
     - field.field.profile.player.field_energy
     - field.field.profile.player.field_game_state
@@ -23,8 +25,11 @@ dependencies:
     - field.field.profile.player.field_nanites
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
+    - field.field.profile.player.field_ruby
+    - field.field.profile.player.field_sapphire
     - field.field.profile.player.field_skill
     - field.field.profile.player.field_strength
+    - field.field.profile.player.field_topaz
     - field.field.profile.player.field_wins
     - field.field.profile.player.field_x
     - field.field.profile.player.field_xp
@@ -225,6 +230,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  field_amethyst: true
+  field_emerald: true
   field_missions: true
   field_missions_completed: true
+  field_ruby: true
+  field_sapphire: true
+  field_topaz: true
   is_default: true

@@ -1,0 +1,25 @@
+uuid: 6c5142ad-dd50-4e98-afc7-89b4e0f6183c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_starting_frame
+    - paragraphs.paragraphs_type.machine
+id: paragraph.machine.field_starting_frame
+field_name: field_starting_frame
+entity_type: paragraph
+bundle: machine
+label: 'Starting Frame'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

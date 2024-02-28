@@ -1,11 +1,11 @@
-uuid: da4146be-12d4-429e-abc4-a3ceb7ec37d4
+uuid: 89eaffb3-863d-4ce0-9657-fb961fc7a039
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: paraflag
-label: paraflag
+id: switch
+label: Switch
 bundles:
   - switches
 entity_type: paragraph

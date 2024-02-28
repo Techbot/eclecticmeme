@@ -1,0 +1,23 @@
+uuid: e0bb019b-cf19-491b-8994-9ed5e3fe1dd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_x
+    - paragraphs.paragraphs_type.machine
+id: paragraph.machine.field_x
+field_name: field_x
+entity_type: paragraph
+bundle: machine
+label: X
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -3,9 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.profile.player.field_amethyst
     - field.field.profile.player.field_charisma
     - field.field.profile.player.field_credits
     - field.field.profile.player.field_dexterity
+    - field.field.profile.player.field_emerald
     - field.field.profile.player.field_endurance
     - field.field.profile.player.field_energy
     - field.field.profile.player.field_game_state
@@ -22,8 +24,11 @@ dependencies:
     - field.field.profile.player.field_nanites
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
+    - field.field.profile.player.field_ruby
+    - field.field.profile.player.field_sapphire
     - field.field.profile.player.field_skill
     - field.field.profile.player.field_strength
+    - field.field.profile.player.field_topaz
     - field.field.profile.player.field_wins
     - field.field.profile.player.field_x
     - field.field.profile.player.field_xp
@@ -37,6 +42,15 @@ targetEntityType: profile
 bundle: player
 mode: default
 content:
+  field_amethyst:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 29
+    region: content
   field_charisma:
     type: number_integer
     label: inline
@@ -63,6 +77,15 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 8
+    region: content
+  field_emerald:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 28
     region: content
   field_endurance:
     type: number_integer
@@ -205,6 +228,24 @@ content:
     third_party_settings: {  }
     weight: 17
     region: content
+  field_ruby:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 32
+    region: content
+  field_sapphire:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 30
+    region: content
   field_skill:
     type: entity_reference_revisions_entity_view
     label: above
@@ -222,6 +263,15 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 7
+    region: content
+  field_topaz:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 31
     region: content
   field_wins:
     type: number_integer

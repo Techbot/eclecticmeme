@@ -1,0 +1,23 @@
+uuid: cc5c229a-594d-4ede-89b9-01902665cab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_framewidth
+    - paragraphs.paragraphs_type.fire_barrel
+id: paragraph.fire_barrel.field_framewidth
+field_name: field_framewidth
+entity_type: paragraph
+bundle: fire_barrel
+label: 'Frame Width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

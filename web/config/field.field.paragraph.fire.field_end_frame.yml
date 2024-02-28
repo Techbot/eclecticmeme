@@ -1,0 +1,23 @@
+uuid: b8047372-e5b8-4b7f-83b7-a75d07142419
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_end_frame
+    - paragraphs.paragraphs_type.fire
+id: paragraph.fire.field_end_frame
+field_name: field_end_frame
+entity_type: paragraph
+bundle: fire
+label: 'End Frame'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

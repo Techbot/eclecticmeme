@@ -1,0 +1,23 @@
+uuid: b7c59b16-e22e-4ccb-a9c1-7752088d0840
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_x
+    - paragraphs.paragraphs_type.fire_barrel
+id: paragraph.fire_barrel.field_x
+field_name: field_x
+entity_type: paragraph
+bundle: fire_barrel
+label: X
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

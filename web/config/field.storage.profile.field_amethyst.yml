@@ -1,0 +1,20 @@
+uuid: 05ac0e21-e1d4-4eeb-8b97-59d67bab3adf
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.field_amethyst
+field_name: field_amethyst
+entity_type: profile
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

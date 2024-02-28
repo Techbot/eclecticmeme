@@ -1,0 +1,91 @@
+uuid: 0c978433-e1aa-4d1f-b913-03215a850b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boss
+    - node.type.map_grid
+    - paragraphs.paragraphs_type.boss
+  module:
+    - entity_reference_revisions
+id: node.map_grid.field_boss
+field_name: field_boss
+entity_type: node
+bundle: map_grid
+label: Boss
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      boss: boss
+    negate: 0
+    target_bundles_drag_drop:
+      ammunition:
+        weight: 22
+        enabled: false
+      boss:
+        weight: 23
+        enabled: true
+      buildings:
+        weight: 24
+        enabled: false
+      components:
+        weight: 25
+        enabled: false
+      crystal:
+        weight: 26
+        enabled: false
+      dialog_line:
+        weight: 27
+        enabled: false
+      folio:
+        weight: 28
+        enabled: false
+      items:
+        weight: 29
+        enabled: false
+      mega_mob:
+        weight: 30
+        enabled: false
+      mission_stage:
+        weight: 31
+        enabled: false
+      missions:
+        weight: 32
+        enabled: false
+      mobs:
+        weight: 33
+        enabled: false
+      modifier:
+        weight: 34
+        enabled: false
+      npc:
+        weight: 35
+        enabled: false
+      portal:
+        weight: 36
+        enabled: false
+      reward_item:
+        weight: 37
+        enabled: false
+      rewards:
+        weight: 38
+        enabled: false
+      skill:
+        weight: 39
+        enabled: false
+      switches:
+        weight: 40
+        enabled: false
+      walls:
+        weight: 41
+        enabled: false
+      weapon:
+        weight: 42
+        enabled: false
+field_type: entity_reference_revisions

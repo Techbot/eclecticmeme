@@ -1,0 +1,15 @@
+uuid: 6595289d-619d-40fa-98d3-9efd37858e65
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.boss
+  module:
+    - flag
+id: flag_action.boss_unflag
+label: 'Unflag this item'
+type: paragraph
+plugin: 'flag_action:boss_unflag'
+configuration:
+  flag_id: boss
+  flag_action: unflag

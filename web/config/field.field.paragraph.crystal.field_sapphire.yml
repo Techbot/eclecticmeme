@@ -1,0 +1,23 @@
+uuid: efa4472f-205d-44d6-94c0-53abd8a05b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sapphire
+    - paragraphs.paragraphs_type.crystal
+id: paragraph.crystal.field_sapphire
+field_name: field_sapphire
+entity_type: paragraph
+bundle: crystal
+label: Sapphire
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

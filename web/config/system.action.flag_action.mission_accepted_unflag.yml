@@ -1,0 +1,15 @@
+uuid: 8ffa5fc0-4a11-4284-b7e4-fe6294c21bf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_accepted
+  module:
+    - flag
+id: flag_action.mission_accepted_unflag
+label: 'Unflag this item'
+type: paragraph
+plugin: 'flag_action:mission_accepted_unflag'
+configuration:
+  flag_id: mission_accepted
+  flag_action: unflag

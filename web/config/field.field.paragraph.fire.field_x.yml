@@ -1,0 +1,23 @@
+uuid: 55fc3d8b-67f5-4dd5-ad10-dc2bf101a172
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_x
+    - paragraphs.paragraphs_type.fire
+id: paragraph.fire.field_x
+field_name: field_x
+entity_type: paragraph
+bundle: fire
+label: X
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

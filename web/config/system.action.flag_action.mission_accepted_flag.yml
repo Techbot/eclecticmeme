@@ -1,0 +1,15 @@
+uuid: a12b9e6b-c5ce-4331-8f91-c35097bf87b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_accepted
+  module:
+    - flag
+id: flag_action.mission_accepted_flag
+label: 'Flag this item'
+type: paragraph
+plugin: 'flag_action:mission_accepted_flag'
+configuration:
+  flag_id: mission_accepted
+  flag_action: flag

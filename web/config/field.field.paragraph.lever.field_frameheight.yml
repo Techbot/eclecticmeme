@@ -1,0 +1,23 @@
+uuid: d80a83d0-5d36-49a6-bfcf-1fff2d92b71d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_frameheight
+    - paragraphs.paragraphs_type.lever
+id: paragraph.lever.field_frameheight
+field_name: field_frameheight
+entity_type: paragraph
+bundle: lever
+label: 'Frame Height'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

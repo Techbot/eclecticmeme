@@ -1,0 +1,10 @@
+uuid: 47e09be0-3c03-4d25-a948-4f6c915f4096
+langcode: en
+status: true
+dependencies: {  }
+id: boss
+label: Boss
+icon_uuid: null
+icon_default: null
+description: 'End Level Baddie'
+behavior_plugins: {  }
