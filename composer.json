@@ -29,10 +29,12 @@
         "drupal/pathauto": "^1.12",
         "drupal/profile": "^1.7",
         "drupal/registration_role": "^2.0",
+        "drupal/rules": "^3.0@alpha",
         "drupal/services": "^5.0@beta",
         "drupal/simple_oauth": "^6.0@beta",
         "drupal/stable": "^2.0",
         "drupal/theme_switcher": "^2.0",
+        "drupal/typed_data": "^1.0@beta",
         "drush/drush": "^11.5"
     },
     "conflict": {
