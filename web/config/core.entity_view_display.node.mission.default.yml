@@ -6,10 +6,13 @@ dependencies:
     - field.field.node.mission.body
     - field.field.node.mission.field_choice_a
     - field.field.node.mission.field_handler_dialog
+    - field.field.node.mission.field_level_boss
     - field.field.node.mission.field_quest_item
     - field.field.node.mission.field_reward_item
+    - field.field.node.mission.field_switches
     - node.type.mission
   module:
+    - entity_reference_revisions
     - text
     - user
 id: node.mission.default
@@ -39,6 +42,15 @@ content:
     third_party_settings: {  }
     weight: 107
     region: content
+  field_level_boss:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
   field_quest_item:
     type: entity_reference_label
     label: above
@@ -54,6 +66,15 @@ content:
       link: true
     third_party_settings: {  }
     weight: 105
+    region: content
+  field_switches:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 17
     region: content
   links:
     settings: {  }

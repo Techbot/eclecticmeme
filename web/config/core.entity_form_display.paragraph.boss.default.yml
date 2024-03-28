@@ -1,0 +1,26 @@
+uuid: c566428c-2667-4170-87a1-98492fa6c758
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.boss.field_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.boss
+  module:
+    - image
+id: paragraph.boss.default
+targetEntityType: paragraph
+bundle: boss
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,14 @@
+uuid: 6264a5f3-da47-46ac-87da-98e3b777a538
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: test
+events:
+  -
+    event_name: 'rules_entity_insert:flagging--switch'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule

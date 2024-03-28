@@ -5,7 +5,7 @@ dependencies:
   module:
     - paragraphs
 id: mission_accepted
-label: 'Mission Accepted'
+label: 'Mission Completed'
 bundles:
   - missions
 entity_type: paragraph

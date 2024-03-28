@@ -1,0 +1,31 @@
+uuid: 35c0ac00-e286-4798-bd2c-6572681f33f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.boss.field_image
+    - paragraphs.paragraphs_type.boss
+  module:
+    - image
+id: paragraph.boss.default
+targetEntityType: paragraph
+bundle: boss
+mode: default
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  flag_boss:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden: {  }

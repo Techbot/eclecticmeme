@@ -21,6 +21,7 @@ dependencies:
     - field.field.node.map_grid.field_map_height
     - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mega_mobs
+    - field.field.node.map_grid.field_mission_accepted
     - field.field.node.map_grid.field_mobs
     - field.field.node.map_grid.field_npc
     - field.field.node.map_grid.field_portals
@@ -62,6 +63,7 @@ hidden:
   field_map_height: true
   field_map_width: true
   field_mega_mobs: true
+  field_mission_accepted: true
   field_mobs: true
   field_npc: true
   field_portals: true

@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.switches.field_file
     - field.field.paragraph.switches.field_frameheight
     - field.field.paragraph.switches.field_framewidth
+    - field.field.paragraph.switches.field_map_grid
     - field.field.paragraph.switches.field_number_of_frames
     - field.field.paragraph.switches.field_repeatable
     - field.field.paragraph.switches.field_starting_frame
@@ -46,6 +47,16 @@ content:
     weight: 12
     region: content
     settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_map_grid:
+    type: entity_reference_autocomplete
+    weight: 18
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_number_of_frames:

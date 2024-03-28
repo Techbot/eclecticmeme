@@ -20,6 +20,7 @@ dependencies:
     - field.field.node.map_grid.field_map_height
     - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mega_mobs
+    - field.field.node.map_grid.field_mission_accepted
     - field.field.node.map_grid.field_mobs
     - field.field.node.map_grid.field_npc
     - field.field.node.map_grid.field_portals
@@ -59,7 +60,7 @@ content:
     third_party_settings: {  }
   field_boss:
     type: paragraphs
-    weight: 109
+    weight: 27
     region: content
     settings:
       title: Paragraph
@@ -87,7 +88,7 @@ content:
     third_party_settings: {  }
   field_crystal:
     type: paragraphs
-    weight: 107
+    weight: 25
     region: content
     settings:
       title: Paragraph
@@ -105,7 +106,7 @@ content:
     third_party_settings: {  }
   field_fire:
     type: paragraphs
-    weight: 110
+    weight: 28
     region: content
     settings:
       title: Paragraph
@@ -123,7 +124,7 @@ content:
     third_party_settings: {  }
   field_fire_barrel:
     type: paragraphs
-    weight: 113
+    weight: 31
     region: content
     settings:
       title: Paragraph
@@ -141,7 +142,7 @@ content:
     third_party_settings: {  }
   field_folio:
     type: paragraphs
-    weight: 103
+    weight: 23
     region: content
     settings:
       title: Paragraph
@@ -189,7 +190,7 @@ content:
     third_party_settings: {  }
   field_lever:
     type: paragraphs
-    weight: 111
+    weight: 29
     region: content
     settings:
       title: Paragraph
@@ -207,7 +208,7 @@ content:
     third_party_settings: {  }
   field_machine:
     type: paragraphs
-    weight: 112
+    weight: 30
     region: content
     settings:
       title: Paragraph
@@ -225,21 +226,21 @@ content:
     third_party_settings: {  }
   field_map_height:
     type: number
-    weight: 9
+    weight: 10
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_map_width:
     type: number
-    weight: 10
+    weight: 9
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_mega_mobs:
     type: paragraphs
-    weight: 108
+    weight: 26
     region: content
     settings:
       title: Paragraph
@@ -254,6 +255,16 @@ content:
       features:
         collapse_edit_all: collapse_edit_all
         duplicate: duplicate
+    third_party_settings: {  }
+  field_mission_accepted:
+    type: entity_reference_autocomplete
+    weight: 101
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_mobs:
     type: paragraphs
@@ -333,7 +344,7 @@ content:
     third_party_settings: {  }
   field_soundtrack:
     type: entity_reference_autocomplete
-    weight: 104
+    weight: 24
     region: content
     settings:
       match_operator: CONTAINS
@@ -343,7 +354,7 @@ content:
     third_party_settings: {  }
   field_switches:
     type: paragraphs
-    weight: 102
+    weight: 22
     region: content
     settings:
       title: Paragraph
@@ -368,7 +379,7 @@ content:
     third_party_settings: {  }
   field_walls:
     type: paragraphs
-    weight: 101
+    weight: 21
     region: content
     settings:
       title: Paragraph

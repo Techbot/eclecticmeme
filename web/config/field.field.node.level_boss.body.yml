@@ -1,0 +1,24 @@
+uuid: 0b5131b3-6ce2-4957-99d8-aa6e4917b51f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.level_boss
+  module:
+    - text
+id: node.level_boss.body
+field_name: body
+entity_type: node
+bundle: level_boss
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

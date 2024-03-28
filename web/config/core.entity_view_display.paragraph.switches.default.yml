@@ -7,6 +7,7 @@ dependencies:
     - field.field.paragraph.switches.field_file
     - field.field.paragraph.switches.field_frameheight
     - field.field.paragraph.switches.field_framewidth
+    - field.field.paragraph.switches.field_map_grid
     - field.field.paragraph.switches.field_number_of_frames
     - field.field.paragraph.switches.field_repeatable
     - field.field.paragraph.switches.field_starting_frame
@@ -53,6 +54,14 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 10
+    region: content
+  field_map_grid:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 16
     region: content
   field_number_of_frames:
     type: number_integer
@@ -107,5 +116,10 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 5
+    region: content
+  flag_switch:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
 hidden: {  }

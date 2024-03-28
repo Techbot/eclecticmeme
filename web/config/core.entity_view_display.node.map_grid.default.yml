@@ -20,6 +20,7 @@ dependencies:
     - field.field.node.map_grid.field_map_height
     - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mega_mobs
+    - field.field.node.map_grid.field_mission_accepted
     - field.field.node.map_grid.field_mobs
     - field.field.node.map_grid.field_npc
     - field.field.node.map_grid.field_portals
@@ -184,6 +185,14 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 23
+    region: content
+  field_mission_accepted:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 29
     region: content
   field_mobs:
     type: entity_reference_revisions_entity_view
