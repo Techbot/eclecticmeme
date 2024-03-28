@@ -38,7 +38,7 @@ content:
     weight: 90
     region: content
     settings:
-      form_mode: default
+      form_mode: register
     third_party_settings: {  }
   timezone:
     weight: 2

@@ -6,7 +6,9 @@ dependencies:
     - field.field.user.user.field_game_state
     - field.field.user.user.field_sprite_sheet
     - field.field.user.user.user_picture
+    - image.style.thumbnail
   module:
+    - image
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -42,9 +44,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  user_picture:
+    type: image_image
+    weight: 5
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
 hidden:
   contact: true
   faction_profiles: true
   path: true
   player_profiles: true
-  user_picture: true

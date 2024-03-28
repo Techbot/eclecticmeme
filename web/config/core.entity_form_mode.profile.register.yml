@@ -1,0 +1,10 @@
+uuid: 6dce3aff-c4cf-4db7-81ea-bec21513df1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.register
+label: Register
+targetEntityType: profile
+cache: true
