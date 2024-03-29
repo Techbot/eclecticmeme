@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.mission.body
     - field.field.node.mission.field_choice_a
+    - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
     - field.field.node.mission.field_quest_item
@@ -34,6 +35,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 106
+    region: content
+  field_doors:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 109
     region: content
   field_handler_dialog:
     type: basic_string
