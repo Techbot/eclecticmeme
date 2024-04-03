@@ -4,6 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.boss.field_image
+    - field.field.paragraph.boss.field_map_grid
+    - field.field.paragraph.boss.field_x
+    - field.field.paragraph.boss.field_y
     - image.style.thumbnail
     - paragraphs.paragraphs_type.boss
   module:
@@ -20,6 +23,30 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_map_grid:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_x:
+    type: number
+    weight: 2
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_y:
+    type: number
+    weight: 3
+    region: content
+    settings:
+      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

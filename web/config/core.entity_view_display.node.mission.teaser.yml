@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.mission.body
     - field.field.node.mission.field_choice_a
+    - field.field.node.mission.field_cutscene
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
@@ -36,6 +37,7 @@ content:
     region: content
 hidden:
   field_choice_a: true
+  field_cutscene: true
   field_doors: true
   field_handler_dialog: true
   field_level_boss: true

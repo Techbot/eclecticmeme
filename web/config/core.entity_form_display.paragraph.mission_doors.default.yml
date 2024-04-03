@@ -18,7 +18,7 @@ mode: default
 content:
   field_destination:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -28,21 +28,21 @@ content:
     third_party_settings: {  }
   field_destination_x:
     type: number
-    weight: 3
+    weight: 4
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_destination_y:
     type: number
-    weight: 4
+    weight: 5
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_map_grid:
     type: entity_reference_autocomplete
-    weight: 18
+    weight: 0
     region: content
     settings:
       match_operator: CONTAINS
@@ -52,21 +52,21 @@ content:
     third_party_settings: {  }
   field_tiled:
     type: number
-    weight: 5
+    weight: 6
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_x:
     type: number
-    weight: 6
+    weight: 1
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
   field_y:
     type: number
-    weight: 7
+    weight: 2
     region: content
     settings:
       placeholder: ''

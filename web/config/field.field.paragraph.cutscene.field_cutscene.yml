@@ -1,0 +1,29 @@
+uuid: 3079c1ab-9a49-4ea4-bb96-02c7b667178b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cutscene
+    - node.type.cutscene
+    - paragraphs.paragraphs_type.cutscene
+id: paragraph.cutscene.field_cutscene
+field_name: field_cutscene
+entity_type: paragraph
+bundle: cutscene
+label: Cutscene
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      cutscene: cutscene
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

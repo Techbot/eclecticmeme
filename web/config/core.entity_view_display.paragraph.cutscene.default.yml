@@ -1,0 +1,30 @@
+uuid: 479a6ae5-e970-4bef-a6fa-1e4b6a8bef24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cutscene.field_cutscene
+    - field.field.paragraph.cutscene.field_map_grid
+    - paragraphs.paragraphs_type.cutscene
+id: paragraph.cutscene.default
+targetEntityType: paragraph
+bundle: cutscene
+mode: default
+content:
+  field_cutscene:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_map_grid:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 16
+    region: content
+hidden: {  }

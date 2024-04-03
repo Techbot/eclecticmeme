@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.cutscene.body
+    - field.field.node.cutscene.field_dialogue
     - node.type.cutscene
   module:
     - path
@@ -28,6 +29,16 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_dialogue:
+    type: entity_reference_autocomplete
+    weight: 122
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
