@@ -112,13 +112,51 @@ body {
 
 .field--name-field-switches .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
 .field--name-field-switches .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
-.field--name-field-switches .paragraphs-subform > div {
+.field--name-field-switches .paragraphs-subform > div,
+.field--name-field-fire .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-fire .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-fire .paragraphs-subform > div,
+.field--name-field-lever .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-lever .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-lever .paragraphs-subform > div,
+.field--name-field-machine .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-machine .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-machine .paragraphs-subform > div,
+.field--name-field-fire-barrel .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-fire-barrel .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-fire-barrel .paragraphs-subform > div
+{
   flex: 0 1 25%;
 }
 
 /* .field--name-field-switches .paragraphs-subform .field--name-field-frameheight,
 .field--name-field-switches .paragraphs-subform .field--name-field-framewidth, */
 .field--name-field-switches .paragraphs-subform .field--name-field-number-of-frames,
-.field--name-field-switches .paragraphs-subform .field--name-field-switch-type {
+.field--name-field-switches .paragraphs-subform .field--name-field-switch-type,
+.field--name-field-fire .paragraphs-subform .field--name-field-number-of-frames,
+.field--name-field-fire .paragraphs-subform .field--name-field-switch-type,
+.field--name-field-lever .paragraphs-subform .field--name-field-number-of-frames,
+.field--name-field-lever .paragraphs-subform .field--name-field-switch-type,
+.field--name-field-machine .paragraphs-subform .field--name-field-number-of-frames,
+.field--name-field-machine .paragraphs-subform .field--name-field-switch-type,
+.field--name-field-fire-barrel .paragraphs-subform .field--name-field-number-of-frames,
+.field--name-field-fire-barrel .paragraphs-subform .field--name-field-switch-type
+{
   flex: 0 1 50%;
+}
+
+.field--name-field-crystal .paragraphs-subform.form-wrapper > .paragraphs-content:first-child,
+.field--name-field-crystal .paragraphs-subform.form-wrapper > .paragraphs-content:last-child,
+.field--name-field-emerald,
+.field--name-field-amethyst,
+.field--name-field-sapphire,
+.field--name-field-topaz,
+.field--name-field-ruby {
+  flex: 1 0 18%;
+  max-width: 18%;
+}
+
+.field--name-field-crystal .field--name-field-y,
+.field--name-field-crystal .field--name-field-x {
+  flex: 0 1 45%;
 }
