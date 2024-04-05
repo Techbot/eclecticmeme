@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
-    - field.field.node.mission.field_quest_item
     - field.field.node.mission.field_reward_item
     - field.field.node.mission.field_switches
     - node.type.mission
@@ -113,16 +112,6 @@ content:
         collapse_edit_all: collapse_edit_all
         convert: '0'
         duplicate: duplicate
-    third_party_settings: {  }
-  field_quest_item:
-    type: entity_reference_autocomplete
-    weight: 8
-    region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   field_reward_item:
     type: entity_reference_autocomplete

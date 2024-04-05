@@ -9,7 +9,6 @@ dependencies:
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
-    - field.field.node.mission.field_quest_item
     - field.field.node.mission.field_reward_item
     - field.field.node.mission.field_switches
     - node.type.mission
@@ -70,14 +69,6 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 108
-    region: content
-  field_quest_item:
-    type: entity_reference_label
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 104
     region: content
   field_reward_item:
     type: entity_reference_label
