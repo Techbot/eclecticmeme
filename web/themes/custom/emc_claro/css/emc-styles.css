@@ -160,3 +160,8 @@ body {
 .field--name-field-crystal .field--name-field-x {
   flex: 0 1 45%;
 }
+
+.field--type-entity-reference.field--widget-entity-reference-autocomplete,
+.field--type-string.field--widget-string-textfield {
+  flex: 1 0 100%;
+}
