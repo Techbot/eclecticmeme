@@ -1,4 +1,5 @@
 /* styles */
+
 body {
   background: pink;
 }
@@ -24,6 +25,11 @@ body {
 .field--name-field-layer-4 .form-checkboxes,
 .field--name-field-layer-5 .form-checkboxes {
 	column-count: 4;
+}
+/* column-count 4 creates horizontal scroll on Windows FF */
+/* Break long files names with underscores to prevent layout breaking */
+.form-boolean-group .form-type--boolean .form-item__label {
+  word-wrap: break-word;
 }
 
 .field--name-field-inventory {
