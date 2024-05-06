@@ -1,0 +1,20 @@
+uuid: ab391968-d8b4-4e88-a09a-e79f3200b2cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_sapphire_attack
+field_name: field_sapphire_attack
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

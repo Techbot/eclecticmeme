@@ -1,0 +1,23 @@
+uuid: 5ef33247-5b3c-4014-8e2d-1e64743b8674
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_repeatable
+    - node.type.switches
+id: node.switches.field_repeatable
+field_name: field_repeatable
+entity_type: node
+bundle: switches
+label: Repeatable
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

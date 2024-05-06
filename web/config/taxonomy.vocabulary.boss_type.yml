@@ -1,0 +1,8 @@
+uuid: 9d70cf7d-9443-46d0-a245-71c6fbea7797
+langcode: en
+status: true
+dependencies: {  }
+name: 'Boss type'
+vid: boss_type
+description: ''
+weight: 0

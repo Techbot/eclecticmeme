@@ -3,26 +3,25 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.boss.field_image
+    - field.field.paragraph.boss.field_boss
     - field.field.paragraph.boss.field_map_grid
     - field.field.paragraph.boss.field_x
     - field.field.paragraph.boss.field_y
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.boss
-  module:
-    - image
 id: paragraph.boss.default
 targetEntityType: paragraph
 bundle: boss
 mode: default
 content:
-  field_image:
-    type: image_image
-    weight: 0
+  field_boss:
+    type: entity_reference_autocomplete
+    weight: 4
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_map_grid:
     type: entity_reference_autocomplete

@@ -1,0 +1,20 @@
+uuid: 525871f1-b319-4765-859e-54a629d39781
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_number_of_frames
+field_name: field_number_of_frames
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

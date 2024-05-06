@@ -4,7 +4,23 @@ status: true
 dependencies:
   config:
     - field.field.node.level_boss.body
+    - field.field.node.level_boss.field_amethyst_attack
+    - field.field.node.level_boss.field_amethyst_defence
+    - field.field.node.level_boss.field_boss_type
+    - field.field.node.level_boss.field_damage
+    - field.field.node.level_boss.field_emerald_attack
+    - field.field.node.level_boss.field_emerald_defence
+    - field.field.node.level_boss.field_frame_height
+    - field.field.node.level_boss.field_frame_width
+    - field.field.node.level_boss.field_hit_points
     - field.field.node.level_boss.field_image
+    - field.field.node.level_boss.field_level
+    - field.field.node.level_boss.field_ruby_attack
+    - field.field.node.level_boss.field_ruby_defence
+    - field.field.node.level_boss.field_sapphire_attack
+    - field.field.node.level_boss.field_sapphire_defence
+    - field.field.node.level_boss.field_topaz_attack
+    - field.field.node.level_boss.field_topaz_defence
     - image.style.wide
     - node.type.level_boss
   module:
@@ -23,6 +39,86 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_amethyst_attack:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_amethyst_defence:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_boss_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_damage:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_emerald_attack:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_emerald_defence:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_frame_height:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_frame_width:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_hit_points:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
   field_image:
     type: image
     label: hidden
@@ -33,6 +129,69 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: -1
+    region: content
+  field_level:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_ruby_attack:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_ruby_defence:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_sapphire_attack:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_sapphire_defence:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_topaz_attack:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_topaz_defence:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 113
     region: content
   links:
     settings: {  }

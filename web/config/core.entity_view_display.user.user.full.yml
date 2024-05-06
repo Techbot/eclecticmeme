@@ -7,9 +7,7 @@ dependencies:
     - field.field.user.user.field_game_state
     - field.field.user.user.field_sprite_sheet
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - user
 _core:
   default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
@@ -25,7 +23,7 @@ content:
       view_mode: default
       link: true
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   member_for:
     settings: {  }
@@ -39,19 +37,9 @@ content:
       view_mode: player
       link: false
     third_party_settings: {  }
-    weight: 2
-    region: content
-  user_picture:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: thumbnail
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
     weight: 1
     region: content
 hidden:
   field_game_state: true
   field_sprite_sheet: true
+  user_picture: true

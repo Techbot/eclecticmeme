@@ -1,0 +1,20 @@
+uuid: db5099f6-8f21-42b6-bf89-42367d365c99
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_frame_height
+field_name: field_frame_height
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

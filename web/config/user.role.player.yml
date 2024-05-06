@@ -3,12 +3,19 @@ langcode: en
 status: true
 dependencies:
   module:
+    - flag
     - profile
 id: player
 label: Player
 weight: 4
 is_admin: null
 permissions:
+  - 'flag boss'
+  - 'flag crystal'
+  - 'flag map_grid_unlocked'
+  - 'flag mega_mob'
+  - 'flag mission_accepted'
+  - 'flag switch'
   - 'view any faction profile'
   - 'view any player profile'
   - 'view any profile'

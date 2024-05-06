@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_lever
     - node.type.map_grid
-    - paragraphs.paragraphs_type.lever
   module:
     - entity_reference_revisions
 id: node.map_grid.field_lever
@@ -21,8 +20,7 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles:
-      lever: lever
+    target_bundles: {  }
     negate: 0
     target_bundles_drag_drop:
       ammunition:

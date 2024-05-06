@@ -1,0 +1,20 @@
+uuid: 69a70bf8-ea39-4cc8-a6cf-20eb2cef3ae1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_sapphire_defence
+field_name: field_sapphire_defence
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

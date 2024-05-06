@@ -1,0 +1,25 @@
+uuid: 097c6fb1-588e-4acc-92e0-0fc1f1e71c54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ruby_attack
+    - node.type.level_boss
+id: node.level_boss.field_ruby_attack
+field_name: field_ruby_attack
+entity_type: node
+bundle: level_boss
+label: 'Ruby attack'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
