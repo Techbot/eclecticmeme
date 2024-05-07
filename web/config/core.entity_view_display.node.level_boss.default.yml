@@ -21,7 +21,6 @@ dependencies:
     - field.field.node.level_boss.field_sapphire_defence
     - field.field.node.level_boss.field_topaz_attack
     - field.field.node.level_boss.field_topaz_defence
-    - image.style.wide
     - node.type.level_boss
   module:
     - image
@@ -124,7 +123,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: wide
+      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }

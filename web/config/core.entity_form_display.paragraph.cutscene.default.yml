@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.cutscene.field_cutscene
+    - field.field.paragraph.cutscene.field_dialog
     - field.field.paragraph.cutscene.field_map_grid
     - paragraphs.paragraphs_type.cutscene
 id: paragraph.cutscene.default
@@ -11,7 +11,7 @@ targetEntityType: paragraph
 bundle: cutscene
 mode: default
 content:
-  field_cutscene:
+  field_dialog:
     type: entity_reference_autocomplete
     weight: 0
     region: content

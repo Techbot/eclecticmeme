@@ -1,16 +1,16 @@
-uuid: 3079c1ab-9a49-4ea4-bb96-02c7b667178b
+uuid: ff5b2363-cdac-4cbc-b138-56f677b08246
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_cutscene
-    - node.type.cutscene
+    - field.storage.paragraph.field_dialog
+    - node.type.dialog
     - paragraphs.paragraphs_type.cutscene
-id: paragraph.cutscene.field_cutscene
-field_name: field_cutscene
+id: paragraph.cutscene.field_dialog
+field_name: field_dialog
 entity_type: paragraph
 bundle: cutscene
-label: Cutscene
+label: Dialog
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      cutscene: cutscene
+      dialog: dialog
     sort:
       field: _none
       direction: ASC

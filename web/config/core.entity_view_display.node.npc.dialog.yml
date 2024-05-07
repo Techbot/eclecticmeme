@@ -1,9 +1,9 @@
-uuid: 2a8d2a04-5c62-41e2-a057-b7be0fdae83b
+uuid: fd655cde-92a1-4522-9f83-857159d9728e
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.dialog
     - field.field.node.npc.body
     - field.field.node.npc.field_bark
     - field.field.node.npc.field_concerns
@@ -17,27 +17,12 @@ dependencies:
     - node.type.npc
   module:
     - image
-    - text
     - user
-id: node.npc.teaser
+id: node.npc.dialog
 targetEntityType: node
 bundle: npc
-mode: teaser
+mode: dialog
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_bark:
-    type: basic_string
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_npc_avatar:
     type: image
     label: hidden
@@ -50,6 +35,8 @@ content:
     weight: 0
     region: content
 hidden:
+  body: true
+  field_bark: true
   field_concerns: true
   field_faction: true
   field_is_handler: true
