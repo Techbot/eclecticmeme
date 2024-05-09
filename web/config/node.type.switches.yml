@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Switches
 type: switches
-description: ''
+description: 'Flip the script'
 help: ''
 new_revision: false
 preview_mode: 1

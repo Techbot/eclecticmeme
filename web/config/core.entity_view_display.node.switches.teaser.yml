@@ -5,16 +5,18 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.switches.body
-    - field.field.node.switches.field_animation_file
     - field.field.node.switches.field_end_frame
     - field.field.node.switches.field_frame_height
     - field.field.node.switches.field_frame_width
+    - field.field.node.switches.field_image
     - field.field.node.switches.field_number_of_frames
     - field.field.node.switches.field_repeatable
     - field.field.node.switches.field_starting_frame
     - field.field.node.switches.field_switch_type
+    - image.style.medium
     - node.type.switches
   module:
+    - image
     - text
     - user
 id: node.switches.teaser
@@ -30,13 +32,23 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: -1
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
 hidden:
-  field_animation_file: true
   field_end_frame: true
   field_frame_height: true
   field_frame_width: true

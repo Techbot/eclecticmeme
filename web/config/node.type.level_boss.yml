@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Level Boss'
 type: level_boss
-description: ''
+description: 'Fire him before he fires you'
 help: ''
 new_revision: false
 preview_mode: 1

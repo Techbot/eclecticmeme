@@ -4,16 +4,18 @@ status: true
 dependencies:
   config:
     - field.field.node.switches.body
-    - field.field.node.switches.field_animation_file
     - field.field.node.switches.field_end_frame
     - field.field.node.switches.field_frame_height
     - field.field.node.switches.field_frame_width
+    - field.field.node.switches.field_image
     - field.field.node.switches.field_number_of_frames
     - field.field.node.switches.field_repeatable
     - field.field.node.switches.field_starting_frame
     - field.field.node.switches.field_switch_type
+    - image.style.thumbnail
     - node.type.switches
   module:
+    - image
     - path
     - text
 id: node.switches.default
@@ -37,14 +39,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_animation_file:
-    type: string_textfield
-    weight: 11
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_end_frame:
     type: number
     weight: 16
@@ -65,6 +59,14 @@ content:
     region: content
     settings:
       placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   field_number_of_frames:
     type: number
