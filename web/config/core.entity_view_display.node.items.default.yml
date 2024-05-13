@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.items.body
+    - field.field.node.items.field_item_thumbnail
     - field.field.node.items.field_item_type
     - field.field.node.items.field_modifiers
     - node.type.items
   module:
     - entity_reference_revisions
+    - image
     - text
     - user
 id: node.items.default
@@ -22,6 +24,17 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_item_thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_item_type:
     type: entity_reference_label

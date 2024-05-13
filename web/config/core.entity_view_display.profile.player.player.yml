@@ -123,6 +123,24 @@ content:
     third_party_settings: {  }
     weight: 8
     region: content
+  field_missions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_missions_completed:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 15
+    region: content
   field_nanites:
     type: number_integer
     label: inline
@@ -176,8 +194,6 @@ hidden:
   field_losses: true
   field_map: true
   field_map_grid: true
-  field_missions: true
-  field_missions_completed: true
   field_right_weapon: true
   field_ruby: true
   field_sapphire: true

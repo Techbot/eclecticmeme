@@ -1,0 +1,38 @@
+uuid: 538d394c-c59f-401c-8b09-20e07542a55c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_thumbnail
+    - node.type.items
+  module:
+    - image
+id: node.items.field_item_thumbnail
+field_name: field_item_thumbnail
+entity_type: node
+bundle: items
+label: 'Item thumbnail'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: items
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
