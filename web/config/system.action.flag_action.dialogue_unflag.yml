@@ -1,0 +1,15 @@
+uuid: 0fad18ad-93f9-4a70-a763-68d651cf602c
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.dialogue
+  module:
+    - flag
+id: flag_action.dialogue_unflag
+label: 'Unflag this Dialog'
+type: node
+plugin: 'flag_action:dialogue_unflag'
+configuration:
+  flag_id: dialogue
+  flag_action: unflag

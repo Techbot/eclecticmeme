@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_game_state
     - field.field.user.user.field_sprite_sheet
     - field.field.user.user.user_picture
   module:
@@ -39,6 +38,5 @@ content:
     weight: 1
     region: content
 hidden:
-  field_game_state: true
   field_sprite_sheet: true
   user_picture: true

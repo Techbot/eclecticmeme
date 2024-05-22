@@ -21,7 +21,6 @@ dependencies:
     - field.field.profile.player.field_map
     - field.field.profile.player.field_map_grid
     - field.field.profile.player.field_missions
-    - field.field.profile.player.field_missions_completed
     - field.field.profile.player.field_nanites
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
@@ -171,18 +170,6 @@ content:
   field_missions:
     type: entity_reference_paragraphs
     weight: 28
-    region: content
-    settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
-      form_display_mode: default
-      default_paragraph_type: ''
-    third_party_settings: {  }
-  field_missions_completed:
-    type: entity_reference_paragraphs
-    weight: 29
     region: content
     settings:
       title: Paragraph

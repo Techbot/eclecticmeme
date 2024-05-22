@@ -1,0 +1,15 @@
+uuid: 66ccb883-8574-480e-9474-ec2cc4a9c14e
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_completed
+  module:
+    - flag
+id: flag_action.mission_completed_flag
+label: 'Flag this item'
+type: node
+plugin: 'flag_action:mission_completed_flag'
+configuration:
+  flag_id: mission_completed
+  flag_action: flag

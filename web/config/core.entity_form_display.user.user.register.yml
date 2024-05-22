@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.user.register
-    - field.field.user.user.field_game_state
     - field.field.user.user.field_sprite_sheet
     - field.field.user.user.user_picture
   module:
@@ -48,6 +47,5 @@ content:
 hidden:
   contact: true
   faction_profiles: true
-  field_game_state: true
   path: true
   user_picture: true

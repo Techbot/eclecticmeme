@@ -1,0 +1,15 @@
+uuid: 695b8ff8-f656-49ae-b316-76942580671b
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.dialogue
+  module:
+    - flag
+id: flag_action.dialogue_flag
+label: 'Flag this Dialog'
+type: node
+plugin: 'flag_action:dialogue_flag'
+configuration:
+  flag_id: dialogue
+  flag_action: flag

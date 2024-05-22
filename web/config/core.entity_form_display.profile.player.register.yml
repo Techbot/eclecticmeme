@@ -21,7 +21,6 @@ dependencies:
     - field.field.profile.player.field_map
     - field.field.profile.player.field_map_grid
     - field.field.profile.player.field_missions
-    - field.field.profile.player.field_missions_completed
     - field.field.profile.player.field_nanites
     - field.field.profile.player.field_psi
     - field.field.profile.player.field_right_weapon
@@ -58,7 +57,6 @@ hidden:
   field_map: true
   field_map_grid: true
   field_missions: true
-  field_missions_completed: true
   field_nanites: true
   field_psi: true
   field_right_weapon: true

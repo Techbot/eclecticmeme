@@ -1,0 +1,15 @@
+uuid: f52c89b1-34b8-470d-9ea8-8f8dd9470c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_completed
+  module:
+    - flag
+id: flag_action.mission_completed_unflag
+label: 'Unflag this item'
+type: node
+plugin: 'flag_action:mission_completed_unflag'
+configuration:
+  flag_id: mission_completed
+  flag_action: unflag
