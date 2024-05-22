@@ -2,3 +2,5 @@
 .vscode
 vendor
 *.sql
+
+web/assets/cities
