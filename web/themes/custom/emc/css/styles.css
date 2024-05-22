@@ -717,3 +717,32 @@ div[data-drupal-messages] {
   margin: 2rem 0 4rem;
 }
 
+
+/* Views Table */
+.region-user-content table {
+  width: 100%;
+}
+.region-user-content th,
+.region-user-content td {
+  padding: 0 0.25rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.region-user-content th:last-child,
+.region-user-content td:last-child {
+  width: 65%;
+}
+
+.region-user-content th {
+  background-color: var(--emc-dark);
+}
+.region-user-content td {
+  background-color: var(--emc-black);
+}
+.region-user-content tr:nth-child(even) td {
+  background-color: #111;
+}
+.region-user-content > div {
+  margin-bottom: 3rem;
+}
