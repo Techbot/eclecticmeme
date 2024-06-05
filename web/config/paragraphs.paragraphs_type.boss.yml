@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: boss
-label: Boss
+label: 'Level Boss'
 icon_uuid: null
 icon_default: null
 description: 'End Level Baddie'

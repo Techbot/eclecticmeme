@@ -1,0 +1,10 @@
+uuid: cb3b262e-8ce6-46c4-8e82-f23e0ccb83cd
+langcode: en
+status: true
+dependencies: {  }
+id: mapgrid_boss
+label: 'MapGrid Boss'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

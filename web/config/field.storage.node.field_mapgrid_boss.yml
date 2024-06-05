@@ -1,4 +1,4 @@
-uuid: cb1e4608-46a0-46df-a49f-5c79a9ced8ba
+uuid: fe43159a-2378-469c-99c2-b9bc669d04e8
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_boss
-field_name: field_boss
+id: node.field_mapgrid_boss
+field_name: field_mapgrid_boss
 entity_type: node
 type: entity_reference_revisions
 settings:

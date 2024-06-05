@@ -1,18 +1,18 @@
-uuid: 0c978433-e1aa-4d1f-b913-03215a850b89
+uuid: 1dd3bc5b-343a-489b-854f-3a3b10612be9
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_boss
+    - field.storage.node.field_mapgrid_boss
     - node.type.map_grid
-    - paragraphs.paragraphs_type.boss
+    - paragraphs.paragraphs_type.mapgrid_boss
   module:
     - entity_reference_revisions
-id: node.map_grid.field_boss
-field_name: field_boss
+id: node.map_grid.field_mapgrid_boss
+field_name: field_mapgrid_boss
 entity_type: node
 bundle: map_grid
-label: Boss
+label: 'MapGrid Boss'
 description: ''
 required: false
 translatable: false
@@ -22,70 +22,79 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      boss: boss
+      mapgrid_boss: mapgrid_boss
     negate: 0
     target_bundles_drag_drop:
       ammunition:
-        weight: 22
-        enabled: false
-      boss:
-        weight: 23
-        enabled: true
-      buildings:
-        weight: 24
-        enabled: false
-      components:
         weight: 25
         enabled: false
-      crystal:
+      boss:
         weight: 26
         enabled: false
-      dialog_line:
+      buildings:
         weight: 27
         enabled: false
-      folio:
+      components:
         weight: 28
         enabled: false
-      items:
+      crystal:
         weight: 29
         enabled: false
-      mega_mob:
+      cutscene:
         weight: 30
         enabled: false
-      mission_stage:
+      dialog_line:
         weight: 31
         enabled: false
-      missions:
+      folio:
         weight: 32
         enabled: false
-      mobs:
+      items:
         weight: 33
         enabled: false
-      modifier:
+      mapgrid_boss:
         weight: 34
-        enabled: false
-      npc:
+        enabled: true
+      mega_mob:
         weight: 35
         enabled: false
-      portal:
+      mission_doors:
         weight: 36
         enabled: false
-      reward_item:
+      mission_stage:
         weight: 37
         enabled: false
-      rewards:
+      missions:
         weight: 38
         enabled: false
-      skill:
+      mobs:
         weight: 39
         enabled: false
-      switches:
+      modifier:
         weight: 40
         enabled: false
-      walls:
+      npc:
         weight: 41
         enabled: false
-      weapon:
+      portal:
         weight: 42
+        enabled: false
+      reward_item:
+        weight: 43
+        enabled: false
+      rewards:
+        weight: 44
+        enabled: false
+      skill:
+        weight: 45
+        enabled: false
+      switches:
+        weight: 46
+        enabled: false
+      walls:
+        weight: 47
+        enabled: false
+      weapon:
+        weight: 48
         enabled: false
 field_type: entity_reference_revisions
