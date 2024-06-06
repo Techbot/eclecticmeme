@@ -328,6 +328,10 @@ article.node--view-mode-full .node__content {
     border-bottom: 0 solid #333;
 }
 
+article > h2 {
+    margin-top: 0;
+}
+
 /* date and author */
 article > h2 + .node__meta,
 article > header + .node__meta  {
@@ -745,4 +749,86 @@ div[data-drupal-messages] {
 }
 .region-user-content > div {
   margin-bottom: 3rem;
+}
+
+.emc-page.node--view-mode-full .node__content {
+  background: #111;
+  padding: 1rem;
+  column-gap: 4rem;
+  column-count: 2;
+  widows: 3;
+  orphans: 2;
+}
+
+.emc-page .node__content:empty {
+  display: none;
+}
+
+.emc-page .node__content .field--label-inline:first-child {
+  margin-top: 0;
+}
+
+.field--label-above > .field__label{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  background: var(--emc-dark);
+  padding: 0.25rem;
+}
+
+.field--name-field-dialog-line .field__item.field--name-field-line-dialog {
+  margin-bottom: 2rem;
+}
+
+.views-element-container {
+  background: #111;
+  padding: 1rem;
+}
+
+
+.views-element-container .views-exposed-form {
+  background: var(--emc-black-rich);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .views-element-container .views-exposed-form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .views-element-container .views-exposed-form .form-item {
+    margin-inline-end: 1rem;
+  }
+
+  .views-element-container .views-exposed-form select {
+    width: 100%;
+  }
+
+  .views-element-container .views-exposed-form .form-actions {
+    margin-top: 0;
+  }
+
+  .views-row-wrapper {
+    column-gap: 4rem;
+    column-count: 2;
+    widows: 3;
+    orphans: 2;
+  }
+}
+
+.node--view-mode-teaser.emc-page {
+  background: var(--emc-black);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pager ul {
+  display: flex;
+  list-style-type: none;
+  background: var(--emc-black-rich);
+  padding: 1rem;
+  margin-top: 2rem;
 }
