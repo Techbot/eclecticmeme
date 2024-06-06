@@ -31,9 +31,14 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  links:
+  flag_dialogue:
     settings: {  }
     third_party_settings: {  }
     weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden: {  }

@@ -40,7 +40,7 @@ content:
     region: content
   field_amethyst_attack:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -49,7 +49,7 @@ content:
     region: content
   field_amethyst_defence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -58,7 +58,7 @@ content:
     region: content
   field_boss_type:
     type: entity_reference_label
-    label: above
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
@@ -66,7 +66,7 @@ content:
     region: content
   field_damage:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -75,7 +75,7 @@ content:
     region: content
   field_emerald_attack:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -84,7 +84,7 @@ content:
     region: content
   field_emerald_defence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -93,7 +93,7 @@ content:
     region: content
   field_frame_height:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -102,7 +102,7 @@ content:
     region: content
   field_frame_width:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -111,7 +111,7 @@ content:
     region: content
   field_hit_points:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -131,7 +131,7 @@ content:
     region: content
   field_level:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -140,7 +140,7 @@ content:
     region: content
   field_ruby_attack:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -149,7 +149,7 @@ content:
     region: content
   field_ruby_defence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -158,7 +158,7 @@ content:
     region: content
   field_sapphire_attack:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -167,7 +167,7 @@ content:
     region: content
   field_sapphire_defence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -176,7 +176,7 @@ content:
     region: content
   field_topaz_attack:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -185,7 +185,7 @@ content:
     region: content
   field_topaz_defence:
     type: number_integer
-    label: above
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true

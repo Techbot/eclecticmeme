@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.map_grid.field_layer_4
     - field.field.node.map_grid.field_layer_5
     - field.field.node.map_grid.field_map_height
+    - field.field.node.map_grid.field_map_image
     - field.field.node.map_grid.field_map_width
     - field.field.node.map_grid.field_mapgrid_boss
     - field.field.node.map_grid.field_mega_mobs
@@ -24,8 +25,11 @@ dependencies:
     - field.field.node.map_grid.field_soundtrack
     - field.field.node.map_grid.field_tiled
     - field.field.node.map_grid.field_walls
+    - image.style.medium
     - node.type.map_grid
   module:
+    - image
+    - text
     - user
 _core:
   default_config_hash: SX2KN7r_jaG7rPZLTSeIgg1AaRu0HSRw6N38lCvjxPo
@@ -34,14 +38,44 @@ targetEntityType: node
 bundle: map_grid
 mode: teaser
 content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_city:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_map_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
   flag_map_grid_unlocked:
     settings: {  }
     third_party_settings: {  }
-    weight: 10
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
     region: content
 hidden:
-  body: true
-  field_city: true
   field_folio: true
   field_layer_1: true
   field_layer_2: true
@@ -60,4 +94,3 @@ hidden:
   field_soundtrack: true
   field_tiled: true
   field_walls: true
-  links: true

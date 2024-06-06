@@ -23,7 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 3
     region: content
   field_item_thumbnail:
     type: image
@@ -34,7 +34,7 @@ content:
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    weight: 5
+    weight: 0
     region: content
   field_item_type:
     type: entity_reference_label
@@ -42,7 +42,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_modifiers:
     type: entity_reference_revisions_entity_view
@@ -51,11 +51,11 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 4
+    weight: 2
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 4
     region: content
 hidden: {  }

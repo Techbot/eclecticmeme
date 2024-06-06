@@ -27,12 +27,25 @@ content:
     settings:
       trim_length: 600
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_reward_item:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  flag_mission_completed:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 3
     region: content
 hidden:
   field_choice_a: true
@@ -40,5 +53,4 @@ hidden:
   field_doors: true
   field_handler_dialog: true
   field_level_boss: true
-  field_reward_item: true
   field_switches: true
