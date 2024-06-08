@@ -8,6 +8,7 @@ dependencies:
   module:
     - node
     - user
+    - verf
 id: map_grids
 label: 'Map grids'
 module: views
@@ -149,6 +150,70 @@ display:
           value:
             map_grid: map_grid
           group: 1
+        field_city_target_id_verf:
+          id: field_city_target_id_verf
+          table: node__field_city
+          field: field_city_target_id_verf
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: verf
+          operator: in
+          value:
+            3: '3'
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_city_target_id_verf_op
+            label: City
+            description: ''
+            use_operator: false
+            operator: field_city_target_id_verf_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_city_target_id_verf
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              administrator: '0'
+              player: '0'
+            reduce: 1
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          verf_target_bundles:
+            city: city
+            article: '0'
+            component: '0'
+            dialog: '0'
+            faction: '0'
+            game: '0'
+            items: '0'
+            level_boss: '0'
+            map_grid: '0'
+            meme: '0'
+            mission: '0'
+            mob: '0'
+            npc: '0'
+            page: '0'
+            skill: '0'
+            soundtrack: '0'
+            switches: '0'
+            weapon: '0'
+          show_unpublished: 0
       filter_groups:
         operator: AND
         groups:
@@ -176,10 +241,13 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:views.view.map_grids'
+        - node_list
   map_grids:
     id: map_grids
     display_title: Page
@@ -193,7 +261,10 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:views.view.map_grids'
+        - node_list
