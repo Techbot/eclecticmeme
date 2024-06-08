@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45e55bb6e8b5d047523c4ea9fa475af0",
+    "content-hash": "bd59fc7b5297a0987c3bf62aa486d4ae",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2895,6 +2895,54 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/typed_data",
                 "issues": "https://www.drupal.org/project/issues/typed_data"
+            }
+        },
+        {
+            "name": "drupal/verf",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/verf.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/verf-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "47225efaf5596f1e4e0effdf27a2173f1bcd5339"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1706522667",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "legolasbo",
+                    "homepage": "https://www.drupal.org/user/2480548"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                }
+            ],
+            "description": "Provides Views filters for entity reference fields.",
+            "homepage": "https://www.drupal.org/project/verf",
+            "support": {
+                "source": "https://git.drupalcode.org/project/verf"
             }
         },
         {
