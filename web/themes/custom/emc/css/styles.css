@@ -754,10 +754,18 @@ div[data-drupal-messages] {
 .emc-page.node--view-mode-full .node__content {
   background: #111;
   padding: 1rem;
-  column-gap: 4rem;
-  column-count: 2;
-  widows: 3;
-  orphans: 2;
+}
+
+@media only screen and (min-width: 768px) {
+  .emc-page.node--view-mode-full > .node__content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .emc-page.node--view-mode-full > .node__content > .field {
+    flex: 1 0 50%;
+    /* padding: 1rem; */
+    max-width: 50%;
+  }
 }
 
 .emc-page .node__content:empty {
@@ -812,10 +820,13 @@ div[data-drupal-messages] {
   }
 
   .views-row-wrapper {
-    column-gap: 4rem;
-    column-count: 2;
-    widows: 3;
-    orphans: 2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .views-row-wrapper > .views-row {
+    flex: 1 0 50%;
+    padding: 1rem;
+    max-width: 50%;
   }
 }
 
