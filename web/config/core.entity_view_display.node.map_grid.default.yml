@@ -24,6 +24,7 @@ dependencies:
     - field.field.node.map_grid.field_soundtrack
     - field.field.node.map_grid.field_tiled
     - field.field.node.map_grid.field_walls
+    - image.style.wide
     - node.type.map_grid
   module:
     - entity_reference_revisions
@@ -50,7 +51,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
   field_folio:
     type: entity_reference_revisions_entity_view
@@ -108,14 +109,14 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   field_map_image:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: wide
       image_loading:
         attribute: lazy
     third_party_settings: {  }
@@ -128,7 +129,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
   field_mapgrid_boss:
     type: entity_reference_revisions_entity_view
