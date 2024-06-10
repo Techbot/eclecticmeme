@@ -760,9 +760,11 @@ div[data-drupal-messages] {
   .emc-page.node--view-mode-full > .node__content {
     display: flex;
     flex-wrap: wrap;
+    --gap: 1rem;
+    gap: var(--gap);
   }
   .emc-page.node--view-mode-full > .node__content > .field {
-    flex: 1 0 50%;
+    flex: 1 0 calc(50% - var(--gap));
     /* padding: 1rem; */
     max-width: 50%;
   }
@@ -777,10 +779,10 @@ div[data-drupal-messages] {
 }
 
 .field--label-above > .field__label{
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
-  background: var(--emc-dark);
+  background: var(--emc-black);
   padding: 0.25rem;
 }
 
@@ -793,11 +795,39 @@ div[data-drupal-messages] {
   padding: 1rem;
 }
 
-
 .views-element-container .views-exposed-form {
   background: var(--emc-black-rich);
   padding: 1rem;
   margin-bottom: 2rem;
+}
+
+.views-element-container .views-exposed-form select {
+  width: 100%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--emc-teal-dark-alt);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: var(--emc-black-rich);
+  background-image: linear-gradient(to top, var(--emc-black-rich), var(--emc-black) 33%);
+  color: white;
+}
+
+.views-element-container .views-exposed-form select:focus {
+  border: 1px solid var(--emc-teal);
+}
+
+.views-element-container .views-exposed-form .button {
+  background: var(--emc-teal-dark);
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  padding: .25rem .75rem;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) {
@@ -834,6 +864,10 @@ div[data-drupal-messages] {
   background: var(--emc-black);
   padding: 1rem;
   margin-bottom: 2rem;
+}
+
+.node--type-map-grid.node--view-mode-full .field--name-field-map-image {
+  padding: 2rem;
 }
 
 .pager ul {
