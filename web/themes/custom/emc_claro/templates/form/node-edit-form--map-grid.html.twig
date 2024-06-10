@@ -18,6 +18,14 @@
 {{ attach_library('emc_claro/tabs') }}
 <div class="layout-node-form clearfix">
   <div class="layout-region layout-region--node-main">
+
+    <div class="layout-region layout-region--node-footer">
+      <div class="layout-region__content">
+        {{ form.actions }}
+        <div class="divider"></div>
+      </div>
+    </div>
+
     <div class="layout-region__content">
       {{ form|without('advanced', 'footer', 'actions', 'field_layer_1', 'field_layer_2', 'field_layer_3', 'field_layer_4', 'field_layer_5') }}
       {# {{ dpm() }} #}

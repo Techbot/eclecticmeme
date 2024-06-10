@@ -156,3 +156,13 @@ body {
 td .claro-details {
   width: auto !important;
 }
+
+/* First set of form.actions */
+.layout-region--node-main > .layout-region--node-footer .form-actions {
+  justify-content: flex-end;
+}
+/* Hide the delete button */
+.layout-region--node-main > .layout-region--node-footer .form-actions .action-link,
+.layout-region--node-main > .layout-region--node-footer .form-actions input[data-drupal-selector="edit-preview"] {
+  display: none;
+}
