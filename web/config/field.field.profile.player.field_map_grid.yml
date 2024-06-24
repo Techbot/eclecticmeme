@@ -7,7 +7,7 @@ dependencies:
     - node.type.map_grid
     - profile.type.player
   content:
-    - 'node:map_grid:b4fd0971-c6b2-4bc9-8556-1e657710442b'
+    - 'node:map_grid:30a15dea-d50a-4542-93a4-bc26f3712f61'
 id: profile.player.field_map_grid
 field_name: field_map_grid
 entity_type: profile
@@ -18,7 +18,7 @@ required: false
 translatable: false
 default_value:
   -
-    target_uuid: b4fd0971-c6b2-4bc9-8556-1e657710442b
+    target_uuid: 30a15dea-d50a-4542-93a4-bc26f3712f61
 default_value_callback: ''
 settings:
   handler: 'default:node'
