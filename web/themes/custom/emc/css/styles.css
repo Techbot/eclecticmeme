@@ -877,3 +877,83 @@ div[data-drupal-messages] {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.tabs {
+  flex: 0 1 auto;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.tabs .tab-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.tabs .tab-buttons a,
+.tabs .tab-buttons button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 auto;
+  text-transform: uppercase;
+  color: white;
+  background-color: #333;
+  font-family: 'Neutron Demo';
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: 0 none;
+  height: 3rem;
+  border-radius: 0 !important;
+  box-shadow: inset 0px 12px 25px 5px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.5s ease, width 4s 4s;
+}
+
+.tabs .tab-buttons a:hover,
+.tabs .tab-buttons a:focus,
+.tabs .tab-buttons a.active,
+.user-logged-in.path-user .tabs .tab-buttons a:first-child,
+.tabs .tab-buttons button:hover,
+.tabs .tab-buttons button:focus,
+.tabs .tab-buttons button.active,
+.user-logged-in.path-user .tabs .tab-buttons button:first-child {
+  color: white;
+  background-color: var(--emc-teal);
+  border: 0 none;
+  box-shadow: inset -5px -5px 10px 0px rgba(12, 7, 7, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tabs .tab-buttons a.active,
+.tabs .tab-buttons button.active,
+.user-logged-in.path-user .tabs .tab-buttons a:first-child,
+.user-logged-in.path-user .tabs .tab-buttons button:first-child {
+  background-color: var(--emc-teal-dark);
+  width: 300px;
+}
+.user-logged-in.path-user .tabs .tab-buttons a:first-child,
+.user-logged-in.path-user .tabs .tab-buttons button:first-child {
+  animation: pulse 3s ease-in-out infinite;
+}
+@keyframes pulse {
+  0% {
+    /* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); */
+    box-shadow: inset -5px -5px 10px 0px rgba(12, 7, 7, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  70% {
+    /* box-shadow: 0 0 0 10px rgba(0, 0, 0, 0); */
+    box-shadow: inset 5px 5px 20px 0px rgba(var(--emc-lime), 0.75), inset 15px 15px 20px 10px rgba(var(--emc-lime), 0.95);
+  }
+
+  100% {
+    /* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
+    box-shadow: inset -5px -5px 10px 0px rgba(12, 7, 7, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.tabs .tab-buttons a.active:hover,
+.tabs .tab-buttons button.active:hover,
+.user-logged-in.path-user .tabs .tab-buttons a:first-child:hover,
+.user-logged-in.path-user .tabs .tab-buttons button:first-child:hover {
+  color: white;
+  background-color: var(--emc-teal-alt);
+}
