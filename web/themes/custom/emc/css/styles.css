@@ -768,6 +768,37 @@ div[data-drupal-messages] {
     /* padding: 1rem; */
     max-width: 50%;
   }
+
+  .emc-page.node--view-mode-full .node__content .action-flag,
+  .emc-page.node--view-mode-full .node__content > .field--type-entity-reference-revisions {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions {
+    background-color: var(--emc-grey-dark-alt);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .emc-page.node--view-mode-full .node__content>.field--type-entity-reference-revisions > .field__items {
+    display: flex;
+    flex-wrap: wrap;
+    --gap: 1rem;
+    gap: var(--gap);
+  }
+
+  .emc-page.node--view-mode-full .node__content>.field--type-entity-reference-revisions > .field__items > .field__item {
+    flex: 1 0 calc(50% - var(--gap));
+    /* padding: 1rem; */
+    max-width: 50%;
+  }
+
+  .emc-page.node--view-mode-full .node__content>.field--type-entity-reference-revisions > .field__items > .field__item:only-child {
+    flex: 1 0 100%;
+    /* padding: 1rem; */
+    max-width: 100%;
+  }
 }
 
 .emc-page .node__content:empty {
@@ -956,4 +987,21 @@ div[data-drupal-messages] {
 .user-logged-in.path-user .tabs .tab-buttons button:first-child:hover {
   color: white;
   background-color: var(--emc-teal-alt);
+}
+
+.paragraph--type--walls,
+.paragraph--type--npc,
+.paragraph--type--folio,
+.paragraph--type--switches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+.paragraph--type--walls .field--label-inline,
+.paragraph--type--npc .field--label-inline,
+.paragraph--type--folio .field,
+.paragraph--type--switches .field--label-inline {
+  /* flex: 1 0 calc(25% - var(--gap)); */
+  flex: 1 0 auto;
+  /* max-width: 25%; */
 }

@@ -160,11 +160,7 @@ display:
           plugin_id: verf
           operator: in
           value:
-            62: '62'
-            61: '61'
             3: '3'
-            385: '385'
-            140: '140'
           group: 1
           exposed: true
           expose:

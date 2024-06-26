@@ -105,10 +105,13 @@
   {% endif %}
 
   {{ content.field_map_image }}
-  {{ content.body }}
+
+    {{ content.body }}
 
   {% if content %}
-    <div{{ content_attributes.addClass('node__content') }}>{{ content|without('field_map_image', 'body') }}</div>
+    <div{{ content_attributes.addClass('node__content') }}>
+    {{ content|without('body') }}
+    </div>
   {% endif %}
 
 </article>
