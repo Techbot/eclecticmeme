@@ -23,15 +23,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  flag_dialogue:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
 hidden:
   field_dialog_line: true
+  flag_dialogue: true
+  links: true

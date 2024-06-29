@@ -1,18 +1,19 @@
-uuid: 798c5790-2009-4b48-84be-e690336371be
+uuid: 05e25afd-c831-4fc7-b65a-0ab7efdd1cb2
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.horizontal
     - field.field.paragraph.switches.field_dialog
     - field.field.paragraph.switches.field_map_grid
     - field.field.paragraph.switches.field_switch
     - field.field.paragraph.switches.field_x
     - field.field.paragraph.switches.field_y
     - paragraphs.paragraphs_type.switches
-id: paragraph.switches.default
+id: paragraph.switches.horizontal
 targetEntityType: paragraph
 bundle: switches
-mode: default
+mode: horizontal
 content:
   field_dialog:
     type: entity_reference_label

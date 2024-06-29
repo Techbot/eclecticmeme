@@ -1,0 +1,11 @@
+uuid: c29a618e-f6dc-4a8e-854c-e909350b79fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.horizontal
+label: Horizontal
+description: ''
+targetEntityType: paragraph
+cache: true

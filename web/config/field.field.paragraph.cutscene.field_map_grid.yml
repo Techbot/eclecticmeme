@@ -10,7 +10,7 @@ id: paragraph.cutscene.field_map_grid
 field_name: field_map_grid
 entity_type: paragraph
 bundle: cutscene
-label: 'Map Grid'
+label: 'When entering Map Grid'
 description: ''
 required: false
 translatable: false
