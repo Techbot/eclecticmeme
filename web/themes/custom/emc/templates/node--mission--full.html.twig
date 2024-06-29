@@ -93,16 +93,9 @@
   {% endif %}
   {{ title_suffix }}
 
-  <small>{{nodetype}}</small>
-  {% if display_submitted %}
     <footer class="node__meta">
-      {{ author_picture }}
-      <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}By {{ author_name }} | {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
+      <small>{{nodetype}}</small>
     </footer>
-  {% endif %}
 
   {{ content.field_map_image }}
 
