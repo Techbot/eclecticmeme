@@ -498,11 +498,12 @@ vertical-align: top;
   margin-top: 1rem;
 }
 
-.field--label-above {
+.field--label-above,
+.field--label-hidden {
   margin-top: 1rem;
 }
 
-.field--label-inline .field__label {
+.field--label-inline .field__label{
   margin-inline-end: 1rem;
 }
 
@@ -1032,6 +1033,10 @@ div[data-drupal-messages] {
 .paragraph--view-mode--horizontal .field--name-field-line-dialog {
   flex: 0 1 80%;
   max-width: 80%;
+}
+.paragraph--view-mode--horizontal.paragraph--type--switches .field--name-field-dialog {
+  flex: 1 0 100%;
+  max-width: 100%;
 }
 .paragraph--view-mode--horizontal .field--name-field-npc-avatar {
   max-width: 100%;
