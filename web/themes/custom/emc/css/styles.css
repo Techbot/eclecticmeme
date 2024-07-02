@@ -427,9 +427,9 @@ article > header > .node__meta span {
 }
 
 /* Hide quick edit */
-div[data-contextual-id] {
+/* div[data-contextual-id] {
   display: none;
-}
+} */
 
 /* .emc-user {
   background-color: #111;
@@ -768,7 +768,13 @@ div[data-drupal-messages] {
     /* padding: 1rem; */
     max-width: 50%;
   }
-  .emc-page.node--view-mode-full > .node__content > .field.field--label-above {
+  .emc-page.node--view-mode-full > .node__content > .field.field--label-above.field--type-entity-reference-revisions,
+  .emc-page.node--view-mode-full > .node__content > .field.field--label-above.field--type-entity-reference {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .emc-page.node--view-mode-full > .node__content > .field--name-field-image {
     flex: 1 0 100%;
     max-width: 100%;
   }
@@ -780,13 +786,13 @@ div[data-drupal-messages] {
   }
 
   .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions {
-    border: 2px solid var(--emc-grey-dark-alt);
+    border: 3px solid var(--emc-grey-dark-alt);
     padding: 0.5rem 0.5rem;
     margin-bottom: 1rem;
   }
 
   .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions > .field__label {
-    border-bottom: 2px solid var(--emc-grey-dark-alt);
+    border-bottom: 3px solid var(--emc-grey-dark-alt);
     margin: -0.5rem -0.5rem 0;
   }
 
@@ -797,13 +803,13 @@ div[data-drupal-messages] {
     gap: var(--gap);
   } */
 
-  .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item + .field__item {
-    /* flex: 1 0 calc(50% - var(--gap)); */
-    /* max-width: 50%; */
-  }
+  /* .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item + .field__item {
+    flex: 1 0 calc(50% - var(--gap));
+    max-width: 50%;
+  } */
   .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item:not(:last-child) {
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--emc-black);
+    border-bottom: 3px solid var(--emc-black);
   }
 
   .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item:only-child {
@@ -1017,7 +1023,78 @@ div[data-drupal-messages] {
 .paragraph--type--npc .field--label-inline,
 .paragraph--type--folio .field,
 .paragraph--view-mode--horizontal .field {
-  /* flex: 1 0 calc(25% - var(--gap)); */
-  flex: 1 0 auto;
-  /* max-width: 25%; */
+  flex: 1 0 calc(20% - var(--gap));
+  /* flex: 1 0 auto; */
+  max-width: 20%;
+}
+
+/* Exceptions */
+.paragraph--view-mode--horizontal .field--name-field-line-dialog {
+  flex: 0 1 80%;
+  max-width: 80%;
+}
+.paragraph--view-mode--horizontal .field--name-field-npc-avatar {
+  max-width: 100%;
+}
+
+.node__meta small {
+  margin: 0;
+  padding: 0.25rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: var(--emc-black-rich);
+  color: var(--emc-white-grey);
+}
+
+.npc-avatar {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+a.npc-name {
+  margin: 0;
+  padding: 0.25rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: var(--emc-teal-alt);
+  color: var(--emc-white-grey);
+}
+.field--name-field-npc-avatar {
+  text-align: right;
+}
+
+.field--name-field-dialog-line .paragraph--type--dialog-line {
+  padding: 0.5rem;
+  background: var(--emc-black-rich);
+  margin: 0 0 1rem;
+}
+.field--name-field-dialog-line .field__item:nth-child(even) .paragraph--type--dialog-line {
+  background: var(--emc-dark);
+}
+
+.paragraph--type--dialog-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.paragraph--type--dialog-line.npc__position-right .field--name-field-line-dialog {
+  order: 1;
+  text-align: right;
+}
+
+.paragraph--type--dialog-line.npc__position-right .field--name-field-npc {
+  order: 2;
+}
+
+.paragraph--type--dialog-line.npc__position-right .field--name-field-npc-avatar {
+  text-align: left;
+}
+
+.paragraph--type--dialog-line.npc__position-right .npc-avatar {
+  align-items: flex-start;
 }
