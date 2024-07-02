@@ -73,7 +73,7 @@ content:
     region: content
   field_npc_avatar:
     type: image
-    label: inline
+    label: hidden
     settings:
       image_link: ''
       image_style: ''
