@@ -25,6 +25,7 @@ module:
   file: 0
   filter: 0
   flag: 0
+  flag_assign_user: 0
   flag_follower: 0
   help: 0
   history: 0

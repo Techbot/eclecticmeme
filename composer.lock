@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd59fc7b5297a0987c3bf62aa486d4ae",
+    "content-hash": "49cd769332d41d7c13edc5b2c60f07f3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2194,6 +2194,51 @@
             "homepage": "https://www.drupal.org/project/flag",
             "support": {
                 "source": "https://git.drupalcode.org/project/flag"
+            }
+        },
+        {
+            "name": "drupal/flag_assign_user",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/flag_assign_user.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/flag_assign_user-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "42696e3112b934fa84f7f2b90d830244aca8bcb1"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11",
+                "drupal/flag": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1715599332",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                }
+            ],
+            "description": "Provides a form to assign users a flag for a specified piece of content.",
+            "homepage": "https://www.drupal.org/project/flag_assign_user",
+            "support": {
+                "source": "https://git.drupalcode.org/project/flag_assign_user"
             }
         },
         {
