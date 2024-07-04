@@ -505,6 +505,7 @@ vertical-align: top;
 
 .field--label-inline .field__label{
   margin-inline-end: 1rem;
+  font-weight: bold;
 }
 
 .field--label-inline .field__label::after {
@@ -752,7 +753,8 @@ div[data-drupal-messages] {
   margin-bottom: 3rem;
 }
 
-.emc-page.node--view-mode-full .node__content {
+.emc-page.node--view-mode-full .node__content,
+.emc-player.profile--view-mode--player .node__content {
   background: #111;
   padding: 1rem;
 }
@@ -786,13 +788,15 @@ div[data-drupal-messages] {
     max-width: 100%;
   }
 
-  .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions {
+  .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions,
+  .emc-user .field--name-field-missions {
     border: 3px solid var(--emc-grey-dark-alt);
     padding: 0.5rem 0.5rem;
     margin-bottom: 1rem;
   }
 
-  .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions > .field__label {
+  .emc-page.node--view-mode-full > .node__content > .field--type-entity-reference-revisions > .field__label,
+  .emc-user .field--name-field-missions > .field__label {
     border-bottom: 3px solid var(--emc-grey-dark-alt);
     margin: -0.5rem -0.5rem 0;
   }
@@ -808,7 +812,8 @@ div[data-drupal-messages] {
     flex: 1 0 calc(50% - var(--gap));
     max-width: 50%;
   } */
-  .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item:not(:last-child) {
+  .emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions > .field__items > .field__item:not(:last-child),
+  .emc-user .field--name-field-missions .field__items > .field__item:not(:last-child) {
     padding-bottom: 1rem;
     border-bottom: 3px solid var(--emc-black);
   }
@@ -820,11 +825,14 @@ div[data-drupal-messages] {
   }
 }
 
-.emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions .flag a {
+.emc-page.node--view-mode-full .node__content >.field--type-entity-reference-revisions .flag a,
+.emc-user .field--name-field-missions .field__items .flag a {
   margin: 0;
   padding: 0.0 0.25rem;
 }
-
+.emc-user .field--name-field-missions .field__items .flag a {
+  margin-top:1rem;
+}
 .emc-page .node__content:empty {
   display: none;
 }
