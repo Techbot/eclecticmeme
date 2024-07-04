@@ -10,20 +10,7 @@ label: Player
 weight: 4
 is_admin: null
 permissions:
-  - 'flag boss'
-  - 'flag crystal'
-  - 'flag map_grid_unlocked'
-  - 'flag mega_mob'
-  - 'flag mission_accepted'
-  - 'flag mission_completed'
-  - 'flag switch'
-  - 'unflag boss'
-  - 'unflag crystal'
-  - 'unflag map_grid_unlocked'
-  - 'unflag mega_mob'
-  - 'unflag mission_accepted'
-  - 'unflag mission_completed'
-  - 'unflag switch'
+  - 'flag mission_complete'
   - 'view any faction profile'
   - 'view any player profile'
   - 'view any profile'

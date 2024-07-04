@@ -1,0 +1,15 @@
+uuid: 3eda21f5-a055-4b1b-8bd8-29393b8caa0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_complete
+  module:
+    - flag
+id: flag_action.mission_complete_flag
+label: 'Flag this mission as complete'
+type: paragraph
+plugin: 'flag_action:mission_complete_flag'
+configuration:
+  flag_id: mission_complete
+  flag_action: flag

@@ -1,0 +1,15 @@
+uuid: 600715c8-5d53-4d72-9acd-b21dc00821ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.mission_complete
+  module:
+    - flag
+id: flag_action.mission_complete_unflag
+label: 'Unflag this mission as complete'
+type: paragraph
+plugin: 'flag_action:mission_complete_unflag'
+configuration:
+  flag_id: mission_complete
+  flag_action: unflag
