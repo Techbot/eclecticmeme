@@ -833,8 +833,8 @@ div[data-drupal-messages] {
 .emc-user .field--name-field-missions .field__items .flag a {
   margin-top:1rem;
 }
-.emc-page.node--view-mode-full .node__content>.field--type-entity-reference-revisions .flag a + a,
-.emc-user .field--name-field-missions .field__items .flag a + a {
+.emc-page.node--view-mode-full .node__content>.field--type-entity-reference-revisions .flag small + a,
+.emc-user .field--name-field-missions .field__items .flag small + a {
   margin-inline-start: 1rem;
 }
 .emc-page .node__content:empty {
