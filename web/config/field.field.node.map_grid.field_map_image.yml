@@ -6,7 +6,11 @@ dependencies:
     - field.storage.node.field_map_image
     - node.type.map_grid
   module:
+    - file_field_replace
     - image
+third_party_settings:
+  file_field_replace:
+    replace: '1'
 id: node.map_grid.field_map_image
 field_name: field_map_image
 entity_type: node

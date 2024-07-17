@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.mission.body
     - field.field.node.mission.field_choice_a
     - field.field.node.mission.field_cutscene
+    - field.field.node.mission.field_dialog_mission_complete
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
@@ -64,6 +65,16 @@ content:
         collapse_edit_all: collapse_edit_all
         convert: '0'
         duplicate: duplicate
+    third_party_settings: {  }
+  field_dialog_mission_complete:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_doors:
     type: paragraphs

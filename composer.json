@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
+        "drupal/better_exposed_filters": "^7.0@beta",
         "drupal/cacheexclude": "^2.0",
         "drupal/classy": "^1.0",
         "drupal/config_update": "^2.0@alpha",
@@ -24,6 +25,7 @@
         "drupal/core-project-message": "10.2.7",
         "drupal/core-recommended": "10.2.7",
         "drupal/features": "^3.14",
+        "drupal/file_field_replace": "^3.0",
         "drupal/flag": "^4.0@beta",
         "drupal/flag_assign_user": "^1.0",
         "drupal/paragraphs": "^1.15",

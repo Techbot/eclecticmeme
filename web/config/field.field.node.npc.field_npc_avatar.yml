@@ -6,7 +6,11 @@ dependencies:
     - field.storage.node.field_npc_avatar
     - node.type.npc
   module:
+    - file_field_replace
     - image
+third_party_settings:
+  file_field_replace:
+    replace: '1'
 id: node.npc.field_npc_avatar
 field_name: field_npc_avatar
 entity_type: node

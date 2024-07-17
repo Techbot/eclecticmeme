@@ -13,7 +13,6 @@ dependencies:
     - field.field.node.switches.field_repeatable
     - field.field.node.switches.field_starting_frame
     - field.field.node.switches.field_switch_type
-    - image.style.medium
     - node.type.switches
   module:
     - image
@@ -36,8 +35,8 @@ content:
     type: image
     label: hidden
     settings:
-      image_link: content
-      image_style: medium
+      image_link: ''
+      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }

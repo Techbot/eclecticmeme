@@ -29,14 +29,14 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_bark:
     type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_npc_avatar:
     type: image
@@ -49,6 +49,13 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_sprite_sheet:
+    type: number_unformatted
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   field_concerns: true
   field_faction: true
@@ -56,5 +63,4 @@ hidden:
   field_missions: true
   field_occupation: true
   field_race: true
-  field_sprite_sheet: true
   links: true

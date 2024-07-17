@@ -6,7 +6,11 @@ dependencies:
     - field.storage.node.field_item_thumbnail
     - node.type.items
   module:
+    - file_field_replace
     - image
+third_party_settings:
+  file_field_replace:
+    replace: '1'
 id: node.items.field_item_thumbnail
 field_name: field_item_thumbnail
 entity_type: node

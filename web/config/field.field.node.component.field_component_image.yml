@@ -6,7 +6,11 @@ dependencies:
     - field.storage.node.field_component_image
     - node.type.component
   module:
+    - file_field_replace
     - image
+third_party_settings:
+  file_field_replace:
+    replace: '1'
 id: node.component.field_component_image
 field_name: field_component_image
 entity_type: node

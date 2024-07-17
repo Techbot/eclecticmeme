@@ -21,6 +21,6 @@ content:
   flag_mission_complete:
     settings: {  }
     third_party_settings: {  }
-    weight: 10
+    weight: 1
     region: content
 hidden: {  }

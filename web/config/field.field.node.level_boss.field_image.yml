@@ -6,7 +6,11 @@ dependencies:
     - field.storage.node.field_image
     - node.type.level_boss
   module:
+    - file_field_replace
     - image
+third_party_settings:
+  file_field_replace:
+    replace: '1'
 id: node.level_boss.field_image
 field_name: field_image
 entity_type: node

@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.mission.body
     - field.field.node.mission.field_choice_a
     - field.field.node.mission.field_cutscene
+    - field.field.node.mission.field_dialog_mission_complete
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
@@ -44,6 +45,14 @@ content:
       link: ''
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_dialog_mission_complete:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
     region: content
   field_doors:
     type: entity_reference_revisions_entity_view
