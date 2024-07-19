@@ -57,7 +57,15 @@ sites/*/settings.local.php
 sites/*/files/
 
 # Ignore JiGs-related files
-assets/images/
+assets/ts_xtra
+assets/images/animations
+assets/images/icons
+assets/images/Level Bosses
+assets/images/System
+assets/images/Characters
+assets/tsx
+assets/soundtracks
+
 modules/custom/___jigtemp
 modules/custom/jigs
 /example.gitignore
