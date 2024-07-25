@@ -1,0 +1,58 @@
+uuid: 42ba161b-759b-4330-9a52-5092721a88be
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.handler
+    - field.field.node.npc.body
+    - field.field.node.npc.field_bark
+    - field.field.node.npc.field_concerns
+    - field.field.node.npc.field_faction
+    - field.field.node.npc.field_is_handler
+    - field.field.node.npc.field_missions
+    - field.field.node.npc.field_npc_avatar
+    - field.field.node.npc.field_occupation
+    - field.field.node.npc.field_race
+    - field.field.node.npc.field_sprite_sheet
+    - node.type.npc
+  module:
+    - image
+    - user
+id: node.npc.handler
+targetEntityType: node
+bundle: npc
+mode: handler
+content:
+  field_missions:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_npc_avatar:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  body: true
+  field_bark: true
+  field_concerns: true
+  field_faction: true
+  field_is_handler: true
+  field_occupation: true
+  field_race: true
+  field_sprite_sheet: true

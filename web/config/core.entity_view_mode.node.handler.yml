@@ -1,0 +1,11 @@
+uuid: 66fafe57-362c-41e9-a502-db8879805d7b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.handler
+label: Handler
+description: ''
+targetEntityType: node
+cache: true
