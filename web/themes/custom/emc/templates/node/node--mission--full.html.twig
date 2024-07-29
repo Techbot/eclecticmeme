@@ -100,10 +100,11 @@
   {{ content.field_map_image }}
 
     {{ content.body }}
+    {{ content.field_mission_objectives }}
 
   {% if content %}
     <div{{ content_attributes.addClass('node__content') }}>
-    {{ content|without('body') }}
+    {{ content|without('body', 'field_mission_objectives') }}
     </div>
   {% endif %}
 
