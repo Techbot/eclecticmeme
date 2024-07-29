@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
+    - field.field.node.mission.field_mission_objectives
     - field.field.node.mission.field_reward_item
     - field.field.node.mission.field_switches
     - node.type.mission
@@ -27,7 +28,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
   field_choice_a:
     type: string
@@ -52,7 +53,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 9
     region: content
   field_doors:
     type: entity_reference_revisions_entity_view
@@ -79,6 +80,13 @@ content:
     third_party_settings: {  }
     weight: 6
     region: content
+  field_mission_objectives:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_reward_item:
     type: entity_reference_label
     label: above
@@ -104,6 +112,6 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 10
     region: content
 hidden: {  }

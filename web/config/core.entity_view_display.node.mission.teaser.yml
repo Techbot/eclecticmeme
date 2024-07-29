@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.mission.field_doors
     - field.field.node.mission.field_handler_dialog
     - field.field.node.mission.field_level_boss
+    - field.field.node.mission.field_mission_objectives
     - field.field.node.mission.field_reward_item
     - field.field.node.mission.field_switches
     - node.type.mission
@@ -55,4 +56,5 @@ hidden:
   field_doors: true
   field_handler_dialog: true
   field_level_boss: true
+  field_mission_objectives: true
   field_switches: true

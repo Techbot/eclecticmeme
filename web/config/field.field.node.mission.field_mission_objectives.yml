@@ -1,0 +1,24 @@
+uuid: 12483e2d-7d85-4554-9730-ccc706f5669b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mission_objectives
+    - filter.format.full_html
+    - node.type.mission
+  module:
+    - text
+id: node.mission.field_mission_objectives
+field_name: field_mission_objectives
+entity_type: node
+bundle: mission
+label: Objectives
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long
