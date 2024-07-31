@@ -1,19 +1,19 @@
-uuid: a2b8e3ec-6b21-458b-ba78-889e6d1aa990
+uuid: 2db873a8-97d1-4e5e-a8d9-bcc74893dd8a
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-id: mission_complete
-label: 'Mission Complete'
+id: mission_completed
+label: 'Mission completed'
 bundles:
   - missions
 entity_type: paragraph
 global: false
-flag_short: 'Flag this mission as complete'
+flag_short: 'Flag this item'
 flag_long: ''
 flag_message: ''
-unflag_short: 'Unflag this mission as complete'
+unflag_short: 'Unflag this item'
 unflag_long: ''
 unflag_message: ''
 unflag_denied_text: ''
