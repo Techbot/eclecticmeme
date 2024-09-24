@@ -4,5 +4,6 @@ status: true
 dependencies: {  }
 name: 'Item Type'
 vid: item_type
-description: ''
+description: null
 weight: 0
+new_revision: false

@@ -33,6 +33,7 @@ module:
   history: 0
   image: 0
   jigs: 0
+  jsonapi: 0
   layout_discovery: 0
   link: 0
   menu_link_content: 0
@@ -46,8 +47,10 @@ module:
   phpass: 0
   profile: 0
   registration_role: 0
+  rest_api_authentication: 0
   rules: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0

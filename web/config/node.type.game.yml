@@ -17,7 +17,7 @@ _core:
 name: Game
 type: game
 description: 'Content type that can be used to collate objects for <em>game</em>'
-help: ''
+help: null
 new_revision: false
 preview_mode: 1
 display_submitted: false
